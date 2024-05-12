@@ -1,5 +1,5 @@
 https://leetcode.com/problems/find-the-minimum-cost-array-permutation
-clang -Wall 1.c -o minCost && ./minCost
+clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 
 score(perm) = |perm[0] - nums[perm[1]]| + |perm[1] - nums[perm[2]]| + ... + |perm[n - 1] - nums[perm[0]]|
 Input: nums = [1,0,2]
