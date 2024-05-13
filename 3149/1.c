@@ -14,16 +14,30 @@ int* findPermutation(int* nums, int numsSize, int* returnSize) {
   return res;
 }
 
+int calculateCost(int* nums, int* permutation, int size) {
+  int cost = 0;
+  for (int i=0;i<size;i++) {
+    cost += abs(permutation[i] - nums[permutation[(i + 1) % size]]);
+  }
+  return cost;
+}
+
+void printArray(int* arr, int size) {
+  for (int i=0;i<size;i++) {
+    printf("%d", arr[i]);
+  }
+  puts("");
+}
+
 /**
  * Test usage.
  */
 int main() {
+  /* int nums[] = {1,0,2}; */
+  /* int* returnSize = malloc(sizeof(int)); */
+  /* int* res = findPermutation(nums, 3, returnSize); */
+  /* printArray(res, *returnSize); */
   int nums[] = {1,0,2};
-  int* returnSize = malloc(sizeof(int));
-  int* res = findPermutation(nums, 3, returnSize);
-
-  for (int i=0;i<*returnSize;i++) {
-    printf("%d", res[i]);
-  }
-  puts("");
+  int perm[] = {0,1,2};
+  printf("%d", calculateCost(nums, perm, 3));
 }
