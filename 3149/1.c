@@ -101,8 +101,8 @@ int main() {
   /* nextPermutation(perm, 3); */
   /* printArray(perm, 3); */
 
-  int nums[] = {0,1,2,3};
-  int size = 4;
+  int nums[] = {0,1,2,3,4};
+  int size = 5;
   printArray(nums, size);
   while (nextPermutation(nums, size)) {
     printArray(nums, size);
