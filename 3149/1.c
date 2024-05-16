@@ -61,16 +61,25 @@ int nextPermutation(int* perm, int size) {
   perm[b] = temp;
 
   // sort ascending
-  for (int i = a + 1; i < size; i++) {
-    for (int k = i + 1; k < size; k++) {
-      /* printf("%d", i); */
-      /* printf("%d", k); */
-      if (perm[k] < perm[i]) {
-        int temp = perm[k];
-        perm[k] = perm[i];
-        perm[i] = temp;
-      }
-    }
+  /* for (int i = a + 1; i < size; i++) { */
+  /*   for (int k = i + 1; k < size; k++) { */
+  /*     if (perm[k] < perm[i]) { */
+  /*       int temp = perm[k]; */
+  /*       perm[k] = perm[i]; */
+  /*       perm[i] = temp; */
+  /*     } */
+  /*   } */
+  /* } */
+  /* return 1; */
+
+  // sort tail but only by reversing
+  // works because: from first step we know numbers are ordered
+  // and swap was done between two numbers so close to each other
+  // that it doesn't ruin that ordering
+  for (int i = 1; i <= (size - a) / 2; i++) {
+    int temp = perm[size - i];
+    perm[size - i] = perm[a + i];
+    perm[a + i] = temp;
   }
   return 1;
 }
