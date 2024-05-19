@@ -26,6 +26,10 @@ void printArray(int* arr, int size) {
   for (int i=0; i<size; i++) {
     printf("%d", arr[i]);
   }
+}
+
+void printArrayLn(int* arr, int size) {
+  printArray(arr, size);
   puts("");
 }
 
@@ -50,7 +54,7 @@ int nextPermutation(int* perm, int size) {
   // find next bigger
   int b = a + 1;
   for (int i = a + 1; i < size; i++) {
-    if (perm[i] > perm[a] && perm[i] < perm[b]) {
+    if (perm[i] > perm[a] && perm[i] <= perm[b]) {
       b = i;
     }
   }
@@ -59,18 +63,6 @@ int nextPermutation(int* perm, int size) {
   int temp = perm[a];
   perm[a] = perm[b];
   perm[b] = temp;
-
-  // sort ascending
-  /* for (int i = a + 1; i < size; i++) { */
-  /*   for (int k = i + 1; k < size; k++) { */
-  /*     if (perm[k] < perm[i]) { */
-  /*       int temp = perm[k]; */
-  /*       perm[k] = perm[i]; */
-  /*       perm[i] = temp; */
-  /*     } */
-  /*   } */
-  /* } */
-  /* return 1; */
 
   // sort tail but only by reversing
   // works because: from first step we know numbers are ordered
@@ -84,6 +76,12 @@ int nextPermutation(int* perm, int size) {
   return 1;
 }
 
+void setFirstPerm(int* perm, int size) {
+  for(int i=0;i<size;i++) {
+    perm[i] = i;
+  }
+}
+
 /**
  * Test usage.
  */
@@ -91,7 +89,7 @@ int main() {
   /* int nums[] = {1,0,2}; */
   /* int* returnSize = malloc(sizeof(int)); */
   /* int* res = findPermutation(nums, 3, returnSize); */
-  /* printArray(res, *returnSize); */
+  /* printArrayLn(res, *returnSize); */
 
   /* int nums[] = {1,0,2}; */
   /* int perm[] = {0,1,2}; */
@@ -99,13 +97,32 @@ int main() {
 
   /* int perm[] = {0,2,1}; */
   /* nextPermutation(perm, 3); */
-  /* printArray(perm, 3); */
+  /* printArrayLn(perm, 3); */
 
-  int nums[] = {0,1,2,3,4};
+  /* int nums[] = {0,1,2,3,4}; */
+  /* int size = 5; */
+  /* printArrayLn(nums, size); */
+  /* while (nextPermutation(nums, size)) { */
+  /*   printArrayLn(nums, size); */
+  /* } */
+
+  // scan whole space for research
   int size = 5;
-  printArray(nums, size);
-  while (nextPermutation(nums, size)) {
-    printArray(nums, size);
-  }
+  int nums[] = {0,1,2,3,4};
+  int perm[] = {0,1,2,3,4};
+  int cost = 0;
 
+  do {
+    setFirstPerm(perm, size);
+    puts("");
+    printArrayLn(nums, size);
+    puts("---------------");
+    do {
+      printArray(perm, size);
+      cost = calculateCost(nums, perm, size);
+      printf(" ");
+      printf("%d", cost);
+      puts("");
+    } while (nextPermutation(perm, size));
+  } while (nextPermutation(nums, size));
 }
