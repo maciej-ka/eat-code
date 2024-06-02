@@ -1,7 +1,16 @@
 https://leetcode.com/problems/find-the-minimum-cost-array-permutation
 
-go run 2.go
+*2-go*
+go run 2-go/main.go
+go test ./2-go
+
+*1*
 clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
+
+https://livebook.manning.com/book/go-in-action-second-edition/chapter-4/v-4/10
+https://livebook.manning.com/book/learn-go-with-pocket-sized-projects/chapter-1/v-7/
+https://go.dev/tour/moretypes/1
+https://go.dev/tour/flowcontrol/1
 
 ```go
 package main

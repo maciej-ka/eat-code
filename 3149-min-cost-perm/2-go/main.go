@@ -1,14 +1,17 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+)
 
 type step struct {
   perm []int
   appl []int
   pos int
+  scores []int
 }
 
-func seq(length int) []int {
+func Seq(length int) []int {
   result := make([]int, length)
   for i := range result { result[i] = i }
   return result
@@ -23,15 +26,32 @@ func Pull(value int, pos int, arr []int) []int {
   return arr
 }
 
+func Calc(a, b []int) int {
+  ai, bi, best := 0, 0, -1
+  var diff int
+  for ai < len(a) && bi < len(b) {
+    diff = a[ai] - b[bi]
+    if diff < 0 { diff = -diff }
+    if diff == 0 { return 0 }
+    if diff < best || best == -1 { best = diff }
+    if a[ai] > b[bi] { bi++ } else { ai++ }
+  }
+  return best
+}
+
+// func CalcScores(step s) {
+//
+// }
+
 func findPermutation(nums []int) []int {
   // create zero step
   root := step{
-    perm: seq(len(nums)),
-    appl: Pull(nums[0], 0, seq(len(nums))),
+    perm: Seq(len(nums)),
+    appl: Pull(nums[0], 0, Seq(len(nums))),
     pos: 0,
+    scores: make([]int, len(nums)),
   }
   fmt.Println(root)
-
   return nums
 }
 
@@ -39,17 +59,9 @@ func main() {
   findPermutation([]int{3,1,0,2})
 }
 
-
-
-// findPermutation([]int{3,1,0,2})
-// fmt.Println(len(nums))
-// n := len(nums)
-// perm := [n]int
-// for i := range nums {perm[i] = i}
-// fmt.Println(solution{perm: perm, i:0})
-
 // type step struct {
-//   // score
+//   // scores
+//   // total
 //   // children
 // }
 
