@@ -1,4 +1,4 @@
-[go back](../readme.md)
+[problem list](../readme.md)
 
 # Problem
 https://leetcode.com/problems/house-robber-ii/
