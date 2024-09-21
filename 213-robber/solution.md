@@ -3,13 +3,13 @@ https://leetcode.com/problems/house-robber-ii/
 
 ![img](./1-problem.png)
 
-# Solution 1
+# Attempt
 dynamic programming
 built from left to right
 
 ![img](./2-dynamic-from-left-to-right.png)
 
-# Solution 2
+# Solution
 dynamic programming
 built in both directions
 
