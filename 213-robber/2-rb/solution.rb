@@ -1,5 +1,9 @@
 # not using arrays
 # in hope of faster result
+
+# result: it's quite faster
+# and good on memory
+
 def rob(nums)
   return 0 if !nums
   return nums.max if nums.length <= 3
