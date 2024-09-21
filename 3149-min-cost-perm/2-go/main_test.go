@@ -93,4 +93,28 @@ func TestCalcScores(t *testing.T) {
   if !reflect.DeepEqual(want, step.scores) {
     t.Error("expected", want, "got", step.scores)
   }
+
+  step = Step{
+    pos: 1,
+    perm: []int{3,1,0,2,4},
+    appl: []int{3,0,1,2,4},
+    scores: []int{0,0,0,0,0},
+  }
+  CalcScores(step)
+  want = []int{3,0,0,0,1}
+  if !reflect.DeepEqual(want, step.scores) {
+    t.Error("expected", want, "got", step.scores)
+  }
+
+  step = Step{
+    pos: 1,
+    perm: []int{1,0,2,3},
+    appl: []int{3,2,0,1},
+    scores: []int{0,0,0,0},
+  }
+  CalcScores(step)
+  want = []int{1,0,1,0}
+  if !reflect.DeepEqual(want, step.scores) {
+    t.Error("expected", want, "got", step.scores)
+  }
 }

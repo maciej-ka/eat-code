@@ -9,6 +9,7 @@ type Step struct {
   perm []int
   appl []int
   scores []int
+  total int
 }
 
 func Seq(length int) []int {
@@ -42,20 +43,43 @@ func Calc(a, b []int) int {
 func CalcScores(s Step) {
   var a, b []int
   bi := 1
+  s.total = 0
   for i := range s.scores {
     if i <= s.pos { a = s.perm[i:i+1] } else { a = s.perm[s.pos+1:] }
     if bi <= s.pos { b = s.appl[bi:bi+1]} else { b = s.appl[s.pos+1:] }
     s.scores[i] = Calc(a, b)
+    s.total += s.scores[i]
     bi = (bi + 1) % len(s.scores)
   }
 }
 
+func AdvancePerm(s Step, next int, nums []int) {
+  s.pos += 1
+  s.perm = Pull(next, s.pos, s.perm)
+  s.appl = Pull(nums[next], s.pos, s.appl)
+  CalcScores(s)
+}
+
+func copyArr(arr []int) []int {
+  result := make([]int, len(arr))
+  copy(result, arr)
+  return result
+}
+
+func copyStep(s Step) Step {
+  return Step{
+    pos: s.pos,
+    perm: copyArr(s.perm),
+    appl: copyArr(s.appl),
+    scores: copyArr(s.scores),
+  }
+}
+
 func findPermutation(nums []int) []int {
-  // create zero step
   root := Step {
-    pos: 0,
+    pos: -1,
     perm: Seq(len(nums)),
-    appl: Pull(nums[0], 0, Seq(len(nums))),
+    appl: Seq(len(nums)),
     scores: make([]int, len(nums)),
   }
   fmt.Println(root)
@@ -65,10 +89,4 @@ func findPermutation(nums []int) []int {
 func main() {
   findPermutation([]int{3,1,0,2})
 }
-
-// type Step struct {
-//   // scores
-//   // total
-//   // children
-// }
 
