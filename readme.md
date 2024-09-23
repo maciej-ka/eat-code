@@ -23,3 +23,9 @@ check would it improve to avoid calling max on temporary arrays<br>
 90.32% memory<br>
 [submision](https://leetcode.com/submissions/detail/1397606332/)
 
+#### Elixir
+[1. recursive and memoized](./213-robber/4-ex/)<br>
+top-bottom, memoization to prevent exponential grow of recursive calls
+100% time<br>
+100% memory<br>
+[submission](https://leetcode.com/submissions/detail/1400044490/)
