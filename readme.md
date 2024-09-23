@@ -25,7 +25,7 @@ check would it improve to avoid calling max on temporary arrays<br>
 
 #### Elixir
 [1. recursive and memoized](./213-robber/4-ex/)<br>
-top-bottom, memoization to prevent exponential grow of recursive calls
+top-bottom, memoization to prevent exponential grow of recursive calls<br>
 100% time<br>
 100% memory<br>
 [submission](https://leetcode.com/submissions/detail/1400044490/)
