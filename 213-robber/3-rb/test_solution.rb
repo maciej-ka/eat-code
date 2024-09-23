@@ -19,7 +19,7 @@ class Test < Minitest::Test
   end
 
   def test_5
-    assert_equal 27, rob([6,6,4,8,4,3,3,10])
+    assert_equal 27, rob([6, 6, 4, 8, 4, 3, 3, 10])
   end
 
 end
