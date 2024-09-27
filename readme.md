@@ -29,3 +29,9 @@ top-bottom, memoization to prevent exponential grow of recursive calls<br>
 100% time<br>
 100% memory<br>
 [submission](https://leetcode.com/submissions/detail/1400044490/)
+
+[2. memo in Agent](./213-robber/5-ex/)<br>
+memo moved from parameter to Agent, better readibility at a cost of performance<br>
+50% time<br>
+50% memory<br>
+[submission](https://leetcode.com/submissions/detail/1404058373/)
