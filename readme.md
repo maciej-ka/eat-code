@@ -12,6 +12,7 @@ first solution, more clear than others<br>
 221MB (41.94%)
 
 [2. inlined](./213-robber/2-rb/solution.rb)<br>
+probably better performance due to smaller call stack<br>
 [submission](https://leetcode.com/submissions/detail/1397630686/)<br>
 43ms (100%)<br>
 211MB (90.32%)
@@ -35,3 +36,4 @@ memo moved from parameter to Agent, better readibility at a cost of performance<
 [submission](https://leetcode.com/submissions/detail/1404058373/)<br>
 21ms (50%)<br>
 74MB (50%)
+
