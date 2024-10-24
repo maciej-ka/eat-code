@@ -5,7 +5,13 @@ https://dmoj.ca/problem/dwite12c1p4
 [solution ideas](./dwite12c1p4/solving.md)<br>
 
 #### Ruby
-[1. unoptimized](./dwite12c1p4/1-rb/solution.rb)<br>
+[1. build a tree](./dwite12c1p4/1-rb/solution.rb)<br>
+perhaps can be improved by not really creating nodes
+<sup>
+[submission](https://dmoj.ca/submission/6695557)<br>
+0.024s<br>
+11.16 MB
+</sup>
 
 ## 213 robber
 https://leetcode.com/problems/house-robber-ii/description/
