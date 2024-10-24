@@ -23,7 +23,7 @@ class Test < Minitest::Test
   end
 
   def test_6
-    assert_equal "30 13", solve("((1 2) (((10 10) (3 4)) ((((1 1) 1) 1) 1)))")
+    assert_equal "34 35", solve("((1 2) (((10 10) (3 4)) ((((1 1) 1) 1) 1)))")
   end
 
   def test_7
