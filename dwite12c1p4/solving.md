@@ -19,3 +19,9 @@ Parse string using stack and in result have an object tree.
 # 4 test case
 ![img](./4-test-case.png)
 
+# 5 test case
+![img](./5-test-case.png)
+
+# 6 test case
+![img](./6-test-case.png)
+
