@@ -15,7 +15,6 @@ def solve(source)
   # so that return path saved is maxed out
   path -= parser.max_depth
 
-  # "#{source} #{path} #{sum}"
   "#{path} #{sum}"
 end
 
@@ -80,6 +79,8 @@ class Node
   end
 end
 
-# while line = gets&.chomp
-#   puts solve(line)
-# end
+# gets&.chomp
+# gets&.chomp
+# gets&.chomp
+# gets&.chomp
+# puts gets&.chomp
