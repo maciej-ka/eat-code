@@ -1,4 +1,4 @@
-require 'pp'
+# require 'pp'
 
 def solve(source)
   parser = Parser.new(source)
@@ -77,4 +77,8 @@ class Node
     @right = right
     @value = value
   end
+end
+
+while line = gets&.chomp
+  puts solve(line)
 end
