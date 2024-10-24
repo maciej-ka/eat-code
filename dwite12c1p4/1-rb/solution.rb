@@ -6,6 +6,7 @@ def solve(source)
   sum = 0
   path = 0
   tree.inorder do |value|
+    # puts value
     sum += value
     path += 2
   end
@@ -49,14 +50,14 @@ class Parser
   end
 
   def parse(string)
-    tail = @source.slice(@position)
+    tail = @source.slice(@position..)
     return false unless tail.start_with?(string)
     @position += string.length
     string
   end
 
   def parse_number()
-    result = @source.slice(@position)[/\A\d+/]
+    result = @source.slice(@position..)[/\A\d+/]
     return unless result
     @position += result.length
     result.to_i
@@ -79,6 +80,6 @@ class Node
   end
 end
 
-while line = gets&.chomp
-  puts solve(line)
-end
+# while line = gets&.chomp
+#   puts solve(line)
+# end
