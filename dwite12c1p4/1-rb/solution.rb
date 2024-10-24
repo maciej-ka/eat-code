@@ -1,53 +1,51 @@
 require 'pp'
 
 def solve(source)
-  p = Parser.new(source)
-  tree = p.run()
+  parser = Parser.new(source)
+  tree = parser.run()
   sum = 0
-  count = 0
+  path = 0
   tree.inorder do |value|
     sum += value
+    path += 2
   end
+  # don't count root
+  path -= 2
+  # assume kids ended furthest
+  # so that return path saved is maxed out
+  path -= parser.max_depth
 
-  tree.preorder do |value|
-    count += 1
-  end
-  tree.postorder do |value|
-    count += 1
-  end
-
-  while tree.right
-    count -= 1
-    tree = tree.right
-  end
-
-  "#{count} #{sum}"
+  "#{path} #{sum}"
 end
 
 class Parser
+  attr_reader :max_depth
+
   def initialize(source)
     @source = source
-    @position = 0
-    @stack = []
   end
 
   def run()
     @position = 0
-    @stack = []
+    stack = []
+    depth = 0
+    @max_depth = 0
 
     while @position < @source.length
       if (parse('('))
-        # no-op
+        depth += 1
       elsif (parse(')'))
-        @stack << Node.new(left: @stack.pop(), right: @stack.pop())
+        depth -= 1
+        stack << Node.new(left: stack.pop(), right: stack.pop())
       elsif (number = parse_number())
-        @stack << Node.new(value: number)
+        stack << Node.new(value: number)
       else
         @position += 1
       end
+      @max_depth = [depth, @max_depth].max
     end
 
-    @stack.pop()
+    stack.pop()
   end
 
   def parse(string)
@@ -70,20 +68,8 @@ class Node
 
   def inorder(&block)
     @left.inorder(&block) if (@left)
-    block.call(@value) if (@value)
+    block.call(@value || 0)
     @right.inorder(&block) if (@right)
-  end
-
-  def preorder(&block)
-    block.call(@value) if (@value)
-    @left.inorder(&block) if (@left)
-    @right.inorder(&block) if (@right)
-  end
-
-  def postorder(&block)
-    @left.inorder(&block) if (@left)
-    @right.inorder(&block) if (@right)
-    block.call(@value) if (@value)
   end
 
   def initialize(left: nil, right: nil, value: nil)
