@@ -9,4 +9,12 @@ class Test < Minitest::Test
   def test_2
     assert_equal "6 14", solve("((1 5) 8)")
   end
+
+  def test_3
+    assert_equal "10 10", solve("((1 2) (3 4))")
+  end
+
+  def test_4
+    assert_equal "15 6", solve("(((((1 1) 1) 1) 1) 1)")
+  end
 end
