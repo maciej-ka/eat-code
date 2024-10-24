@@ -8,13 +8,19 @@ def solve(source)
   tree.inorder do |value|
     sum += value
   end
+
   tree.preorder do |value|
     count += 1
   end
   tree.postorder do |value|
     count += 1
   end
-  count -= 1
+
+  while tree.right
+    count -= 1
+    tree = tree.right
+  end
+
   "#{count} #{sum}"
 end
 

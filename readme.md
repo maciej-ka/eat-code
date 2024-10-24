@@ -3,7 +3,6 @@ https://dmoj.ca/problem/dwite12c1p4
 
 #### Solving
 [solution ideas](./dwite12c1p4/solving.md)<br>
-(mostly diagrams)
 
 #### Ruby
 [1. unoptimized](./dwite12c1p4/1-rb/solution.rb)<br>
@@ -13,7 +12,6 @@ https://leetcode.com/problems/house-robber-ii/description/
 
 #### Solving
 [solution ideas](./213-robber/solving.md)<br>
-(mostly diagrams)
 
 #### Ruby
 [1. unoptimized](./213-robber/1-rb/solution.rb)<br>
