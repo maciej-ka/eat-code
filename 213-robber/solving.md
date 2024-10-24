@@ -11,8 +11,8 @@ Dynamic programming, growing from left to right.
 ![img](./2-dynamic-from-left-to-right.png)
 
 # Mistake attempt
-Dynamic programming, growing in both directions.
-Always calculating as elements would be cycled.
+Dynamic programming, growing in both directions.<br/>
+Always calculating as elements would be cycled.<br/>
 Which leads to mistakes in result when reusing previous results.
 
 ![img](./3-dynamic-in-both-directions.png)
@@ -22,7 +22,7 @@ Which leads to mistakes in result when reusing previous results.
 ![img](./3-longer-example.png)
 
 # Sketch of attempt
-Sketch of calcutating from top to bottom.
+Sketch of calcutating from top to bottom.<br/>
 With recursion and memoization.
 
 ![img](./4-dynamic-top-bottom.png)
