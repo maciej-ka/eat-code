@@ -12,3 +12,7 @@ Parse string using stack and in result have an object tree.
 "Candy length" is taking into account that kids don't have to end on root node.
 
 ![img](./2-candy-length.png)
+
+# 3 test case
+![img](./3-test-case.png)
+
