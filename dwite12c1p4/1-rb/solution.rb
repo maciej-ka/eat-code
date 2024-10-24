@@ -2,7 +2,20 @@ require 'pp'
 
 def solve(source)
   p = Parser.new(source)
-  p.run()
+  tree = p.run()
+  sum = 0
+  count = 0
+  tree.inorder do |value|
+    sum += value
+  end
+  tree.preorder do |value|
+    count += 1
+  end
+  tree.postorder do |value|
+    count += 1
+  end
+  count -= 1
+  "#{count} #{sum}"
 end
 
 class Parser
@@ -21,8 +34,8 @@ class Parser
         # no-op
       elsif (parse(')'))
         @stack << Node.new(left: @stack.pop(), right: @stack.pop())
-      elsif (value = parse_number())
-        @stack << Node.new(value: value)
+      elsif (number = parse_number())
+        @stack << Node.new(value: number)
       else
         @position += 1
       end
@@ -48,6 +61,24 @@ end
 
 class Node
   attr_accessor :left, :right, :value
+
+  def inorder(&block)
+    @left.inorder(&block) if (@left)
+    block.call(@value) if (@value)
+    @right.inorder(&block) if (@right)
+  end
+
+  def preorder(&block)
+    block.call(@value) if (@value)
+    @left.inorder(&block) if (@left)
+    @right.inorder(&block) if (@right)
+  end
+
+  def postorder(&block)
+    @left.inorder(&block) if (@left)
+    @right.inorder(&block) if (@right)
+    block.call(@value) if (@value)
+  end
 
   def initialize(left: nil, right: nil, value: nil)
     @left = left
