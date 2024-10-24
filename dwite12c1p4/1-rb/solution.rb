@@ -79,8 +79,6 @@ class Node
   end
 end
 
-# gets&.chomp
-# gets&.chomp
-# gets&.chomp
-# gets&.chomp
-# puts gets&.chomp
+while line = gets&.chomp
+  puts solve(line)
+end
