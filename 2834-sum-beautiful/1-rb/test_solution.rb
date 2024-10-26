@@ -18,4 +18,11 @@ class Test < Minitest::Test
     assert_equal 91, minimum_possible_sum(13, 50)
   end
 
+  def test_5
+    assert_equal 156198582, minimum_possible_sum(39636, 49035)
+  end
+
+  def test_6
+    assert_equal 15000000, minimum_possible_sum(100000000, 1000000000)
+  end
 end
