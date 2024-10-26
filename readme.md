@@ -4,6 +4,15 @@ https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array
 #### Solving
 [solution ideas](./2834-sum-beautiful/solving.md)<br>
 
+#### Ruby
+[1. just calculate](./2834-sum-beautiful/1-rb/solution.rb)<br>
+solution can be just calculated, it's O(1) formula with condition<br>
+<sup>
+[submission](https://leetcode.com/submissions/detail/1397630686/)<br>
+2ms (100%)<br>
+211.4MB (100%)
+</sup>
+
 ## Trick or Tree'ing
 https://dmoj.ca/problem/dwite12c1p4
 
