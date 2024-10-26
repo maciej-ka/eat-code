@@ -1,3 +1,9 @@
+## 2834 Find the Minimum Possible Sum of a Beautiful Array
+https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/
+
+#### Solving
+[solution ideas](./2834-sum-beautiful/solving.md)<br>
+
 ## Trick or Tree'ing
 https://dmoj.ca/problem/dwite12c1p4
 
