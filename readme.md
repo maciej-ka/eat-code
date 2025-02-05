@@ -1,16 +1,16 @@
 # Leet code solving  
-[347. Top K Frequent Elements](#347-top-k-frequent-elements)
+[347. Top K Frequent Elements](#347-top-k-frequent-elements)  
 [2834. Find the Minimum Possible Sum of a Beautiful Array](#2834-find-the-minimum-possible-sum-of-a-beautiful-array)
 
 ## 347. Top K Frequent Elements
 https://leetcode.com/problems/top-k-frequent-elements/description/
 
-### Count using hashmap
+#### Count using hashmap
 then convert to array and sort
 
 ![img](./347-top-k-frequent/1-count-in-map.png)
 
-### 1. Javascript
+#### 1. Javascript
 [solution](./347-top-k-frequent/1-js/solution.js)  
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1532809469/)  
 10ms (81.57%)  
@@ -21,22 +21,22 @@ then convert to array and sort
 ## 2834. Find the Minimum Possible Sum of a Beautiful Array
 https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/
 
-![img](./2834-sum-beautiful/1-problem-examples.png){width=200}
+![img](./2834-sum-beautiful/1-problem-examples.png)
 
-![img](./2834-sum-beautiful/2-solution-ideas.png){width=200}
+![img](./2834-sum-beautiful/2-solution-ideas.png)
 
-### Solvable by math?
+#### Solvable by math?
 idea that there is a mathematical solution  
 and its just enough to do some maths  
 and solve equation for area on discrete plane
 
-![img](./2834-sum-beautiful/3-just-calculate.png){width=200}
+![img](./2834-sum-beautiful/3-just-calculate.png)
 
-### Check results
+#### Check results
 
-![img](./2834-sum-beautiful/4-check-on-examples.png){width=200}
+![img](./2834-sum-beautiful/4-check-on-examples.png)
 
-### 1. Ruby
+#### 1. Ruby
 [solution](./2834-sum-beautiful/1-rb/solution.rb)<br>  
 [submission](https://leetcode.com/submissions/detail/1397630686/)  
 2ms (100%)  
