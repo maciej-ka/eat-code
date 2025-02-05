@@ -1,7 +1,8 @@
 # Leet code solving  
 [347. Top K Frequent Elements](#347-top-k-frequent-elements)  
 [2834. Find the Minimum Possible Sum of a Beautiful Array](#2834-find-the-minimum-possible-sum-of-a-beautiful-array)  
-[Trick or Tree'ing](#trick-or-treeing)
+[Trick or Tree'ing](#trick-or-treeing)  
+[213. House Robber II](#213-house-robber-ii)
 
 
 
@@ -47,7 +48,7 @@ and solve equation for area on discrete plane
 
 ## [Trick or Tree'ing](https://dmoj.ca/problem/dwite12c1p4)
 
-#### Parse a tree
+### Parse a tree
 Parse string using stack and in result have an object tree.
 
 ![img](./dwite12c1p4/1-make-a-tree.png)
