@@ -2,10 +2,10 @@
 https://leetcode.com/problems/top-k-frequent-elements/description/
 
 #### Solving
-[solution ideas](./347-top-k-frequent-elements/solving.md)<br>
+[solution ideas](./347-top-k-frequent/solving.md)<br>
 
 #### Javascript
-[1. count in map](./347-top-k-frequent-elements/1-js/solution.js)<br>
+[1. count in map](./347-top-k-frequent/1-js/solution.js)<br>
 then export to array and sort<br>
 <sup>
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1532809469/)<br>
