@@ -1,3 +1,18 @@
+## 347. Top K Frequent Elements
+https://leetcode.com/problems/top-k-frequent-elements/description/
+
+#### Solving
+[solution ideas](./2834-sum-beautiful/solving.md)<br>
+
+#### Javascript
+[1. count in map](./2834-sum-beautiful/1-rb/solution.rb)<br>
+then export to array and sort<br>
+<sup>
+[submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1532809469/)<br>
+10ms (81.57%)<br>
+52.17MB (95.30%)
+</sup>
+
 ## 2834 Find the Minimum Possible Sum of a Beautiful Array
 https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/
 
