@@ -21,6 +21,7 @@ then convert to array and sort
 
 
 
+[top](#leet-code-solving)
 ## [2834. Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/)
 
 ![img](./2834-sum-beautiful/1-problem-examples.png)
@@ -46,6 +47,7 @@ and solve equation for area on discrete plane
 
 
 
+[top](#leet-code-solving)
 ## [Trick or Tree'ing](https://dmoj.ca/problem/dwite12c1p4)
 
 ### Parse a tree
@@ -77,6 +79,7 @@ perhaps can be improved by not really creating nodes
 
 
 
+[top](#leet-code-solving)
 ## [213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)
 
 ![img](./213-robber/1-problem.png)
