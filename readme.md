@@ -1,50 +1,57 @@
-# Leet code solving  
-*and few other programming problems*
+<center>
+  <h1>Leet code solving</h1>
+  <i>and few other programming problems</i>
+</center>
 
-## [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
+
+
+## 347. Top K Frequent Elements
+https://leetcode.com/problems/top-k-frequent-elements/description/
 
 ### Count using hashmap
 then convert to array and sort
 
 ![img](./347-top-k-frequent/1-count-in-map.png)
 
-### [1. Javascript](./347-top-k-frequent/1-js/solution.js)
+### 1. Javascript
+[solution](./347-top-k-frequent/1-js/solution.js)  
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1532809469/)  
 10ms (81.57%)  
 52.17MB (95.30%)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 2834 Find the Minimum Possible Sum of a Beautiful Array
+## 2834. Find the Minimum Possible Sum of a Beautiful Array
 https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/
 
-#### Solving
-[solution ideas](./2834-sum-beautiful/solving.md)<br>
+![img](./2834-sum-beautiful/1-problem-examples.png)
 
-#### Ruby
-[1. just calculate](./2834-sum-beautiful/1-rb/solution.rb)<br>  
-solution can be just calculated, it's O(1) formula with condition<br>  
-<sup>  
-[submission](https://leetcode.com/submissions/detail/1397630686/)<br>  
-2ms (100%)<br>  
-211.4MB (100%)  
-</sup>
+![img](./2834-sum-beautiful/2-solution-ideas.png)
+
+### Solvable by math?
+idea that there is a mathematical solution
+and its just enough to do some maths
+and solve equation for area on discrete plane
+
+![img](./2834-sum-beautiful/3-just-calculate.png)
+
+### Check results
+
+![img](./2834-sum-beautiful/4-check-on-examples.png)
+
+### 1. Ruby
+[submission](https://leetcode.com/submissions/detail/1397630686/)
+2ms (100%)
+211.4MB (100%)
+
+
+
+
+
+
+
+t
+
 
 ## Trick or Tree'ing
 https://dmoj.ca/problem/dwite12c1p4
