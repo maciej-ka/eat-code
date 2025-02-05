@@ -13,7 +13,7 @@ then convert to array and sort
 
 ![img](./347-top-k-frequent/1-count-in-map.png)
 
-### 1. Javascript
+### Javascript
 [solution](./347-top-k-frequent/1-js/solution.js)  
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1532809469/)  
 10ms (81.57%)  
@@ -21,7 +21,6 @@ then convert to array and sort
 
 
 
-[top](#leet-code-solving)
 ## [2834. Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/)
 
 ![img](./2834-sum-beautiful/1-problem-examples.png)
@@ -39,7 +38,7 @@ and solve equation for area on discrete plane
 
 ![img](./2834-sum-beautiful/4-check-on-examples.png)
 
-### 1. Ruby
+### Ruby
 [solution](./2834-sum-beautiful/1-rb/solution.rb)  
 [submission](https://leetcode.com/submissions/detail/1397630686/)  
 2ms (100%)  
@@ -47,7 +46,6 @@ and solve equation for area on discrete plane
 
 
 
-[top](#leet-code-solving)
 ## [Trick or Tree'ing](https://dmoj.ca/problem/dwite12c1p4)
 
 ### Parse a tree
@@ -70,7 +68,7 @@ Parse string using stack and in result have an object tree.
 
 ![img](./dwite12c1p4/6-test-case.png)
 
-### 1. Ruby
+### Ruby
 perhaps can be improved by not really creating nodes  
 [solution](./dwite12c1p4/1-rb/solution.rb)  
 [submission](https://dmoj.ca/submission/6695557)  
@@ -79,7 +77,6 @@ perhaps can be improved by not really creating nodes
 
 
 
-[top](#leet-code-solving)
 ## [213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)
 
 ![img](./213-robber/1-problem.png)
@@ -100,31 +97,25 @@ Which leads to mistakes in result when reusing previous results.
 
 ![img](./213-robber/3-longer-example.png)
 
-### Sketch of attempt
-Sketch of calcutating from top to bottom.  
-With recursion and memoization.
-
-![img](./213-robber/4-dynamic-top-bottom.png)
-
 ### Solution
 
 ![img](./213-robber/5-dynamic-bottom-up-two-lists.png)
 
-### 1. Ruby
+### Ruby
 first solution, more clear than others  
 [solution](./213-robber/1-rb/solution.rb)  
 [submission](https://leetcode.com/submissions/detail/1397543026/)  
 63ms (41.94%)  
 221MB (41.94%)  
 
-### 2. Ruby
+### Ruby
 Inlined. Probably better performance due to smaller call stack  
 [solution](./213-robber/2-rb/solution.rb)  
 [submission](https://leetcode.com/submissions/detail/1397630686/)  
 43ms (100%)  
 211MB (90.32%)  
 
-### 3. Ruby
+### Ruby
 Without Array max. Check would it improve to avoid calling max on temporary arrays  
 (it didn't)  
 [solution](./213-robber/3-rb/solution.rb)  
@@ -132,14 +123,20 @@ Without Array max. Check would it improve to avoid calling max on temporary arra
 63ms (41.94%)  
 211MB (90.32%)  
 
-### 4. Elixir
+### Top-bottom
+Sketch of calcutating from top to bottom.  
+With recursion and memoization.
+
+![img](./213-robber/4-dynamic-top-bottom.png)
+
+### Elixir
 Recursive and memoized. Top-bottom, memoization to prevent exponential grow of recursive calls  
 [solution](./213-robber/4-ex/lib/solution.ex)  
 [submission](https://leetcode.com/submissions/detail/1400044490/)  
 1ms (100%)  
 72MB (100%)  
 
-### 5. Elixir
+### Elixir
 Memo in stateful process. Memo moved from parameter to Agent, better readibility at a cost of performance  
 [solution](./213-robber/5-ex/lib/solution.ex)  
 [submission](https://leetcode.com/submissions/detail/1404058373/)  
