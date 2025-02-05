@@ -6,13 +6,12 @@
 ### Count using hashmap
 then convert to array and sort
 
+![img](./347-top-k-frequent/1-count-in-map.png)
 
 ### [1. Javascript](./347-top-k-frequent/1-js/solution.js)
-<sup>
-[submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1532809469/)<br>  
-10ms (81.57%)<br>  
-52.17MB (95.30%)  
-</sup>
+[submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1532809469/)  
+10ms (81.57%)  
+52.17MB (95.30%)
 
 
 
