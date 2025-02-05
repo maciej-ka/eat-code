@@ -1,4 +1,4 @@
-const { topKFrequent } = require("./program");
+const { topKFrequent } = require("./solution");
 
 describe('top k frequent', () => {
   it('works', () => {
