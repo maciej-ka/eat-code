@@ -2,8 +2,7 @@
 [347. Top K Frequent Elements](#347-top-k-frequent-elements)  
 [2834. Find the Minimum Possible Sum of a Beautiful Array](#2834-find-the-minimum-possible-sum-of-a-beautiful-array)
 
-## 347. Top K Frequent Elements
-https://leetcode.com/problems/top-k-frequent-elements/description/
+## [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
 
 #### Count using hashmap
 then convert to array and sort
@@ -18,8 +17,7 @@ then convert to array and sort
 
 
 
-## 2834. Find the Minimum Possible Sum of a Beautiful Array
-https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/
+## [2834. Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/)
 
 ![img](./2834-sum-beautiful/1-problem-examples.png)
 
@@ -37,33 +35,52 @@ and solve equation for area on discrete plane
 ![img](./2834-sum-beautiful/4-check-on-examples.png)
 
 #### 1. Ruby
-[solution](./2834-sum-beautiful/1-rb/solution.rb)<br>  
+[solution](./2834-sum-beautiful/1-rb/solution.rb)  
 [submission](https://leetcode.com/submissions/detail/1397630686/)  
 2ms (100%)  
 211.4MB (100%)
 
 
 
-
-
-
-
-
-
 ## Trick or Tree'ing
 https://dmoj.ca/problem/dwite12c1p4
 
-#### Solving
-[solution ideas](./dwite12c1p4/solving.md)<br>
+#### Parse a tree
+Parse string using stack and in result have an object tree.
 
-#### Ruby
-[1. build a tree](./dwite12c1p4/1-rb/solution.rb)<br>  
-perhaps can be improved by not really creating nodes<br>  
-<sup>  
-[submission](https://dmoj.ca/submission/6695557)<br>  
-0.024s<br>  
-11.16 MB  
-</sup>
+![img](./dwite12c1p4/1-make-a-tree.png)
+
+# Poblems with "candy length"  
+"Candy length" is taking into account that kids don't have to end on root node.
+
+![img](./dwite12c1p4/2-candy-length.png)
+
+# Test cases
+
+![img](./dwite12c1p4/3-test-case.png)
+
+![img](./dwite12c1p4/4-test-case.png)
+
+![img](./dwite12c1p4/5-test-case.png)
+
+![img](./dwite12c1p4/6-test-case.png)
+
+#### 1. Ruby
+perhaps can be improved by not really creating nodes  
+[solution](./dwite12c1p4/1-rb/solution.rb)  
+[submission](https://dmoj.ca/submission/6695557)  
+0.024s  
+11.16 MB
+
+
+
+
+
+
+
+
+
+
 
 ## 213 robber
 https://leetcode.com/problems/house-robber-ii/description/
