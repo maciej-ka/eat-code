@@ -1,15 +1,18 @@
 # Leet code solving  
 [347. Top K Frequent Elements](#347-top-k-frequent-elements)  
-[2834. Find the Minimum Possible Sum of a Beautiful Array](#2834-find-the-minimum-possible-sum-of-a-beautiful-array)
+[2834. Find the Minimum Possible Sum of a Beautiful Array](#2834-find-the-minimum-possible-sum-of-a-beautiful-array)  
+[Trick or Tree'ing](#trick-or-treeing)
+
+
 
 ## [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
 
-#### Count using hashmap
+### Count using hashmap
 then convert to array and sort
 
 ![img](./347-top-k-frequent/1-count-in-map.png)
 
-#### 1. Javascript
+### 1. Javascript
 [solution](./347-top-k-frequent/1-js/solution.js)  
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1532809469/)  
 10ms (81.57%)  
@@ -23,18 +26,18 @@ then convert to array and sort
 
 ![img](./2834-sum-beautiful/2-solution-ideas.png)
 
-#### Solvable by math?
+### Solvable by math?
 idea that there is a mathematical solution  
 and its just enough to do some maths  
 and solve equation for area on discrete plane
 
 ![img](./2834-sum-beautiful/3-just-calculate.png)
 
-#### Check results
+### Check results
 
 ![img](./2834-sum-beautiful/4-check-on-examples.png)
 
-#### 1. Ruby
+### 1. Ruby
 [solution](./2834-sum-beautiful/1-rb/solution.rb)  
 [submission](https://leetcode.com/submissions/detail/1397630686/)  
 2ms (100%)  
@@ -42,20 +45,19 @@ and solve equation for area on discrete plane
 
 
 
-## Trick or Tree'ing
-https://dmoj.ca/problem/dwite12c1p4
+## [Trick or Tree'ing](https://dmoj.ca/problem/dwite12c1p4)
 
 #### Parse a tree
 Parse string using stack and in result have an object tree.
 
 ![img](./dwite12c1p4/1-make-a-tree.png)
 
-# Poblems with "candy length"  
+### Poblems with "candy length"  
 "Candy length" is taking into account that kids don't have to end on root node.
 
 ![img](./dwite12c1p4/2-candy-length.png)
 
-# Test cases
+### Test cases
 
 ![img](./dwite12c1p4/3-test-case.png)
 
@@ -65,7 +67,7 @@ Parse string using stack and in result have an object tree.
 
 ![img](./dwite12c1p4/6-test-case.png)
 
-#### 1. Ruby
+### 1. Ruby
 perhaps can be improved by not really creating nodes  
 [solution](./dwite12c1p4/1-rb/solution.rb)  
 [submission](https://dmoj.ca/submission/6695557)  
@@ -74,60 +76,69 @@ perhaps can be improved by not really creating nodes
 
 
 
+## [213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)
 
+![img](./213-robber/1-problem.png)
 
+### Attempt
+Dynamic programming, growing from left to right.
 
+![img](./213-robber/2-dynamic-from-left-to-right.png)
 
+### Mistake attempt
+Dynamic programming, growing in both directions.  
+Always calculating as elements would be cycled.  
+Which leads to mistakes in result when reusing previous results.
 
+![img](./213-robber/3-dynamic-in-both-directions.png)
 
+### More complex example
 
+![img](./213-robber/3-longer-example.png)
 
-## 213 robber
-https://leetcode.com/problems/house-robber-ii/description/
+### Sketch of attempt
+Sketch of calcutating from top to bottom.  
+With recursion and memoization.
 
-#### Solving
-[solution ideas](./213-robber/solving.md)<br>
+![img](./213-robber/4-dynamic-top-bottom.png)
 
-#### Ruby
-[1. unoptimized](./213-robber/1-rb/solution.rb)<br>  
-first solution, more clear than others<br>  
-<sup>  
-[submission](https://leetcode.com/submissions/detail/1397543026/)<br>  
-63ms (41.94%)<br>  
+### Solution
+
+![img](./213-robber/5-dynamic-bottom-up-two-lists.png)
+
+### 1. Ruby
+first solution, more clear than others  
+[solution](./213-robber/1-rb/solution.rb)  
+[submission](https://leetcode.com/submissions/detail/1397543026/)  
+63ms (41.94%)  
 221MB (41.94%)  
-</sup>
 
-[2. inlined](./213-robber/2-rb/solution.rb)<br>  
-probably better performance due to smaller call stack<br>  
-<sup>  
-[submission](https://leetcode.com/submissions/detail/1397630686/)<br>  
-43ms (100%)<br>  
+### 2. Ruby
+Inlined. Probably better performance due to smaller call stack  
+[solution](./213-robber/2-rb/solution.rb)  
+[submission](https://leetcode.com/submissions/detail/1397630686/)  
+43ms (100%)  
 211MB (90.32%)  
-</sup>
 
-[3. without Array.max](./213-robber/3-rb/solution.rb)<br>  
-check would it improve to avoid calling max on temporary arrays<br>  
-(it didn't)<br>  
-<sup>  
-[submision](https://leetcode.com/submissions/detail/1397606332/)<br>  
-63ms (41.94%)<br>  
+### 3. Ruby
+Without Array max. Check would it improve to avoid calling max on temporary arrays  
+(it didn't)  
+[solution](./213-robber/3-rb/solution.rb)  
+[submision](https://leetcode.com/submissions/detail/1397606332/)  
+63ms (41.94%)  
 211MB (90.32%)  
-</sup>
 
-#### Elixir
-[1. recursive and memoized](./213-robber/4-ex/lib/solution.ex)<br>  
-top-bottom, memoization to prevent exponential grow of recursive calls<br>  
-<sup>  
-[submission](https://leetcode.com/submissions/detail/1400044490/)<br>  
-1ms (100%)<br>  
+### 4. Elixir
+Recursive and memoized. Top-bottom, memoization to prevent exponential grow of recursive calls  
+[solution](./213-robber/4-ex/lib/solution.ex)  
+[submission](https://leetcode.com/submissions/detail/1400044490/)  
+1ms (100%)  
 72MB (100%)  
-</sup>
 
-[2. memo in stateful process](./213-robber/5-ex/lib/solution.ex)<br>  
-memo moved from parameter to Agent, better readibility at a cost of performance<br>  
-<sup>  
-[submission](https://leetcode.com/submissions/detail/1404058373/)<br>  
-21ms (50%)<br>  
+### 5. Elixir
+Memo in stateful process. Memo moved from parameter to Agent, better readibility at a cost of performance  
+[solution](./213-robber/5-ex/lib/solution.ex)  
+[submission](https://leetcode.com/submissions/detail/1404058373/)  
+21ms (50%)  
 74MB (50%)  
-</sup>
 
