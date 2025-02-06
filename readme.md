@@ -3,7 +3,7 @@
 [2834. Find the Minimum Possible Sum of a Beautiful Array](#2834-find-the-minimum-possible-sum-of-a-beautiful-array)  
 [Trick or Tree'ing](#trick-or-treeing)  
 [213. House Robber II](#213-house-robber-ii)
-
+[31. Next Permutation](#31-next-permutation)
 
 
 
