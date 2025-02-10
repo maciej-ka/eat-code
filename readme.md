@@ -22,9 +22,15 @@ then convert to array and sort
 ### Javascript
 [solution](./347-top-k-frequent/1-js/solution.js)  
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1532809469/)  
-10ms (81.57%)  
-52.17MB (95.30%)
+10ms (81%)  
+52MB (95%)
 
+### PHP
+first PHP written after 15 years  
+[solution](./347-top-k-frequent/2-php/src/Solution.php)  
+[submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1538133077/)  
+2ms (58%)  
+23MB (7%)
 
 
 [2834. Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/)  
@@ -114,23 +120,23 @@ Which leads to mistakes in result when reusing previous results.
 first solution, more clear than others  
 [solution](./213-robber/1-rb/solution.rb)  
 [submission](https://leetcode.com/submissions/detail/1397543026/)  
-63ms (41.94%)  
-221MB (41.94%)  
+63ms (42%)  
+221MB (42%)  
 
 ### Ruby
 Inlined. Probably better performance due to smaller call stack  
 [solution](./213-robber/2-rb/solution.rb)  
 [submission](https://leetcode.com/submissions/detail/1397630686/)  
 43ms (100%)  
-211MB (90.32%)  
+211MB (90%)  
 
 ### Ruby
 Without Array max. Check would it improve to avoid calling max on temporary arrays  
 (it didn't)  
 [solution](./213-robber/3-rb/solution.rb)  
 [submision](https://leetcode.com/submissions/detail/1397606332/)  
-63ms (41.94%)  
-211MB (90.32%)  
+63ms (42%)  
+211MB (90%)  
 
 ### Top-bottom
 Sketch of calcutating from top to bottom.  
@@ -160,5 +166,5 @@ Memo in stateful process. Memo moved from parameter to Agent, better readibility
 ### C
 [solution](./31-next-perm/1.c)  
 [submission](https://leetcode.com/submissions/detail/1404058373/)  
-3ms (2.36%)  
+3ms (2%)  
 6.20MB (100%)  
