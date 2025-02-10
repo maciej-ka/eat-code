@@ -27,6 +27,14 @@ then convert to array and sort
 81% (10ms)  
 95% (52MB)
 
+### Javascript
+Improve speed by using `new Map` instead of `{}`.
+Which saves time when keys are non strings (like in this case).
+[solution](./347-top-k-frequent/4-js/solution.js)  
+[submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1538413476/)  
+95% (6ms)  
+95% (52MB)
+
 ### PHP
 first PHP written after 15 years  
 [solution](./347-top-k-frequent/2-php/src/Solution.php)  
