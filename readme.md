@@ -14,7 +14,7 @@ To randomly pick language on leetcode
 [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)  
 ========================================================
 
-## Count using hashmap
+### Count using hashmap
 then convert to array and sort
 
 ![img](./347-top-k-frequent/1-count-in-map.png)
@@ -22,16 +22,15 @@ then convert to array and sort
 ### Javascript
 [solution](./347-top-k-frequent/1-js/solution.js)  
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1532809469/)  
-10ms (81%)  
-52MB (95%)
+81% (10ms)  
+95% (52MB)
 
 ### PHP
 first PHP written after 15 years  
 [solution](./347-top-k-frequent/2-php/src/Solution.php)  
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1538133077/)  
-2ms (58%)  
-23MB (7%)
-
+58% (2ms)  
+7% (23MB)
 
 [2834. Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/)  
 ========================================================
@@ -53,11 +52,9 @@ and solve equation for area on discrete plane
 
 ### Ruby
 [solution](./2834-sum-beautiful/1-rb/solution.rb)  
-[submission](https://leetcode.com/submissions/detail/1397630686/)  
-2ms (100%)  
-211.4MB (100%)
-
-
+[submission](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/submissions/1434497907/)  
+100% (2ms)   
+100% (211MB)
 
 [Trick or Tree'ing](https://dmoj.ca/problem/dwite12c1p4)  
 ========================================================
@@ -86,8 +83,8 @@ Parse string using stack and in result have an object tree.
 perhaps can be improved by not really creating nodes  
 [solution](./dwite12c1p4/1-rb/solution.rb)  
 [submission](https://dmoj.ca/submission/6695557)  
-0.024s  
-11.16 MB
+24ms  
+11MB
 
 
 
@@ -120,23 +117,23 @@ Which leads to mistakes in result when reusing previous results.
 first solution, more clear than others  
 [solution](./213-robber/1-rb/solution.rb)  
 [submission](https://leetcode.com/submissions/detail/1397543026/)  
-63ms (42%)  
-221MB (42%)  
+42% (63ms)  
+42% (221MB)  
 
 ### Ruby
 Inlined. Probably better performance due to smaller call stack  
 [solution](./213-robber/2-rb/solution.rb)  
 [submission](https://leetcode.com/submissions/detail/1397630686/)  
-43ms (100%)  
-211MB (90%)  
+100% (43ms)  
+90% (211MB)  
 
 ### Ruby
 Without Array max. Check would it improve to avoid calling max on temporary arrays  
 (it didn't)  
 [solution](./213-robber/3-rb/solution.rb)  
 [submision](https://leetcode.com/submissions/detail/1397606332/)  
-63ms (42%)  
-211MB (90%)  
+42% (63ms)  
+90% (211MB)  
 
 ### Top-bottom
 Sketch of calcutating from top to bottom.  
@@ -148,15 +145,15 @@ With recursion and memoization.
 Recursive and memoized. Top-bottom, memoization to prevent exponential grow of recursive calls  
 [solution](./213-robber/4-ex/lib/solution.ex)  
 [submission](https://leetcode.com/submissions/detail/1400044490/)  
-1ms (100%)  
-72MB (100%)  
+100% (1ms)  
+100% (72MB)  
 
 ### Elixir
 Memo in stateful process. Memo moved from parameter to Agent, better readibility at a cost of performance  
 [solution](./213-robber/5-ex/lib/solution.ex)  
 [submission](https://leetcode.com/submissions/detail/1404058373/)  
-21ms (50%)  
-74MB (50%)  
+50% (21ms)  
+50% (74MB)  
 
 
 
@@ -166,5 +163,5 @@ Memo in stateful process. Memo moved from parameter to Agent, better readibility
 ### C
 [solution](./31-next-perm/1.c)  
 [submission](https://leetcode.com/submissions/detail/1404058373/)  
-3ms (2%)  
-6.20MB (100%)  
+2% (3ms)  
+100% (6.2MB)  
