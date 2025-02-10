@@ -116,14 +116,14 @@ Which leads to mistakes in result when reusing previous results.
 ### Ruby
 first solution, more clear than others  
 [solution](./213-robber/1-rb/solution.rb)  
-[submission](https://leetcode.com/submissions/detail/1397543026/)  
+[submission](https://leetcode.com/problems/house-robber-ii/submissions/1397543026/)  
 42% (63ms)  
 42% (221MB)  
 
 ### Ruby
 Inlined. Probably better performance due to smaller call stack  
 [solution](./213-robber/2-rb/solution.rb)  
-[submission](https://leetcode.com/submissions/detail/1397630686/)  
+[submission](https://leetcode.com/problems/house-robber-ii/submissions/1397630686/)  
 100% (43ms)  
 90% (211MB)  
 
@@ -131,7 +131,7 @@ Inlined. Probably better performance due to smaller call stack
 Without Array max. Check would it improve to avoid calling max on temporary arrays  
 (it didn't)  
 [solution](./213-robber/3-rb/solution.rb)  
-[submision](https://leetcode.com/submissions/detail/1397606332/)  
+[submision](https://leetcode.com/problems/house-robber-ii/submissions/1397606332/)  
 42% (63ms)  
 90% (211MB)  
 
@@ -144,14 +144,14 @@ With recursion and memoization.
 ### Elixir
 Recursive and memoized. Top-bottom, memoization to prevent exponential grow of recursive calls  
 [solution](./213-robber/4-ex/lib/solution.ex)  
-[submission](https://leetcode.com/submissions/detail/1400044490/)  
+[submission](https://leetcode.com/problems/house-robber-ii/submissions/1400044490/)  
 100% (1ms)  
 100% (72MB)  
 
 ### Elixir
 Memo in stateful process. Memo moved from parameter to Agent, better readibility at a cost of performance  
 [solution](./213-robber/5-ex/lib/solution.ex)  
-[submission](https://leetcode.com/submissions/detail/1404058373/)  
+[submission](https://leetcode.com/problems/house-robber-ii/submissions/1404058373/)  
 50% (21ms)  
 50% (74MB)  
 
@@ -162,6 +162,6 @@ Memo in stateful process. Memo moved from parameter to Agent, better readibility
 
 ### C
 [solution](./31-next-perm/1.c)  
-[submission](https://leetcode.com/submissions/detail/1404058373/)  
+[submission](https://leetcode.com/problems/next-permutation/submissions/1260043065/)  
 2% (3ms)  
 100% (6.2MB)  
