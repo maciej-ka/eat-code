@@ -1,1 +1,1 @@
-{"version":1,"defects":{"SolutionTest::testSayHello":8},"times":{"SolutionTest::testSayHello":0.001}}
+{"version":1,"defects":{"SolutionTest::testSayHello":7,"SolutionTest::testSolution":7,"SolutionTest::testCase15":8,"SolutionTest::test":8,"SolutionTest::testNegative":8},"times":{"SolutionTest::testSayHello":0.003,"SolutionTest::testSolution":0.001,"SolutionTest::testSolutionNegative":0,"SolutionTest::test":0.001,"SolutionTest::testNegative":0,"SolutionTest::testCase15":0}}
