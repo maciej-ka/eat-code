@@ -11,6 +11,8 @@ To randomly pick language on leetcode
 ./random-lang
 ```
 
+
+
 [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)  
 ========================================================
 
@@ -31,6 +33,19 @@ first PHP written after 15 years
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1538133077/)  
 58% (2ms)  
 7% (23MB)
+
+### PHP
+buckets of same count  
+try to speed up sorting, by grouping values of same count  
+*didn't improve speed,*  
+*but suprisingly improved memory,*  
+*even though it seems to use structures then before*  
+[solution](./347-top-k-frequent/3-php/src/Solution.php)  
+[submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1538257338/)  
+58% (2ms)  
+50% (22MB)
+
+
 
 [2834. Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/)  
 ========================================================
@@ -55,6 +70,8 @@ and solve equation for area on discrete plane
 [submission](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/submissions/1434497907/)  
 100% (2ms)   
 100% (211MB)
+
+
 
 [Trick or Tree'ing](https://dmoj.ca/problem/dwite12c1p4)  
 ========================================================
