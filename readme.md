@@ -28,8 +28,8 @@ then convert to array and sort
 95% (52MB)
 
 ### Javascript
-Improve speed by using `new Map` instead of `{}`.
-Which saves time when keys are non strings (like in this case).
+Improve speed by using `new Map` instead of `{}`.  
+Which saves time when keys are non strings (like in this case).  
 [solution](./347-top-k-frequent/4-js/solution.js)  
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1538413476/)  
 95% (6ms)  
