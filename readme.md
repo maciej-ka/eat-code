@@ -2,12 +2,16 @@
 [347. Top K Frequent Elements](#347-top-k-frequent-elements)  
 [2834. Find the Minimum Possible Sum of a Beautiful Array](#2834-find-the-minimum-possible-sum-of-a-beautiful-array)  
 [Trick or Tree'ing](#trick-or-treeing)  
-[213. House Robber II](#213-house-robber-ii)
+[213. House Robber II](#213-house-robber-ii)  
 [31. Next Permutation](#31-next-permutation)
 
+Feeling in polyprogramming mood?  
+To randomly pick language on leetcode
+```bash
+./random-lang
+```
 
-
-[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
+[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)  
 ========================================================
 
 ## Count using hashmap
@@ -23,7 +27,7 @@ then convert to array and sort
 
 
 
-[2834. Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/)
+[2834. Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/)  
 ========================================================
 
 ![img](./2834-sum-beautiful/1-problem-examples.png)
@@ -49,7 +53,7 @@ and solve equation for area on discrete plane
 
 
 
-[Trick or Tree'ing](https://dmoj.ca/problem/dwite12c1p4)
+[Trick or Tree'ing](https://dmoj.ca/problem/dwite12c1p4)  
 ========================================================
 
 ### Parse a tree
@@ -81,7 +85,7 @@ perhaps can be improved by not really creating nodes
 
 
 
-[213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)
+[213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)  
 ========================================================
 
 ![img](./213-robber/1-problem.png)
@@ -150,7 +154,7 @@ Memo in stateful process. Memo moved from parameter to Agent, better readibility
 
 
 
-[31. Next Permutation](https://leetcode.com/problems/next-permutation/description/)
+[31. Next Permutation](https://leetcode.com/problems/next-permutation/description/)  
 ========================================================
 
 ### C
