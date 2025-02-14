@@ -21,6 +21,8 @@ To randomly pick language on leetcode
 ![img](./3399-shortest-identical-slice/2.png)
 ![img](./3399-shortest-identical-slice/3.png)
 ![img](./3399-shortest-identical-slice/4.png)
+![img](./3399-shortest-identical-slice/5.png)
+![img](./3399-shortest-identical-slice/6.png)
 
 [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)  
 ========================================================
