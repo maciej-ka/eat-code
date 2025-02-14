@@ -25,3 +25,8 @@ test('case 5', () => {
   const actual = solution("00", 2);
   expect(actual).toEqual(1);
 });
+
+test('case 6', () => {
+  const actual = solution("000", 0);
+  expect(actual).toEqual(3);
+});

@@ -4,57 +4,58 @@
  * @return {number}
  */
 var minLength = function (s, numOps) {
-  let ranking = new Array(numOps + 1).fill(0);
+  // count[2]: how many sequences with length 2
+  const counts = {};
+  let digit = s[0];
+  let length = 0;
 
-  let char = s[0]
-  let len = 1
-  for (let i=1; i<s.length; i++) {
-    if (char !== s[i]) {
-      ranking = rank(ranking, len)
-      char = s[i]
-      len = 0
+  // solution 1, variants starting with 0 and 1
+  let one0 = 0;
+  let one1 = 0;
+
+  // count lengths
+  for (let i = 0; i < s.length; i++) {
+    if (digit !== s[i]) {
+      counts[length] = (counts[length] || 0) + 1;
+      length = 0;
+      digit = s[i];
     }
-    len++
+    Number(s[i]) === i % 2 ? one1++ : one0++;
+    length++;
   }
-  ranking = rank(ranking, len)
+  counts[length] = (counts[length] || 0) + 1;
 
-  for(let i=0; i<numOps; i++) {
-    const max = ranking.shift()
-    if (max === 1) { return 1 }
-    const a = Math.floor((max - 1) / 2)
-    const b = Math.ceil((max - 1) / 2)
-    ranking = rank(ranking, a)
-    ranking = rank(ranking, b)
+  // check is solution 1 possible
+  if (one0 <= numOps || one1 <= numOps) {
+    return 1;
   }
 
-  return ranking[0]
+  // get length keys
+  const lengths = Object.keys(counts)
+    .map(Number)
+    .sort((a, b) => b - a);
+
+  let low = 2;
+  let high = lengths[0];
+  let m;
+  while (low !== high) {
+    m = high - Math.ceil((high - low) / 2);
+    isSolutionPossible(m, lengths, counts, numOps) ? (high = m) : (low = m + 1);
+  }
+
+  return high;
 };
 
-function rank(ranking, value) {
-  // early return if value is too low
-  let high = ranking.length - 1
-  if (value <= ranking[high]) {
-    return ranking
-  }
-
-  // binary search value position
-  let low = 0
-  while(low !== high) {
-    const m = high - Math.ceil((high - low) / 2)
-    if (value > ranking[m]) {
-      high = m
-    } else {
-      low = m + 1
+function isSolutionPossible(goal, lengths, counts, numOps) {
+  let result = 0;
+  for (let i = 0; i < lengths.length && lengths[i] > goal; i++) {
+    const multiplier = Math.floor(lengths[i] / (goal + 1));
+    result += counts[lengths[i]] * multiplier;
+    if (result > numOps) {
+      return false;
     }
   }
-
-  // construct new ranking
-  return [
-    ...ranking.slice(0, low),
-    value,
-    ...ranking.slice(low, -1)
-  ]
+  return true;
 }
 
 export default minLength;
-
