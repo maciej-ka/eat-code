@@ -1,6 +1,6 @@
 # Leet code solving  
 
-[3399. Smallest Substring With Identical Characters II](#3399-smallest-substring-with-identical-characters-ii)
+[3399. Smallest Substring With Identical Characters II](#3399-smallest-substring-with-identical-characters-ii)  
 [347. Top K Frequent Elements](#347-top-k-frequent-elements)  
 [2834. Find the Minimum Possible Sum of a Beautiful Array](#2834-find-the-minimum-possible-sum-of-a-beautiful-array)  
 [Trick or Tree'ing](#trick-or-treeing)  
@@ -16,12 +16,11 @@ To randomly pick language on leetcode
 [3399. Smallest Substring With Identical Characters II](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/description/)  
 ========================================================
 
-### Greedy halving
 ![img](./3399-shortest-identical-slice/1.png)  
-![img](./3399-shortest-identical-slice/2.png)
-![img](./3399-shortest-identical-slice/3.png)
-![img](./3399-shortest-identical-slice/4.png)
-![img](./3399-shortest-identical-slice/5.png)
+![img](./3399-shortest-identical-slice/2.png)  
+![img](./3399-shortest-identical-slice/3.png)  
+![img](./3399-shortest-identical-slice/4.png)  
+![img](./3399-shortest-identical-slice/5.png)  
 ![img](./3399-shortest-identical-slice/6.png)
 
 ### Javascript
