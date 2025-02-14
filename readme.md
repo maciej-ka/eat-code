@@ -11,7 +11,12 @@ To randomly pick language on leetcode
 ./random-lang
 ```
 
+[3399. Smallest Substring With Identical Characters II](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/description/)  
+========================================================
 
+### Greedy halving
+![img](./3399-shortest-identical-slice/1-naive.png)  
+![img](./3399-shortest-identical-slice/2-naive-fail.png)
 
 [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)  
 ========================================================
