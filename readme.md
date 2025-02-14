@@ -1,4 +1,6 @@
 # Leet code solving  
+
+[3399. Smallest Substring With Identical Characters II](#3399-smallest-substring-with-identical-characters-ii)
 [347. Top K Frequent Elements](#347-top-k-frequent-elements)  
 [2834. Find the Minimum Possible Sum of a Beautiful Array](#2834-find-the-minimum-possible-sum-of-a-beautiful-array)  
 [Trick or Tree'ing](#trick-or-treeing)  
@@ -15,8 +17,10 @@ To randomly pick language on leetcode
 ========================================================
 
 ### Greedy halving
-![img](./3399-shortest-identical-slice/1-naive.png)  
-![img](./3399-shortest-identical-slice/2-naive-fail.png)
+![img](./3399-shortest-identical-slice/1.png)  
+![img](./3399-shortest-identical-slice/2.png)
+![img](./3399-shortest-identical-slice/3.png)
+![img](./3399-shortest-identical-slice/4.png)
 
 [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)  
 ========================================================
