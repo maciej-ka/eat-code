@@ -24,6 +24,12 @@ To randomly pick language on leetcode
 ![img](./3399-shortest-identical-slice/5.png)
 ![img](./3399-shortest-identical-slice/6.png)
 
+### Javascript
+[solution](./3399-shortest-identical-slice/1-js/solution.js)  
+[submission](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/submissions/1543012089/)  
+45% (54ms)  
+34% (58MB)
+
 [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)  
 ========================================================
 
