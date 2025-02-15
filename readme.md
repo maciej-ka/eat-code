@@ -32,12 +32,19 @@ To randomly pick language on leetcode
 34% (58MB)
 
 ### Javascript
-Significantly speed up by converting to number with `~~` instead of `Number`.
-And use `Map` instead of `{}` as its faster for number keys. This one may not have visible impact.
+Significantly speed up by converting to number with `~~` instead of `Number`.  
+And use `Map` instead of `{}` as its faster for number keys. This one may not have visible impact.  
 [solution](./3399-shortest-identical-slice/2-js/solution.js)  
 [submission](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/submissions/1543534457/)  
 82% (33ms)  
 36% (57MB)
+
+### Javascript
+Speed up by not dividing by 2 but using bitshift `>> 1`  
+[solution](./3399-shortest-identical-slice/3-js/solution.js)  
+[submission](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/submissions/1543591573/)  
+98% (23ms)  
+85% (55MB)
 
 
 
