@@ -7,8 +7,13 @@
 [213. House Robber II](#213-house-robber-ii)  
 [31. Next Permutation](#31-next-permutation)
 
-Feeling in polyprogramming mood?  
-To randomly pick language on leetcode
+#### Random problem
+https://leetcode.com/problemset/  
+and click "pick one"
+
+#### Random lang
+Feeling in a polyprogramming mood?  
+Randomly pick language on leetcode.
 ```bash
 ./random-lang
 ```
