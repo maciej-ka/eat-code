@@ -52,7 +52,7 @@ Speed up by not dividing by 2 but using bitshift `>> 1`
 85% (55MB)
 
 ### Ruby
-Same approach
+Same approach  
 [solution](./3399-shortest-identical-slice/4-js/solution.rb)  
 [submission](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/submissions/1551768163/)  
 100% (607ms)  
