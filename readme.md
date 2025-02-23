@@ -58,7 +58,7 @@ Same approach
 100% (607ms)  
 100% (215MB)
 
-### Ruby
+### Elixir
 Same approach  
 [solution](./3399-shortest-identical-slice/5-rb/solution.ex)  
 [submission](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/submissions/1552746138/)  
