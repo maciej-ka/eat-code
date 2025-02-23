@@ -60,7 +60,7 @@ Same approach
 
 ### Elixir
 Same approach  
-[solution](./3399-shortest-identical-slice/5-rb/solution.ex)  
+[solution](./3399-shortest-identical-slice/5-ex/solution.ex)  
 [submission](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/submissions/1552746138/)  
 100% (52ms)  
 100% (95MB)
