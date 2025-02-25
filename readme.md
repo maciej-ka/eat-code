@@ -18,6 +18,15 @@ Randomly pick language on leetcode.
 ./random-lang
 ```
 
+[1524. Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/description/)
+=============================================
+
+![img](./1524-odd-sum-subarrays/1.png)  
+![img](./1524-odd-sum-subarrays/2.png)  
+![img](./1524-odd-sum-subarrays/3.png)  
+![img](./1524-odd-sum-subarrays/4.png)  
+![img](./1524-odd-sum-subarrays/5.png)  
+
 
 
 [3399. Smallest Substring With Identical Characters II](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/description/)  
