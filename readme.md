@@ -28,6 +28,8 @@ Randomly pick language on leetcode.
 ![img](./1524-odd-sum-subarrays/4.png)
 ![img](./1524-odd-sum-subarrays/5.png)
 ![img](./1524-odd-sum-subarrays/6.png)
+![img](./1524-odd-sum-subarrays/7.png)
+![img](./1524-odd-sum-subarrays/8.png)
 
 
 
