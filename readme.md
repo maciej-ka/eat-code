@@ -1,5 +1,6 @@
 # Leet code solving  
 
+[1524. Number of Sub-arrays With Odd Sum](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1524-number-of-sub-arrays-with-odd-sum)
 [3399. Smallest Substring With Identical Characters II](#3399-smallest-substring-with-identical-characters-ii)  
 [347. Top K Frequent Elements](#347-top-k-frequent-elements)  
 [2834. Find the Minimum Possible Sum of a Beautiful Array](#2834-find-the-minimum-possible-sum-of-a-beautiful-array)  
