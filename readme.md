@@ -25,12 +25,17 @@ Randomly pick language on leetcode.
 ![img](./1524-odd-sum-subarrays/1.png)  
 ![img](./1524-odd-sum-subarrays/2.png)  
 ![img](./1524-odd-sum-subarrays/3.png)  
-![img](./1524-odd-sum-subarrays/4.png)
-![img](./1524-odd-sum-subarrays/5.png)
-![img](./1524-odd-sum-subarrays/6.png)
-![img](./1524-odd-sum-subarrays/7.png)
+![img](./1524-odd-sum-subarrays/4.png)  
+![img](./1524-odd-sum-subarrays/5.png)  
+![img](./1524-odd-sum-subarrays/6.png)  
+![img](./1524-odd-sum-subarrays/7.png)  
 ![img](./1524-odd-sum-subarrays/8.png)
 
+### Javascript
+[solution](./1524-odd-sum-subarrays/1-js/solution.js)  
+[submission](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/submissions/1555215005/)  
+18% (13ms)  
+7% (69MB)
 
 
 [3399. Smallest Substring With Identical Characters II](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/description/)  
