@@ -37,6 +37,15 @@ Randomly pick language on leetcode.
 18% (13ms)  
 7% (69MB)
 
+### Javascript
+Instead of array use linked list  
+with one one traversal (back)  
+[solution](./1524-odd-sum-subarrays/2-js/solution.js)  
+[submission](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/submissions/1555256955/)  
+11% (19ms)  
+7% (73MB)
+
+
 
 [3399. Smallest Substring With Identical Characters II](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/description/)  
 ========================================================
