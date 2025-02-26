@@ -1,17 +1,9 @@
-input
-[2,-5,1,-4,3,-2]
+if min is positive, can you skip low check?
+try to construct counter example
+running min positive, but best sum is negative
 
-running sum right
-[2,-3,-2,-6,-3,-5]
+failed attempt
+[2, -1, 3, -2, 1, -2]
+running sum
+[2, 1, 4, 2, 3, 1]
 
-expand high
-[2
-2
-
-expand low
-[-6,-8,-3,-4
--8
-
-expanded: 2 and -8
-absolute max: -8
-result: 8
