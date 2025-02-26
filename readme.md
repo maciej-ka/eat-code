@@ -1,5 +1,6 @@
 # Leet code solving  
 
+[1749. Maximum Absolute Sum of Any Subarray](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1749-maximum-absolute-sum-of-any-subarray)  
 [1524. Number of Sub-arrays With Odd Sum](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1524-number-of-sub-arrays-with-odd-sum)  
 [3399. Smallest Substring With Identical Characters II](#3399-smallest-substring-with-identical-characters-ii)  
 [347. Top K Frequent Elements](#347-top-k-frequent-elements)  
