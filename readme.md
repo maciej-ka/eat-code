@@ -33,6 +33,17 @@ use running sum right, then left
 85% (2ms)  
 19% (59MB)
 
+
+### Javascript
+optimization attempts: strip Math.max  
+if running sum min point is positive skip, then  
+skip checking of best negative expansion  
+try to use same variables to save memory  
+[solution](./1749-max-subarray/2-js/solution.js)  
+[submission](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/submissions/1556076257/)  
+85% (2ms)  
+15% (61MB)
+
 [1524. Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/description/)
 =============================================
 
