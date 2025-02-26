@@ -19,6 +19,19 @@ Randomly pick language on leetcode.
 ./random-lang
 ```
 
+[1749. Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/description/)
+================================================
+
+![img](./1749-max-subarray/1.png)  
+![img](./1749-max-subarray/2.png)  
+
+### Javascript
+use running sum right, then left  
+[solution](./1749-max-subarray/1-js/solution.js)  
+[submission](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/submissions/1556041963/)  
+85% (2ms)  
+19% (59MB)
+
 [1524. Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/description/)
 =============================================
 
