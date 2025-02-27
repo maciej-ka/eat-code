@@ -1,6 +1,6 @@
 # Leet code solving  
 
-873. Length of Longest Fibonacci Subsequence  
+[873. Length of Longest Fibonacci Subsequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#873-length-of-longest-fibonacci-subsequence)  
 [1749. Maximum Absolute Sum of Any Subarray](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1749-maximum-absolute-sum-of-any-subarray)  
 [1524. Number of Sub-arrays With Odd Sum](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1524-number-of-sub-arrays-with-odd-sum)  
 [3399. Smallest Substring With Identical Characters II](#3399-smallest-substring-with-identical-characters-ii)  
@@ -36,6 +36,12 @@ only added a hashmap for fast number lookup
 28% (273ms)  
 25% (58MB)
 
+### Javascript
+less temporary variables, a little better on memory  
+[solution](./873-fib-seq/2-js/solution.js)  
+[submission](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/submissions/1557249559/)  
+28% (271ms)  
+40% (57MB)
 
 
 
