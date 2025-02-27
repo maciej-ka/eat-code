@@ -1,5 +1,6 @@
 # Leet code solving  
 
+873. Length of Longest Fibonacci Subsequence  
 [1749. Maximum Absolute Sum of Any Subarray](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1749-maximum-absolute-sum-of-any-subarray)  
 [1524. Number of Sub-arrays With Odd Sum](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1524-number-of-sub-arrays-with-odd-sum)  
 [3399. Smallest Substring With Identical Characters II](#3399-smallest-substring-with-identical-characters-ii)  
@@ -19,6 +20,24 @@ Randomly pick language on leetcode.
 ```bash
 ./random-lang
 ```
+
+
+
+[873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/)
+=================================================
+
+![img](./873-fib-seq/1.png)  
+
+### Javascript
+quite brutal attempt,  
+only added a hashmap for fast number lookup  
+[solution](./873-fib-seq/1-js/solution.js)  
+[submission](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/submissions/1557215286/)  
+28% (273ms)  
+25% (58MB)
+
+
+
 
 [1749. Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/description/)
 ================================================
@@ -43,6 +62,8 @@ try to use same variables to save memory
 [submission](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/submissions/1556076257/)  
 85% (2ms)  
 15% (61MB)
+
+
 
 [1524. Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/description/)
 =============================================
