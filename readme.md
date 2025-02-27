@@ -43,6 +43,15 @@ less temporary variables, a little better on memory
 28% (271ms)  
 40% (57MB)
 
+### Javascript
+use Set instead of hash  
+when creating lookup of numbers that are present  
+(it's actually a bit slower this way)  
+[solution](./873-fib-seq/3-js/solution.js)  
+[submission](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/submissions/1557311393/)  
+22% (290ms)  
+57% (56MB)
+
 
 
 [1749. Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/description/)
