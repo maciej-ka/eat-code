@@ -21,6 +21,8 @@ Randomly pick language on leetcode.
 ./random-lang
 ```
 
+[1092. Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence/description/)
+==========================================
 
 
 [873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/)
