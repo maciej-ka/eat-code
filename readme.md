@@ -58,7 +58,7 @@ from loop
 ### Javascript
 Turns out creating strings, concatenating them  
 and storing in every cell of dynamic programming step  
-... is really slow compared to storing just number  
+... is really slow compared to storing just a number  
 This solution stores both number and instruction how to build solution  
 in one number, where last 2 bits are flag about direction  
 then used to recreate solution string  
