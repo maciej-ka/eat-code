@@ -1,5 +1,6 @@
 # Leet code solving  
 
+[1092. Shortest Common Supersequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1092-shortest-common-supersequence)
 [873. Length of Longest Fibonacci Subsequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#873-length-of-longest-fibonacci-subsequence)  
 [1749. Maximum Absolute Sum of Any Subarray](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1749-maximum-absolute-sum-of-any-subarray)  
 [1524. Number of Sub-arrays With Odd Sum](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1524-number-of-sub-arrays-with-odd-sum)  
@@ -21,8 +22,19 @@ Randomly pick language on leetcode.
 ./random-lang
 ```
 
-[1092. Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence/description/)
+[1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/description/)
 ==========================================
+
+### Misread
+Misread that strings have to be strictly sub strings
+and came up with solution on base of that wrong assumption
+[strict substring notes](./1092/wrong.md)
+
+### Notes
+Corrected meaning of supersequence
+Notes on solving
+[notes](./1092/notes.md)
+
 
 
 [873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/)
