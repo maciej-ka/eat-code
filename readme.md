@@ -55,6 +55,18 @@ from loop
 5% (526ms)  
 5% (128MB)
 
+### Javascript
+Turns out creating strings, concatenating them  
+and storing in every cell of dynamic programming step  
+... is really slow compared to storing just number  
+This solution stores both number and instruction how to build solution  
+in one number, where last 2 bits are flag about direction  
+then used to recreate solution string  
+[solution](./1092/3-js/solution.js)  
+[submission](https://leetcode.com/problems/shortest-common-supersequence/submissions/1558320298/)  
+85% (55ms)  
+52% (79MB)
+
 
 
 [873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/)
