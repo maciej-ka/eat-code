@@ -38,12 +38,22 @@ Notes on solving
 ### Javascript
 Dynamic programming  
 Build solution step by step  
-Each time compare 3 possible ways to arrive  
-And store the best one as step result  
+each time compare 3 possible ways to arrive  
+and store the best one as step result  
 [solution](./1092/1-js/solution.js)  
 [submission](https://leetcode.com/problems/shortest-common-supersequence/submissions/1558091153/)  
 7% (448ms)  
 8% (115MB)
+
+### Javascript
+Try to improve by prepopulating solution array  
+which allows to remove conditional statements  
+from loop  
+(it turned out to be worse)  
+[solution](./1092/2-js/solution.js)  
+[submission](https://leetcode.com/problems/shortest-common-supersequence/submissions/1558113727/)  
+5% (526ms)  
+5% (128MB)
 
 
 
