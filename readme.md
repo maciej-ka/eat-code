@@ -32,6 +32,7 @@ and came up with solution on base of that wrong assumption
 
 ### Adjust
 Corrected meaning of supersequence  
+
 ![img](./1092/1.png)
 
 ### Javascript
