@@ -1,5 +1,6 @@
 # Leet code solving  
 
+2460. Apply Operations to an Array
 [1092. Shortest Common Supersequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1092-shortest-common-supersequence)  
 [873. Length of Longest Fibonacci Subsequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#873-length-of-longest-fibonacci-subsequence)  
 [1749. Maximum Absolute Sum of Any Subarray](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1749-maximum-absolute-sum-of-any-subarray)  
@@ -21,6 +22,10 @@ Randomly pick language on leetcode.
 ```bash
 ./random-lang
 ```
+
+[2460. Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)
+========================================
+
 
 [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/description/)
 ==========================================
