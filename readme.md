@@ -30,10 +30,9 @@ Misread that strings have to be strictly sub strings
 and came up with solution on base of that wrong assumption  
 [strict substring notes](./1092/wrong.md)
 
-### Notes
+### Adjust
 Corrected meaning of supersequence  
-Notes on solving  
-[notes](./1092/notes.md)
+![img](./1092/1.png)
 
 ### Javascript
 Dynamic programming  
@@ -55,13 +54,17 @@ from loop
 5% (526ms)  
 5% (128MB)
 
-### Javascript
+### Optimized solution
 Turns out creating strings, concatenating them  
 and storing in every cell of dynamic programming step  
 is really slow when compared to just storing a number.  
 This solution stores both number and instruction how to build solution  
 in one number, where last 2 bits are flag about direction  
 then used to recreate solution string  
+![img](./1092/2.png)  
+![img](./1092/3.png)
+
+### Javascript
 [solution](./1092/3-js/solution.js)  
 [submission](https://leetcode.com/problems/shortest-common-supersequence/submissions/1558320298/)  
 85% (55ms)  
