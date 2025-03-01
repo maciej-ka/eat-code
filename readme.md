@@ -26,6 +26,17 @@ Randomly pick language on leetcode.
 [2460. Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)
 ========================================
 
+### Javascript
+Dynamic programming  
+Build solution step by step  
+each time compare 3 possible ways to arrive  
+and store the best one as step result  
+[solution](./2460/1-js/solution.js)  
+[submission](https://leetcode.com/problems/apply-operations-to-an-array/submissions/1559030504/)  
+37% (4ms)  
+15% (56MB)
+
+
 
 [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/description/)
 ==========================================
