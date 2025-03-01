@@ -1,6 +1,6 @@
 # Leet code solving  
 
-2460. Apply Operations to an Array
+[2460. Apply Operations to an Array](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2460-apply-operations-to-an-array)  
 [1092. Shortest Common Supersequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1092-shortest-common-supersequence)  
 [873. Length of Longest Fibonacci Subsequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#873-length-of-longest-fibonacci-subsequence)  
 [1749. Maximum Absolute Sum of Any Subarray](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1749-maximum-absolute-sum-of-any-subarray)  
@@ -31,6 +31,16 @@ Randomly pick language on leetcode.
 [submission](https://leetcode.com/problems/apply-operations-to-an-array/submissions/1559030504/)  
 37% (4ms)  
 15% (56MB)
+
+### Javascript
+Optmize performance by processing two items in loop  
+when it's possible (when operation condition is met).  
+And by not modifying array in place and then formatting,  
+but building result in separate data structure.  
+[solution](./2460/2-js/solution.js)  
+[submission](https://leetcode.com/problems/apply-operations-to-an-array/submissions/1559149423)  
+100% (0ms)  
+5% (58MB)
 
 
 
