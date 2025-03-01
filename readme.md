@@ -61,6 +61,7 @@ is really slow when compared to just storing a number.
 This solution stores both number and instruction how to build solution  
 in one number, where last 2 bits are flag about direction  
 then used to recreate solution string  
+
 ![img](./1092/2.png)  
 ![img](./1092/3.png)
 
