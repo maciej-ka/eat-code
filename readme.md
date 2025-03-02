@@ -27,6 +27,12 @@ Randomly pick language on leetcode.
 [2570. Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/)
 =================================================
 
+### Javascript
+[solution](./2570/1-js/solution.js)  
+[submission](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/submissions/1559789318/)  
+100% (0ms)  
+9.21% (61MB)
+
 
 
 [2460. Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)
