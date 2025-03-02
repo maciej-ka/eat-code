@@ -1,5 +1,6 @@
 # Leet code solving  
 
+2570. Merge Two 2D Arrays by Summing Values
 [2460. Apply Operations to an Array](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2460-apply-operations-to-an-array)  
 [1092. Shortest Common Supersequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1092-shortest-common-supersequence)  
 [873. Length of Longest Fibonacci Subsequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#873-length-of-longest-fibonacci-subsequence)  
@@ -22,6 +23,11 @@ Randomly pick language on leetcode.
 ```bash
 ./random-lang
 ```
+
+[2570. Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/)
+=================================================
+
+
 
 [2460. Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)
 ========================================
