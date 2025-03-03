@@ -65,6 +65,14 @@ and mememory consuming.
 75% (26ms)  
 71% (83MB)
 
+### Javascript
+Same as first submission  
+but use Array.concat instead of spread.  
+[solution](./2161/5-js/solution.js)  
+[submission](https://leetcode.com/problems/partition-array-according-to-given-pivot/submissions/1561472469/)  
+92% (15ms)  
+84% (81MB)
+
 
 
 [2570. Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/)
