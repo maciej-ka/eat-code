@@ -25,6 +25,8 @@ Randomly pick language on leetcode.
 ./random-lang
 ```
 
+
+
 [2161. Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description)
 ====================================================
 
@@ -35,6 +37,15 @@ Concatenate on the end as a result.
 [submission](https://leetcode.com/problems/partition-array-according-to-given-pivot/submissions/1561268679/)  
 30% (41ms)  
 7% (88MB)
+
+### Javascript
+Use Linked lists in hope that they outperform arrays,  
+which are actually implemented as objects with string properties  
+like "1", "2"...  
+[solution](./2161/2-js/solution.js)  
+[submission](https://leetcode.com/problems/partition-array-according-to-given-pivot/submissions/1561329230)  
+15% (55ms)  
+6% (90MB)
 
 
 
