@@ -4,7 +4,7 @@
  * @return {number[]}
  */
 var pivotArray = function(nums, pivot) {
-  // less then pivon, more then pivot, pivot count
+  // less then pivot, more then pivot, pivot count
   let less = [], more = [], count = 0
 
   for (let i = 0; i < nums.length; i++) {
