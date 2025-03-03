@@ -73,6 +73,15 @@ but use Array.concat instead of spread.
 92% (15ms)  
 84% (81MB)
 
+### Javascript
+Improve a little by preparing smaller part in place  
+during the first scan.  
+And then only apply equal and greater (also in place).  
+[solution](./2161/6-js/solution.js)  
+[submission](https://leetcode.com/problems/partition-array-according-to-given-pivot/submissions/1561494518)  
+98% (11ms)  
+12% (87MB)
+
 
 
 [2570. Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/)
