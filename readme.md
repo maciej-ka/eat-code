@@ -47,6 +47,15 @@ like "1", "2"...
 15% (55ms)  
 6% (90MB)
 
+### Javascript
+Very short, clean code.  
+Spread of three array filters.  
+Almost declarative.  
+[solution](./2161/3-js/solution.js)  
+[submission](https://leetcode.com/problems/partition-array-according-to-given-pivot/submissions/1561373099/)  
+20% (48ms)  
+19% (87MB)
+
 
 
 [2570. Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/)
