@@ -1,5 +1,6 @@
 # Leet code solving  
 
+2161. Partition Array According to Given Pivot  
 [2570. Merge Two 2D Arrays by Summing Values](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2570-merge-two-2d-arrays-by-summing-values)  
 [2460. Apply Operations to an Array](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2460-apply-operations-to-an-array)  
 [1092. Shortest Common Supersequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1092-shortest-common-supersequence)  
@@ -24,6 +25,19 @@ Randomly pick language on leetcode.
 ./random-lang
 ```
 
+[2161. Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description)
+====================================================
+
+### Javascript
+Create arrays for lower and higher values.  
+Concatenate on the end as a result.  
+[solution](./2161/1-js/solution.js)  
+[submission](https://leetcode.com/problems/partition-array-according-to-given-pivot/submissions/1561268679/)  
+30% (41ms)  
+7% (88MB)
+
+
+
 [2570. Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/)
 =================================================
 
@@ -36,7 +50,7 @@ but array concatenate that reminder
 [solution](./2570/1-js/solution.js)  
 [submission](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/submissions/1559789318/)  
 100% (0ms)  
-9.21% (61MB)
+9% (61MB)
 
 
 
