@@ -1,6 +1,6 @@
 # Leet code solving  
 
-2161. Partition Array According to Given Pivot  
+[2161. Partition Array According to Given Pivot](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2161-partition-array-according-to-given-pivot)  
 [2570. Merge Two 2D Arrays by Summing Values](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2570-merge-two-2d-arrays-by-summing-values)  
 [2460. Apply Operations to an Array](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2460-apply-operations-to-an-array)  
 [1092. Shortest Common Supersequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1092-shortest-common-supersequence)  
