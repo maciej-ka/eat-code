@@ -1,5 +1,6 @@
 # Leet code solving  
 
+2579. Count Total Number of Colored Cells
 [1780. Check if Number is a Sum of Powers of Three](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1780-check-if-number-is-a-sum-of-powers-of-three)  
 [2161. Partition Array According to Given Pivot](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2161-partition-array-according-to-given-pivot)  
 [2570. Merge Two 2D Arrays by Summing Values](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2570-merge-two-2d-arrays-by-summing-values)  
@@ -25,6 +26,17 @@ Randomly pick language on leetcode.
 ```bash
 ./random-lang
 ```
+
+[2579. Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/description/)
+===============================================
+
+### Javascript
+Just calculate result
+[solution](./2579/1-js/solution.js)  
+[submission](https://leetcode.com/problems/count-total-number-of-colored-cells/submissions/1563610360/)  
+100% (0ms)  
+37% (54MB)
+
 
 
 [1780. Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/)
