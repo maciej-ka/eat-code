@@ -1,6 +1,6 @@
 # Leet code solving  
 
-2965. Find Missing and Repeated Values  
+[2965. Find Missing and Repeated Values](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2965-find-missing-and-repeated-values)  
 [2579. Count Total Number of Colored Cells](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2579-count-total-number-of-colored-cells)  
 [1780. Check if Number is a Sum of Powers of Three](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1780-check-if-number-is-a-sum-of-powers-of-three)  
 [2161. Partition Array According to Given Pivot](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2161-partition-array-according-to-given-pivot)  
