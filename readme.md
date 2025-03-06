@@ -41,7 +41,7 @@ Use `Uint8Array` as counts array.
 Avoid +/-1 index/number conversion by treating  
 counts array as if it would be 1-indexed.  
 [solution](./2965/1-js/solution.js)  
-[submission](/leetcode.com/problems/find-missing-and-repeated-values/submissions/1564779702/)  
+[submission](http://leetcode.com/problems/find-missing-and-repeated-values/submissions/1564779702/)  
 99% (1ms)  
 23% (57MB)
 
