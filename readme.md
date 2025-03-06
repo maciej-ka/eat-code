@@ -1,5 +1,6 @@
 # Leet code solving  
 
+2965. Find Missing and Repeated Values  
 [2579. Count Total Number of Colored Cells](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2579-count-total-number-of-colored-cells)  
 [1780. Check if Number is a Sum of Powers of Three](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1780-check-if-number-is-a-sum-of-powers-of-three)  
 [2161. Partition Array According to Given Pivot](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2161-partition-array-according-to-given-pivot)  
@@ -26,6 +27,25 @@ Randomly pick language on leetcode.
 ```bash
 ./random-lang
 ```
+
+
+
+[2965. Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description/)
+===========================================
+
+### Javascript
+Walk a grid and fill array of counts  
+Then walk counts and fill result  
+**For performance**  
+Use `Uint8Array` as counts array.  
+Avoid +/-1 index/number conversion by treating  
+counts array as if it would be 1-indexed.  
+[solution](./2965/1-js/solution.js)  
+[submission](/leetcode.com/problems/find-missing-and-repeated-values/submissions/1564779702/)  
+99% (1ms)  
+23% (57MB)
+
+
 
 [2579. Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/description/)
 ===============================================
