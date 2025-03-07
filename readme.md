@@ -64,6 +64,14 @@ Then walk range and keep track of best.
 67% (173ms)  
 11% (88MB)
 
+### Javascript
+Early break when distance is 2  
+[solution](./2523/3-js/solution.js)  
+[submission](https://leetcode.com/problems/closest-prime-numbers-in-range/submissions/1566075655/)  
+78% (149ms)  
+11% (89MB)
+
+
 
 [2965. Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description/)
 ===========================================
