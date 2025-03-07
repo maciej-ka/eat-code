@@ -1,6 +1,6 @@
 # Leet code solving  
 
-2523. Closest Prime Numbers in Range
+[2523. Closest Prime Numbers in Range](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2523-closest-prime-numbers-in-range)  
 [2965. Find Missing and Repeated Values](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2965-find-missing-and-repeated-values)  
 [2579. Count Total Number of Colored Cells](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2579-count-total-number-of-colored-cells)  
 [1780. Check if Number is a Sum of Powers of Three](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1780-check-if-number-is-a-sum-of-powers-of-three)  
@@ -57,8 +57,8 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 ==========================================
 
 ### Javascript
-First sieve for primes, using Uint8Array.
-Then walk range and keep track of best.
+First sieve for primes, using Uint8Array.  
+Then walk range and keep track of best.  
 [solution](./2523/2-js/solution.js)  
 [submission](https://leetcode.com/problems/closest-prime-numbers-in-range/submissions/1566051005/)  
 67% (173ms)  
