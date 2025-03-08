@@ -1,5 +1,6 @@
 # Leet code solving  
 
+2379. Minimum Recolors to Get K Consecutive Black Blocks  
 [2523. Closest Prime Numbers in Range](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2523-closest-prime-numbers-in-range)  
 [2965. Find Missing and Repeated Values](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2965-find-missing-and-repeated-values)  
 [2579. Count Total Number of Colored Cells](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2579-count-total-number-of-colored-cells)  
@@ -50,6 +51,11 @@ composer test
 # todo: check how to unit test
 clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 ```
+
+
+
+[2379. Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/description/)
+==============================================================
 
 
 
@@ -272,19 +278,19 @@ then used to recreate solution string
 [873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/)
 =================================================
 
-![img](./873-fib-seq/1.png)  
+![img](./0873/1.png)  
 
 ### Javascript
 quite brutal attempt,  
 only added a hashmap for fast number lookup  
-[solution](./873-fib-seq/1-js/solution.js)  
+[solution](./0873/1-js/solution.js)  
 [submission](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/submissions/1557215286/)  
 28% (273ms)  
 25% (58MB)
 
 ### Javascript
 less temporary variables, a little better on memory  
-[solution](./873-fib-seq/2-js/solution.js)  
+[solution](./0873/2-js/solution.js)  
 [submission](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/submissions/1557249559/)  
 28% (271ms)  
 40% (57MB)
@@ -293,7 +299,7 @@ less temporary variables, a little better on memory
 use Set instead of hash  
 when creating lookup of numbers that are present  
 (it's actually a bit slower this way)  
-[solution](./873-fib-seq/3-js/solution.js)  
+[solution](./0873/3-js/solution.js)  
 [submission](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/submissions/1557311393/)  
 22% (290ms)  
 57% (56MB)
@@ -303,12 +309,12 @@ when creating lookup of numbers that are present
 [1749. Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/description/)
 ================================================
 
-![img](./1749-max-subarray/1.png)  
-![img](./1749-max-subarray/2.png)  
+![img](./1749/1.png)  
+![img](./1749/2.png)  
 
 ### Javascript
 use running sum right, then left  
-[solution](./1749-max-subarray/1-js/solution.js)  
+[solution](./1749/1-js/solution.js)  
 [submission](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/submissions/1556041963/)  
 85% (2ms)  
 19% (59MB)
@@ -319,7 +325,7 @@ optimization attempts: strip Math.max
 if running sum min point is positive skip, then  
 skip checking of best negative expansion  
 try to use same variables to save memory  
-[solution](./1749-max-subarray/2-js/solution.js)  
+[solution](./1749/2-js/solution.js)  
 [submission](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/submissions/1556076257/)  
 85% (2ms)  
 15% (61MB)
@@ -329,17 +335,17 @@ try to use same variables to save memory
 [1524. Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/description/)
 =============================================
 
-![img](./1524-odd-sum-subarrays/1.png)  
-![img](./1524-odd-sum-subarrays/2.png)  
-![img](./1524-odd-sum-subarrays/3.png)  
-![img](./1524-odd-sum-subarrays/4.png)  
-![img](./1524-odd-sum-subarrays/5.png)  
-![img](./1524-odd-sum-subarrays/6.png)  
-![img](./1524-odd-sum-subarrays/7.png)  
-![img](./1524-odd-sum-subarrays/8.png)
+![img](./1524/1.png)  
+![img](./1524/2.png)  
+![img](./1524/3.png)  
+![img](./1524/4.png)  
+![img](./1524/5.png)  
+![img](./1524/6.png)  
+![img](./1524/7.png)  
+![img](./1524/8.png)
 
 ### Javascript
-[solution](./1524-odd-sum-subarrays/1-js/solution.js)  
+[solution](./1524/1-js/solution.js)  
 [submission](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/submissions/1555215005/)  
 18% (13ms)  
 7% (69MB)
@@ -347,7 +353,7 @@ try to use same variables to save memory
 ### Javascript
 Instead of array use linked list  
 with one one traversal (back)  
-[solution](./1524-odd-sum-subarrays/2-js/solution.js)  
+[solution](./1524/2-js/solution.js)  
 [submission](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/submissions/1555256955/)  
 11% (19ms)  
 7% (73MB)
@@ -357,15 +363,15 @@ with one one traversal (back)
 [3399. Smallest Substring With Identical Characters II](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/description/)  
 ========================================================
 
-![img](./3399-shortest-identical-slice/1.png)  
-![img](./3399-shortest-identical-slice/2.png)  
-![img](./3399-shortest-identical-slice/3.png)  
-![img](./3399-shortest-identical-slice/4.png)  
-![img](./3399-shortest-identical-slice/5.png)  
-![img](./3399-shortest-identical-slice/6.png)
+![img](./3399/1.png)  
+![img](./3399/2.png)  
+![img](./3399/3.png)  
+![img](./3399/4.png)  
+![img](./3399/5.png)  
+![img](./3399/6.png)
 
 ### Javascript
-[solution](./3399-shortest-identical-slice/1-js/solution.js)  
+[solution](./3399/1-js/solution.js)  
 [submission](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/submissions/1543012089/)  
 45% (54ms)  
 34% (58MB)
@@ -373,28 +379,28 @@ with one one traversal (back)
 ### Javascript
 Significantly speed up by converting to number with `~~` instead of `Number`.  
 And use `Map` instead of `{}` as its faster for number keys. This one may not have visible impact.  
-[solution](./3399-shortest-identical-slice/2-js/solution.js)  
+[solution](./3399/2-js/solution.js)  
 [submission](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/submissions/1543534457/)  
 82% (33ms)  
 36% (57MB)
 
 ### Javascript
 Speed up by not dividing by 2 but using bitshift `>> 1`  
-[solution](./3399-shortest-identical-slice/3-js/solution.js)  
+[solution](./3399/3-js/solution.js)  
 [submission](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/submissions/1543591573/)  
 98% (23ms)  
 85% (55MB)
 
 ### Ruby
 Same approach  
-[solution](./3399-shortest-identical-slice/4-rb/solution.rb)  
+[solution](./3399/4-rb/solution.rb)  
 [submission](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/submissions/1551768163/)  
 100% (607ms)  
 100% (215MB)
 
 ### Elixir
 Same approach  
-[solution](./3399-shortest-identical-slice/5-ex/lib/solution.ex)  
+[solution](./3399/5-ex/lib/solution.ex)  
 [submission](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/submissions/1552746138/)  
 100% (52ms)  
 100% (95MB)
@@ -407,10 +413,10 @@ Same approach
 ### Count using hashmap
 then convert to array and sort
 
-![img](./347-top-k-frequent/1-count-in-map.png)
+![img](./0347/1-count-in-map.png)
 
 ### Javascript
-[solution](./347-top-k-frequent/1-js/solution.js)  
+[solution](./0347/1-js/solution.js)  
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1532809469/)  
 81% (10ms)  
 95% (52MB)
@@ -418,14 +424,14 @@ then convert to array and sort
 ### Javascript
 Improve speed by using `new Map` instead of `{}`.  
 Which saves time when keys are non strings (like in this case).  
-[solution](./347-top-k-frequent/4-js/solution.js)  
+[solution](./0347/4-js/solution.js)  
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1538413476/)  
 95% (6ms)  
 95% (52MB)
 
 ### PHP
 first PHP written after 15 years  
-[solution](./347-top-k-frequent/2-php/src/Solution.php)  
+[solution](./0347/2-php/src/Solution.php)  
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1538133077/)  
 58% (2ms)  
 7% (23MB)
@@ -436,7 +442,7 @@ try to speed up sorting, by grouping values of same count
 *didn't improve speed,*  
 *but suprisingly improved memory,*  
 *even though it seems to use structures then before*  
-[solution](./347-top-k-frequent/3-php/src/Solution.php)  
+[solution](./0347/3-php/src/Solution.php)  
 [submission](https://leetcode.com/problems/top-k-frequent-elements/submissions/1538257338/)  
 58% (2ms)  
 50% (22MB)
@@ -446,23 +452,23 @@ try to speed up sorting, by grouping values of same count
 [2834. Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/)  
 ========================================================
 
-![img](./2834-sum-beautiful/1-problem-examples.png)
+![img](./2834/1-problem-examples.png)
 
-![img](./2834-sum-beautiful/2-solution-ideas.png)
+![img](./2834/2-solution-ideas.png)
 
 ### Solvable by math?
 idea that there is a mathematical solution  
 and its just enough to do some maths  
 and solve equation for area on discrete plane
 
-![img](./2834-sum-beautiful/3-just-calculate.png)
+![img](./2834/3-just-calculate.png)
 
 ### Check results
 
-![img](./2834-sum-beautiful/4-check-on-examples.png)
+![img](./2834/4-check-on-examples.png)
 
 ### Ruby
-[solution](./2834-sum-beautiful/1-rb/solution.rb)  
+[solution](./2834/1-rb/solution.rb)  
 [submission](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/submissions/1434497907/)  
 100% (2ms)   
 100% (211MB)
@@ -504,38 +510,38 @@ perhaps can be improved by not really creating nodes
 [213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)  
 ========================================================
 
-![img](./213-robber/1-problem.png)
+![img](./0213/1-problem.png)
 
 ### Attempt
 Dynamic programming, growing from left to right.
 
-![img](./213-robber/2-dynamic-from-left-to-right.png)
+![img](./0213/2-dynamic-from-left-to-right.png)
 
 ### Mistake attempt
 Dynamic programming, growing in both directions.  
 Always calculating as elements would be cycled.  
 Which leads to mistakes in result when reusing previous results.
 
-![img](./213-robber/3-dynamic-in-both-directions.png)
+![img](./0213/3-dynamic-in-both-directions.png)
 
 ### More complex example
 
-![img](./213-robber/3-longer-example.png)
+![img](./0213/3-longer-example.png)
 
 ### Solution
 
-![img](./213-robber/5-dynamic-bottom-up-two-lists.png)
+![img](./0213/5-dynamic-bottom-up-two-lists.png)
 
 ### Ruby
 first solution, more clear than others  
-[solution](./213-robber/1-rb/solution.rb)  
+[solution](./0213/1-rb/solution.rb)  
 [submission](https://leetcode.com/problems/house-robber-ii/submissions/1397543026/)  
 42% (63ms)  
 42% (221MB)  
 
 ### Ruby
 Inlined. Probably better performance due to smaller call stack  
-[solution](./213-robber/2-rb/solution.rb)  
+[solution](./0213/2-rb/solution.rb)  
 [submission](https://leetcode.com/problems/house-robber-ii/submissions/1397630686/)  
 100% (43ms)  
 90% (211MB)  
@@ -543,7 +549,7 @@ Inlined. Probably better performance due to smaller call stack
 ### Ruby
 Without Array max. Check would it improve to avoid calling max on temporary arrays  
 (it didn't)  
-[solution](./213-robber/3-rb/solution.rb)  
+[solution](./0213/3-rb/solution.rb)  
 [submision](https://leetcode.com/problems/house-robber-ii/submissions/1397606332/)  
 42% (63ms)  
 90% (211MB)  
@@ -552,18 +558,18 @@ Without Array max. Check would it improve to avoid calling max on temporary arra
 Sketch of calcutating from top to bottom.  
 With recursion and memoization.
 
-![img](./213-robber/4-dynamic-top-bottom.png)
+![img](./0213/4-dynamic-top-bottom.png)
 
 ### Elixir
 Recursive and memoized. Top-bottom, memoization to prevent exponential grow of recursive calls  
-[solution](./213-robber/4-ex/lib/solution.ex)  
+[solution](./0213/4-ex/lib/solution.ex)  
 [submission](https://leetcode.com/problems/house-robber-ii/submissions/1400044490/)  
 100% (1ms)  
 100% (72MB)  
 
 ### Elixir
 Memo in stateful process. Memo moved from parameter to Agent, better readibility at a cost of performance  
-[solution](./213-robber/5-ex/lib/solution.ex)  
+[solution](./0213/5-ex/lib/solution.ex)  
 [submission](https://leetcode.com/problems/house-robber-ii/submissions/1404058373/)  
 50% (21ms)  
 50% (74MB)  
@@ -574,7 +580,7 @@ Memo in stateful process. Memo moved from parameter to Agent, better readibility
 ========================================================
 
 ### C
-[solution](./31-next-perm/1.c)  
+[solution](./0031/1.c)  
 [submission](https://leetcode.com/problems/next-permutation/submissions/1260043065/)  
 2% (3ms)  
 100% (6.2MB)  
