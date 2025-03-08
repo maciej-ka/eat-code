@@ -79,6 +79,14 @@ Same approach
 100% (0ms)  
 18% (4MB)
 
+### Go  
+Improve memory by using `range k` syntax  
+instead of traditional c-style for loop  
+[solution](./2379/4-go/solution.go)  
+[submission](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/1566854407/)  
+100% (0ms)  
+73% (3.9MB)
+
 
 
 [2523. Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/description/)
