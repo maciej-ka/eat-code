@@ -50,6 +50,9 @@ composer test
 # c lang
 # todo: check how to unit test
 clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
+
+# swift
+swift test
 ```
 
 
