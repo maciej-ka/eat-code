@@ -75,20 +75,27 @@ and storing precalculated loop end
 100% (0ms)  
 20% (55MB)
 
-### Go  
+### Go
 Same approach  
 [solution](./2379/3-go/solution.go)  
 [submission](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/1566845167/)  
 100% (0ms)  
 18% (4MB)
 
-### Go  
+### Go
 Improve memory by using `range k` syntax  
 instead of traditional c-style for loop  
 [solution](./2379/4-go/solution.go)  
 [submission](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/1566854407/)  
 100% (0ms)  
 73% (3.9MB)
+
+### Swift
+Same approach  
+[solution](./2379/5-swift/Sources/Solution/Solution.swift)  
+[submission](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/1567443004/)  
+100% (0ms)  
+86% (19MB)
 
 
 
