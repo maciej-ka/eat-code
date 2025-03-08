@@ -1,6 +1,6 @@
 # Leet code solving  
 
-2379. Minimum Recolors to Get K Consecutive Black Blocks  
+[2379. Minimum Recolors to Get K Consecutive Black Blocks](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2379-minimum-recolors-to-get-k-consecutive-black-blocks)  
 [2523. Closest Prime Numbers in Range](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2523-closest-prime-numbers-in-range)  
 [2965. Find Missing and Repeated Values](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2965-find-missing-and-repeated-values)  
 [2579. Count Total Number of Colored Cells](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2579-count-total-number-of-colored-cells)  
@@ -56,6 +56,13 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 
 [2379. Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/description/)
 ==============================================================
+
+### Javascript
+Sliding window approach  
+[solution](./2379/1-js/solution.js)  
+[submission](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/1566792368/)  
+69% (1ms)  
+22% (55MB)
 
 
 
