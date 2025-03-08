@@ -36,7 +36,7 @@ Randomly pick language on leetcode.
 npm test
 
 # go
-go test .
+go test
 
 # elixir
 mix test
@@ -71,6 +71,13 @@ and storing precalculated loop end
 [submission](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/1566799941/)  
 100% (0ms)  
 20% (55MB)
+
+# Go  
+Same approach  
+[solution](./2379/3-go/solution.go)  
+[submission](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/1566845167/)  
+100% (0ms)  
+18% (4MB)
 
 
 
