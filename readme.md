@@ -88,6 +88,13 @@ counts array as if it would be 1-indexed.
 99% (1ms)  
 23% (57MB)
 
+### Go
+Same approach  
+[solution](./2965/2-go/solution.go)  
+[submission](https://leetcode.com/problems/find-missing-and-repeated-values/submissions/1566506700/)  
+100% (0ms)  
+56% (8MB)
+
 
 
 [2579. Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/description/)
