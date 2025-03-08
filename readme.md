@@ -72,7 +72,7 @@ and storing precalculated loop end
 100% (0ms)  
 20% (55MB)
 
-# Go  
+### Go  
 Same approach  
 [solution](./2379/3-go/solution.go)  
 [submission](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/1566845167/)  
