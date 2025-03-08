@@ -64,6 +64,14 @@ Sliding window approach
 69% (1ms)  
 22% (55MB)
 
+### Javascript
+Improve by using Math.max  
+and storing precalculated loop end  
+[solution](./2379/2-js/solution.js)  
+[submission](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/1566799941/)  
+100% (0ms)  
+20% (55MB)
+
 
 
 [2523. Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/description/)
