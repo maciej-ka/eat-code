@@ -1,6 +1,6 @@
 # Leet code solving  
 
-3208. Alternating Groups II  
+[3208. Alternating Groups II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3208-alternating-groups-ii)  
 [2379. Minimum Recolors to Get K Consecutive Black Blocks](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2379-minimum-recolors-to-get-k-consecutive-black-blocks)  
 [2523. Closest Prime Numbers in Range](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2523-closest-prime-numbers-in-range)  
 [2965. Find Missing and Repeated Values](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2965-find-missing-and-repeated-values)  
