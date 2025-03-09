@@ -69,6 +69,14 @@ Deal with cycles by extending last group.
 75% (65ms)  
 50% (65MB)
 
+### Javascript
+Optimize by extracting score method  
+and cutting one conditional  
+[solution](./3208/2-js/solution.js)  
+[submission](https://leetcode.com/problems/alternating-groups-ii/submissions/1567933502/)  
+100% (38ms)  
+50% (65MB)
+
 
 
 [2379. Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/description/)
