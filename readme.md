@@ -1,5 +1,6 @@
 # Leet code solving  
 
+3208. Alternating Groups II  
 [2379. Minimum Recolors to Get K Consecutive Black Blocks](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2379-minimum-recolors-to-get-k-consecutive-black-blocks)  
 [2523. Closest Prime Numbers in Range](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2523-closest-prime-numbers-in-range)  
 [2965. Find Missing and Repeated Values](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2965-find-missing-and-repeated-values)  
@@ -54,6 +55,19 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[3208. Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)
+=================================
+
+### Javascript
+Calculate in one pass.  
+Deal with cycles by extending last group.  
+[solution](./3208/1-js/solution.js)  
+[submission](https://leetcode.com/problems/alternating-groups-ii/submissions/1567908422/)  
+75% (65ms)  
+50% (65MB)
 
 
 
