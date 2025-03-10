@@ -1,6 +1,6 @@
 # Leet code solving  
 
-3306. Count of Substrings Containing Every Vowel and K Consonants II
+[3306. Count of Substrings Containing Every Vowel and K Consonants II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii)  
 [3208. Alternating Groups II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3208-alternating-groups-ii)  
 [2379. Minimum Recolors to Get K Consecutive Black Blocks](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2379-minimum-recolors-to-get-k-consecutive-black-blocks)  
 [2523. Closest Prime Numbers in Range](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2523-closest-prime-numbers-in-range)  
