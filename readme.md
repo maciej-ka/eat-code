@@ -71,6 +71,14 @@ But quite performant.
 90% (246ms)  
 20% (72MB)
 
+### Javascript
+Optimize by replacing vowels hash  
+with dedicated variables  
+[solution](./3306/2-js/solution.js)  
+[submission](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/submissions/1569065998/)  
+90% (169ms)  
+20% (71MB)
+
 
 
 [3208. Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)
