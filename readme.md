@@ -1,6 +1,6 @@
 # Leet code solving  
 
-[1358. Number of Substrings Containing All Three Characters](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1358-number-of-substrings-containing-all-three-characters)
+[1358. Number of Substrings Containing All Three Characters](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1358-number-of-substrings-containing-all-three-characters)  
 [3306. Count of Substrings Containing Every Vowel and K Consonants II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii)  
 [3208. Alternating Groups II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3208-alternating-groups-ii)  
 [2379. Minimum Recolors to Get K Consecutive Black Blocks](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2379-minimum-recolors-to-get-k-consecutive-black-blocks)  
@@ -68,6 +68,15 @@ Sliding window with varying length.
 [solution](./1358/1-js/solution.js)  
 [submission](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/submissions/1569983416/)  
 81% (12ms)  
+51% (55MB)
+
+### Javascript
+No sliding window, just one iteration.  
+Identify minimal substring by tracking last positions of each character.  
+Each prefix character before minimal substring increases result.  
+[solution](./1358/2-js/solution.js)  
+[submission](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/submissions/1570041471/)  
+97% (7ms)  
 51% (55MB)
 
 
