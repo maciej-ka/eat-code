@@ -1,5 +1,6 @@
 # Leet code solving  
 
+2529. Maximum Count of Positive Integer and Negative Integer  
 [1358. Number of Substrings Containing All Three Characters](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1358-number-of-substrings-containing-all-three-characters)  
 [3306. Count of Substrings Containing Every Vowel and K Consonants II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii)  
 [3208. Alternating Groups II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3208-alternating-groups-ii)  
@@ -57,6 +58,18 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[2529. Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/)
+==================================================================
+
+### Javascript
+Binary search, used twice  
+[solution](./2529/1-js/solution.js)  
+[submission](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/submissions/1571119477/)  
+100% (0ms)  
+39% (53MB)
 
 
 
