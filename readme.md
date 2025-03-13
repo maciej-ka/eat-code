@@ -65,6 +65,8 @@ swift test
 [3356. Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/description/)
 ========================================
 
+![img](./3356/1.png)
+
 ### Javascript
 Convert numbers to a difference array, as that way batch adding can be faster  
 (by just modifying two values). Then binary search for solution, on each step:
