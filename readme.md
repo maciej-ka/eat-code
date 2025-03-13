@@ -66,7 +66,7 @@ swift test
 ========================================
 
 ### Javascript
-Convert numbers to a difference array, as that way queries can be applied faster  
+Convert numbers to a difference array, as that way batch adding can be faster  
 (by just modifying two values). Then binary search for solution, on each step:
 - cloning diff array
 - applying queries and
