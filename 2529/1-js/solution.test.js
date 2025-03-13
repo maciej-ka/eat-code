@@ -1,4 +1,4 @@
-import { expect, test, vitest } from 'vitest'
+import { expect, test } from 'vitest'
 import solution from "./solution";
 
 test('case 1', () => {
