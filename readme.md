@@ -69,10 +69,8 @@ swift test
 
 ### Javascript
 Convert numbers to a difference array, as that way batch adding can be faster  
-(by just modifying two values). Then binary search for solution, on each step:
-- cloning diff array
-- applying queries and
-- checking is step passing  
+(by just modifying two values). Then binary search for solution, on each step:  
+cloning diff array, applying queries and checking is step passing  
 [solution](./3356/1-js/solution.js)  
 [submission](https://leetcode.com/problems/zero-array-transformation-ii/submissions/1572410492/)  
 88% (53ms)  
