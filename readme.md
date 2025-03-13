@@ -1,6 +1,6 @@
 # Leet code solving
 
-3356. Zero Array Transformation II  
+[3356. Zero Array Transformation II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3356-zero-array-transformation-ii)  
 [2529. Maximum Count of Positive Integer and Negative Integer](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2529-maximum-count-of-positive-integer-and-negative-integer)  
 [1358. Number of Substrings Containing All Three Characters](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1358-number-of-substrings-containing-all-three-characters)  
 [3306. Count of Substrings Containing Every Vowel and K Consonants II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii)  
@@ -66,11 +66,8 @@ swift test
 ========================================
 
 ### Javascript
-Convert numbers to difference array,  
-as that way queries can be applied faster  
-(by just modifying two values).  
-Then binary search for solution,  
-on each step:
+Convert numbers to a difference array, as that way queries can be applied faster  
+(by just modifying two values). Then binary search for solution, on each step:
 - cloning diff array
 - applying queries and
 - checking is step passing
