@@ -1,5 +1,6 @@
-# Leet code solving  
+# Leet code solving
 
+3356. Zero Array Transformation II  
 [2529. Maximum Count of Positive Integer and Negative Integer](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2529-maximum-count-of-positive-integer-and-negative-integer)  
 [1358. Number of Substrings Containing All Three Characters](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1358-number-of-substrings-containing-all-three-characters)  
 [3306. Count of Substrings Containing Every Vowel and K Consonants II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii)  
@@ -58,6 +59,25 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[3356. Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/description/)
+========================================
+
+### Javascript
+Convert numbers to difference array,  
+as that way queries can be applied faster  
+(by just modifying two values).  
+Then binary search for solution,  
+on each step:
+- cloning diff array
+- applying queries and
+- checking is step passing
+[solution](./3356/1-js/solution.js)  
+[submission](https://leetcode.com/problems/zero-array-transformation-ii/submissions/1572410492/)  
+88% (53ms)  
+6% (110MB)
 
 
 
@@ -352,7 +372,7 @@ and came up with solution on base of that wrong assumption
 [strict substring notes](./1092/wrong.md)
 
 ### Adjust
-Corrected meaning of supersequence  
+Corrected meaning of supersequence
 
 ![img](./1092/1.png)
 
@@ -382,7 +402,7 @@ and storing in every cell of dynamic programming step
 is really slow when compared to just storing a number.  
 This solution stores both number and instruction how to build solution  
 in one number, where last 2 bits are flag about direction  
-then used to recreate solution string  
+then used to recreate solution string
 
 ![img](./1092/2.png)  
 ![img](./1092/3.png)
@@ -398,7 +418,7 @@ then used to recreate solution string
 [873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/)
 =================================================
 
-![img](./0873/1.png)  
+![img](./0873/1.png)
 
 ### Javascript
 quite brutal attempt,  
@@ -430,7 +450,7 @@ when creating lookup of numbers that are present
 ================================================
 
 ![img](./1749/1.png)  
-![img](./1749/2.png)  
+![img](./1749/2.png)
 
 ### Javascript
 use running sum right, then left  
@@ -480,7 +500,7 @@ with one one traversal (back)
 
 
 
-[3399. Smallest Substring With Identical Characters II](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/description/)  
+[3399. Smallest Substring With Identical Characters II](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/description/)
 ========================================================
 
 ![img](./3399/1.png)  
@@ -527,7 +547,7 @@ Same approach
 
 
 
-[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)  
+[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
 ========================================================
 
 ### Count using hashmap
@@ -569,7 +589,7 @@ try to speed up sorting, by grouping values of same count
 
 
 
-[2834. Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/)  
+[2834. Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/)
 ========================================================
 
 ![img](./2834/1-problem-examples.png)
@@ -590,12 +610,12 @@ and solve equation for area on discrete plane
 ### Ruby
 [solution](./2834/1-rb/solution.rb)  
 [submission](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/submissions/1434497907/)  
-100% (2ms)   
+100% (2ms)  
 100% (211MB)
 
 
 
-[Trick or Tree'ing](https://dmoj.ca/problem/dwite12c1p4)  
+[Trick or Tree'ing](https://dmoj.ca/problem/dwite12c1p4)
 ========================================================
 
 ### Parse a tree
@@ -603,7 +623,7 @@ Parse string using stack and in result have an object tree.
 
 ![img](./dwite12c1p4/1-make-a-tree.png)
 
-### Poblems with "candy length"  
+### Poblems with "candy length"
 "Candy length" is taking into account that kids don't have to end on root node.
 
 ![img](./dwite12c1p4/2-candy-length.png)
@@ -627,7 +647,7 @@ perhaps can be improved by not really creating nodes
 
 
 
-[213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)  
+[213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)
 ========================================================
 
 ![img](./0213/1-problem.png)
@@ -657,14 +677,14 @@ first solution, more clear than others
 [solution](./0213/1-rb/solution.rb)  
 [submission](https://leetcode.com/problems/house-robber-ii/submissions/1397543026/)  
 42% (63ms)  
-42% (221MB)  
+42% (221MB)
 
 ### Ruby
 Inlined. Probably better performance due to smaller call stack  
 [solution](./0213/2-rb/solution.rb)  
 [submission](https://leetcode.com/problems/house-robber-ii/submissions/1397630686/)  
 100% (43ms)  
-90% (211MB)  
+90% (211MB)
 
 ### Ruby
 Without Array max. Check would it improve to avoid calling max on temporary arrays  
@@ -672,7 +692,7 @@ Without Array max. Check would it improve to avoid calling max on temporary arra
 [solution](./0213/3-rb/solution.rb)  
 [submision](https://leetcode.com/problems/house-robber-ii/submissions/1397606332/)  
 42% (63ms)  
-90% (211MB)  
+90% (211MB)
 
 ### Top-bottom
 Sketch of calcutating from top to bottom.  
@@ -685,22 +705,22 @@ Recursive and memoized. Top-bottom, memoization to prevent exponential grow of r
 [solution](./0213/4-ex/lib/solution.ex)  
 [submission](https://leetcode.com/problems/house-robber-ii/submissions/1400044490/)  
 100% (1ms)  
-100% (72MB)  
+100% (72MB)
 
 ### Elixir
 Memo in stateful process. Memo moved from parameter to Agent, better readibility at a cost of performance  
 [solution](./0213/5-ex/lib/solution.ex)  
 [submission](https://leetcode.com/problems/house-robber-ii/submissions/1404058373/)  
 50% (21ms)  
-50% (74MB)  
+50% (74MB)
 
 
 
-[31. Next Permutation](https://leetcode.com/problems/next-permutation/description/)  
+[31. Next Permutation](https://leetcode.com/problems/next-permutation/description/)
 ========================================================
 
 ### C
 [solution](./0031/1.c)  
 [submission](https://leetcode.com/problems/next-permutation/submissions/1260043065/)  
 2% (3ms)  
-100% (6.2MB)  
+100% (6.2MB)
