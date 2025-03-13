@@ -77,7 +77,7 @@ cloning diff array, applying queries and checking is step passing
 6% (110MB)
 
 ### Javascript
-Shorter code for binary search, by introducing result variable  
+Shorten code for binary search, by introducing result variable  
 [solution](./3356/2-js/solution.js)  
 [submission](https://leetcode.com/problems/zero-array-transformation-ii/submissions/1572448442/)  
 88% (35ms)  
