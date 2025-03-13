@@ -70,7 +70,7 @@ Convert numbers to a difference array, as that way queries can be applied faster
 (by just modifying two values). Then binary search for solution, on each step:
 - cloning diff array
 - applying queries and
-- checking is step passing
+- checking is step passing  
 [solution](./3356/1-js/solution.js)  
 [submission](https://leetcode.com/problems/zero-array-transformation-ii/submissions/1572410492/)  
 88% (53ms)  
