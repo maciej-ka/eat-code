@@ -1,6 +1,6 @@
 # Leet code solving
 
-2226. Maximum Candies Allocated to K Children  
+[2226. Maximum Candies Allocated to K Children](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2226-maximum-candies-allocated-to-k-children)  
 [3356. Zero Array Transformation II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3356-zero-array-transformation-ii)  
 [2529. Maximum Count of Positive Integer and Negative Integer](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2529-maximum-count-of-positive-integer-and-negative-integer)  
 [1358. Number of Substrings Containing All Three Characters](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1358-number-of-substrings-containing-all-three-characters)  
@@ -73,6 +73,14 @@ perform binary search on whole range.
 [submission](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/submissions/1573224630/)  
 41% (42ms)  
 29% (67MB)
+
+### Javascript
+Narrow search range by counting total number of candies,  
+and assume the best scenario is to divide all of them equally  
+[solution](./2226/2-js/solution.js)  
+[submission](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/submissions/1573245312/)  
+100% (18ms)  
+26% (68MB)
 
 
 
