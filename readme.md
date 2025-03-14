@@ -1,5 +1,6 @@
 # Leet code solving
 
+2226. Maximum Candies Allocated to K Children  
 [3356. Zero Array Transformation II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3356-zero-array-transformation-ii)  
 [2529. Maximum Count of Positive Integer and Negative Integer](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2529-maximum-count-of-positive-integer-and-negative-integer)  
 [1358. Number of Substrings Containing All Three Characters](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1358-number-of-substrings-containing-all-three-characters)  
@@ -59,6 +60,19 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[2226. Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/description/)
+===================================================
+
+### Javascript
+Since it's hard to solve, but easy to check is n a solution  
+perform binary search on whole range.  
+[solution](./2226/1-js/solution.js)  
+[submission](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/submissions/1573224630/)  
+41% (42ms)  
+29% (67MB)
 
 
 
