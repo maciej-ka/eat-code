@@ -1,5 +1,6 @@
 # Leet code solving
 
+2560. House Robber IV
 [2226. Maximum Candies Allocated to K Children](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2226-maximum-candies-allocated-to-k-children)  
 [3356. Zero Array Transformation II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3356-zero-array-transformation-ii)  
 [2529. Maximum Count of Positive Integer and Negative Integer](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2529-maximum-count-of-positive-integer-and-negative-integer)  
@@ -60,6 +61,19 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[2560. House Robber IV](https://leetcode.com/problems/house-robber-iv/description/)
+===========================
+
+### Javascript
+Binary search the solution
+Greedy test is solution ok
+[solution](./2560/1-js/solution.js)  
+[submission](https://leetcode.com/problems/house-robber-iv/submissions/1574015334/)  
+85% (18ms)  
+19% (64MB)
 
 
 
