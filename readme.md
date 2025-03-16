@@ -1,5 +1,6 @@
 # Leet code solving
 
+2594. Minimum Time to Repair Cars  
 [2560. House Robber IV](https://leetcode.com/problems/house-robber-iv/submissions/1574015334/)  
 [2226. Maximum Candies Allocated to K Children](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2226-maximum-candies-allocated-to-k-children)  
 [3356. Zero Array Transformation II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3356-zero-array-transformation-ii)  
@@ -61,6 +62,21 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[2594. Minimum Time to Repair Cars](https://leetcode.com/problems/minimum-time-to-repair-cars/description/)
+=======================================
+
+![img](./2594/1.png)
+
+### Javascript
+Greedy assign car to currently fastest car machanic.  
+Create a priority queue of car mechanics.  
+[solution](./2594/1-js/solution.js)  
+[submission](https://leetcode.com/problems/minimum-time-to-repair-cars/submissions/1575506722/)  
+6% (2609ms)  
+6% (80MB)
 
 
 
