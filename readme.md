@@ -1,6 +1,6 @@
 # Leet code solving
 
-2594. Minimum Time to Repair Cars  
+[2594. Minimum Time to Repair Cars](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2594-minimum-time-to-repair-cars)  
 [2560. House Robber IV](https://leetcode.com/problems/house-robber-iv/submissions/1574015334/)  
 [2226. Maximum Candies Allocated to K Children](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2226-maximum-candies-allocated-to-k-children)  
 [3356. Zero Array Transformation II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3356-zero-array-transformation-ii)  
@@ -77,6 +77,18 @@ Create a priority queue of car mechanics.
 [submission](https://leetcode.com/problems/minimum-time-to-repair-cars/submissions/1575506722/)  
 6% (2609ms)  
 6% (80MB)
+
+![img](./2594/2.png)
+
+### Javascript
+Use binary search to find solution  
+Recognize that ranks repeat a lot  
+and prepare aggregated counts  
+to speed up solution candidate checking  
+[solution](./2594/2-js/solution.js)  
+[submission](https://leetcode.com/problems/minimum-time-to-repair-cars/submissions/1575561458/)  
+100% (7ms)  
+81% (60MB)
 
 
 
