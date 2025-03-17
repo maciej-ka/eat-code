@@ -75,6 +75,14 @@ swift test
 71% (4ms)  
 14% (57MB)
 
+### Javascript
+Attempt to speed up, by using Map()  
+which will avoid key conversion to string  
+[solution](./2206/2-js/solution.js)  
+[submission](https://leetcode.com/problems/divide-array-into-equal-pairs/submissions/1576365772/)  
+71% (4ms)  
+25% (59MB)
+
 
 
 [2594. Minimum Time to Repair Cars](https://leetcode.com/problems/minimum-time-to-repair-cars/description/)
