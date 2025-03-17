@@ -1,5 +1,6 @@
 # Leet code solving
 
+2206. Divide Array Into Equal Pairs
 [2594. Minimum Time to Repair Cars](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2594-minimum-time-to-repair-cars)  
 [2560. House Robber IV](https://leetcode.com/problems/house-robber-iv/submissions/1574015334/)  
 [2226. Maximum Candies Allocated to K Children](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2226-maximum-candies-allocated-to-k-children)  
@@ -62,6 +63,17 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[2206. Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/)
+=========================================
+
+### Javascript
+[solution](./2206/1-js/solution.js)  
+[submission](https://leetcode.com/problems/divide-array-into-equal-pairs/submissions/1576350692/)  
+71% (4ms)  
+14% (57MB)
 
 
 
