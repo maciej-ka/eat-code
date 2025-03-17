@@ -1,6 +1,6 @@
 # Leet code solving
 
-2206. Divide Array Into Equal Pairs
+[2206. Divide Array Into Equal Pairs](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2206-divide-array-into-equal-pairs)  
 [2594. Minimum Time to Repair Cars](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2594-minimum-time-to-repair-cars)  
 [2560. House Robber IV](https://leetcode.com/problems/house-robber-iv/submissions/1574015334/)  
 [2226. Maximum Candies Allocated to K Children](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2226-maximum-candies-allocated-to-k-children)  
