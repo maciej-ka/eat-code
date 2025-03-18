@@ -1,5 +1,6 @@
 # Leet code solving
 
+2401. Longest Nice Subarray  
 [2206. Divide Array Into Equal Pairs](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2206-divide-array-into-equal-pairs)  
 [2594. Minimum Time to Repair Cars](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2594-minimum-time-to-repair-cars)  
 [2560. House Robber IV](https://leetcode.com/problems/house-robber-iv/submissions/1574015334/)  
@@ -63,6 +64,20 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[2401. Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray/desc)
+=================================
+
+### Javascript
+Sliding window with variable length.  
+Use bitwise OR to enter, bitwise XOR to leave  
+and bitwise AND to decide between enter or leave.  
+[solution](./2401/1-js/solution.js)  
+[submission](https://leetcode.com/problems/longest-nice-subarray/submissions/1577592374/)  
+100% (0ms)  
+48% (63MB)
 
 
 
