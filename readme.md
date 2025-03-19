@@ -1,6 +1,6 @@
 # Leet code solving
 
-3191. Min Operations to Make Binary Arr Equal to One I
+[3191. Min Operations to Make Binary Arr Equal to One I](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3191-min-operations-to-make-binary-arr-equal-to-one-i)  
 [2401. Longest Nice Subarray](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2401-longest-nice-subarray)  
 [2206. Divide Array Into Equal Pairs](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2206-divide-array-into-equal-pairs)  
 [2594. Minimum Time to Repair Cars](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2594-minimum-time-to-repair-cars)  
@@ -71,8 +71,8 @@ swift test
 ============================================================
 
 ### Javascript
-Walk the array, switching when current element needs it.
-Return -1 if any of the two last is 0.
+Walk the array, switching when current element needs it.  
+Return -1 if any of the two last is 0.  
 [solution](./3191/1-js/solution.js)  
 [submission](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/submissions/1578806293/)  
 92.73% (5ms)  
