@@ -16,7 +16,7 @@ var minOperations = function(nums) {
     }
   }
 
-  // return -1 if the last two are 0
+  // return -1 if any of the two last is 0
   return nums[i] && nums[i+1] ? k : -1
 };
 
