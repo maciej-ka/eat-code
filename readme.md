@@ -83,6 +83,15 @@ array of Sets, walking sum and lookup.
 15% (181ms)  
 8% (116MB)
 
+### Javascript
+Read about Union Find, Disjoint Set Union, DSU  
+Implement it and try adding small optimization  
+of updating parents when traversing in find  
+[solution](./3108/2-js/solution.js)  
+[submission](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/submissions/1580171349/)  
+92% (16ms)  
+8% (114MB)
+
 
 
 [3191. Min Operations to Make Binary Arr Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/)

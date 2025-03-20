@@ -35,16 +35,16 @@ var minimumCost = function(n, edges, query) {
     if (graphIds[v] === v) { return v }
     // when there is traversing
     // update graph on returing
-    // so that futre lookup will be shorter
-    const result = getGraphId(graphIds[v])
-    return graphIds[v] = result
+    // so that future lookup will be shorter
+    return graphIds[v] = getGraphId(graphIds[v])
   }
 
   for (let edge of edges) {
-    // merge graph edge[1] into edge[0]
     const idx0 = getGraphId(edge[0])
     const idx1 = getGraphId(edge[1])
-    graphIds[idx1] = idx0
+    // merge graph 1 into 0
+    // shorten lookup for edge[1]
+    graphIds[edge[1]] = graphIds[idx1] = idx0
     sums[idx0] = sums[idx0] & sums[idx1] & edge[2]
   }
 
