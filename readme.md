@@ -83,6 +83,8 @@ array of Sets, walking sum and lookup.
 15% (181ms)  
 8% (116MB)
 
+![img](./3108/2.png)
+
 ### Javascript
 Read about Union Find, Disjoint Set Union, DSU  
 Implement it and try adding small optimization  
