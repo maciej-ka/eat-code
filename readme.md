@@ -79,9 +79,9 @@ On success, add recepie to ingredient list.
 To avoid loops marking attempted recepies  
 by clearning their ingredient list.  
 [solution](./2115/1-js/solution.js)  
-[submission](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/submissions/1581164555/)  
-95% (20ms)  
-27% (68MB)
+[submission](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/submissions/1581182752/)  
+98% (15ms)  
+46% (67MB)
 
 
 
