@@ -1,6 +1,6 @@
 # Leet code solving
 
-2115. Find All Possible Recipes from Given Supplies
+[2115. Find All Possible Recipes from Given Supplies](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2115-find-all-possible-recipes-from-given-supplies)  
 [3108. Minimum Cost Walk in Weighted Graph](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3108-minimum-cost-walk-in-weighted-graph)  
 [3191. Min Operations to Make Binary Arr Equal to One I](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3191-min-operations-to-make-binary-arr-equal-to-one-i)  
 [2401. Longest Nice Subarray](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2401-longest-nice-subarray)  
@@ -74,10 +74,10 @@ swift test
 =========================================================
 
 ### Javascript
-Use recursion.
-On success, add recepie to ingredient list.
-To avoid loops marking attempted recepies
-by clearning their ingredient list.
+Use recursion.  
+On success, add recepie to ingredient list.  
+To avoid loops marking attempted recepies  
+by clearning their ingredient list.  
 [solution](./2115/1-js/solution.js)  
 [submission](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/submissions/1581164555/)  
 95% (20ms)  
