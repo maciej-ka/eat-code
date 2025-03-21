@@ -9,8 +9,8 @@ var findAllRecipes = function(recipes, ingredients, supplies) {
   // result in desired format
   const result = []
 
-  // track recipies that need checking
-  // and a fast way to get ingredients
+  // fast way to get ingredient list
+  // false value means recipe was already attempted
   const recipeMap = {}
   for (let i in recipes) { recipeMap[recipes[i]] = ingredients[i] }
 
