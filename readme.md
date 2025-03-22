@@ -1,5 +1,6 @@
 # Leet code solving
 
+2685. Count the Number of Complete Components  
 [2115. Find All Possible Recipes from Given Supplies](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2115-find-all-possible-recipes-from-given-supplies)  
 [3108. Minimum Cost Walk in Weighted Graph](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3108-minimum-cost-walk-in-weighted-graph)  
 [3191. Min Operations to Make Binary Arr Equal to One I](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3191-min-operations-to-make-binary-arr-equal-to-one-i)  
@@ -67,6 +68,20 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[2685. Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/description/)
+===================================================
+
+### Javascript
+Find connected graphs using Disjoint Set Union.  
+Then compare graph vertice count to (distinct) edge count  
+to filter out which are not complete.  
+[solution](./2685/1-js/solution.js)  
+[submission](https://leetcode.com/problems/count-the-number-of-complete-components/submissions/1582239769/)  
+18% (128ms)  
+5% (68MB)
 
 
 
