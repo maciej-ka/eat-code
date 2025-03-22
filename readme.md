@@ -83,6 +83,15 @@ to filter out which are not complete.
 18% (128ms)  
 5% (68MB)
 
+### Javascript
+Speed up by counting vertices not as separate step  
+but while performing Disjoint Set Union iterations  
+*Seems that result time highly depends on GC*  
+[solution](./2685/2-js/solution.js)  
+[submission](https://leetcode.com/problems/count-the-number-of-complete-components/submissions/1582275402/)  
+100% (12ms)  
+40% (65MB)
+
 
 
 [2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/)
