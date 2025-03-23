@@ -80,9 +80,9 @@ swift test
 ### Javascript
 Dijkstra with a priority queue.  
 [solution](./1976/1-js/solution.js)  
-[submission](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/submissions/1583656983/)  
-80% (55ms)  
-25% (75MB)
+[submission](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/submissions/1583685093/)  
+94% (40ms)  
+35% (74MB)
 
 
 
