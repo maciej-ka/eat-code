@@ -1,6 +1,6 @@
 # Leet code solving
 
-1976. Number of Ways to Arrive at Destination
+[1976. Number of Ways to Arrive at Destination](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1976-number-of-ways-to-arrive-at-destination)  
 [2685. Count the Number of Complete Components](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2685-count-the-number-of-complete-components)  
 [2115. Find All Possible Recipes from Given Supplies](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2115-find-all-possible-recipes-from-given-supplies)  
 [3108. Minimum Cost Walk in Weighted Graph](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3108-minimum-cost-walk-in-weighted-graph)  
@@ -75,8 +75,10 @@ swift test
 [1976. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/description/)
 ===================================================
 
+![img](./1976/1.png)
+
 ### Javascript
-Dijkstra with a priority queue.
+Dijkstra with a priority queue.  
 [solution](./1976/1-js/solution.js)  
 [submission](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/submissions/1583656983/)  
 80% (55ms)  
