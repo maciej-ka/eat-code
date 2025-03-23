@@ -37,7 +37,7 @@ var countPaths = function(n, roads) {
     queue[k] = temp
   }
 
-  // get next vertice
+  // remove top queue element
   function pop() {
     _swap(0, --qLength)
     let i = 0
@@ -66,6 +66,13 @@ var countPaths = function(n, roads) {
     }
   }
 
+  // number of ways to reach vertice
+  const pathCounts = new Array(n)
+  pathCounts[0] = 1
+
+  // modulo division cap
+  const limit = 1e9 + 7
+
   // Dijkstra
   while(true) {
     // stop when target is visited
@@ -74,12 +81,18 @@ var countPaths = function(n, roads) {
     // update adjecent times
     for (const [v,t] of adj[active]) {
       const tSum = time[active] + t
+      if (tSum === time[v]) {
+        pathCounts[v] = (pathCounts[v] + pathCounts[active]) % limit
+      }
       if (tSum < time[v]) {
         time[v] = tSum
         update(v)
+        pathCounts[v] = pathCounts[active]
       }
     }
   }
+
+  return pathCounts[n - 1]
 };
 
 export default countPaths
