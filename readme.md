@@ -92,6 +92,16 @@ with adjusting priority by tree rotations.
 100% (21ms)  
 19% (90MB)
 
+### Javascript
+Simplify code by taking random meeting,  
+instead of simulating on treap (with rotations).  
+However, randomizing such a huge input array  
+turns out to be very slow.  
+[solution](./3169/2-js/solution.js)  
+[submission](https://leetcode.com/problems/count-days-without-meetings/submissions/1584754817)  
+19% (154ms)  
+23% (89MB)
+
 
 
 [1976. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/description/)
