@@ -80,7 +80,7 @@ var countDays = function(days, meetings) {
     if (isDisjoint) { return expandLeft(n.right, target) }
 
     // consume
-    target.range[0] = n.range[0]
+    target.range[0] = Math.min(n.range[0], target.range[0])
     // substitue
     const newN = n.left
     if (n === n.parent.left) { n.parent.left = newN }
@@ -99,7 +99,7 @@ var countDays = function(days, meetings) {
     if (isDisjoint) { return expandLeft(n.left, target) }
 
     // consume
-    target.range[0] = n.range[0]
+    target.range[1] = Math.max(n.range[1], target.range[1])
     // substitue
     const newN = n.right
     if (n === n.parent.left) { n.parent.left = newN }
@@ -117,24 +117,22 @@ var countDays = function(days, meetings) {
     if (!target) { continue }
 
     // expand left
-    if (meetings[i][0] < target.range[0]) {
+    if (target.range[0] > meetings[i][0]) {
       target.range[0] = meetings[i][0]
       expandLeft(target.left, target)
     }
 
     // expand right
-    if (meetings[i][1] > target.range[1]) {
+    if (target.range[1] < meetings[i][1]) {
       target.range[1] = meetings[i][1]
       expandRight(target.right, target)
     }
   }
 
-  // walk the tree, perform count
   function walk(n) {
     if (!n) { return }
     walk(n.left)
     days -= n.range[1] - n.range[0] + 1
-    console.log(n.range, 'L:', n.left?.range, 'R:', n.right?.range)
     walk(n.right)
   }
 

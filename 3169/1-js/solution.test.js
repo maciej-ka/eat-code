@@ -26,7 +26,7 @@ test('case 5', () => {
   expect(actual).toEqual(0);
 });
 
-test.only('case 6', () => {
+test('case 6', () => {
   const actual = solution(16, [[11,14],[5,7],[3,10],[14,14],[5,13],[6,8]]);
   expect(actual).toEqual(4);
 });
