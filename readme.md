@@ -88,9 +88,9 @@ On the end walk the tree to count result.
 Very laborous own implementation of treap  
 with adjusting priority by tree rotations.  
 [solution](./3169/1-js/solution.js)  
-[submission](https://leetcode.com/problems/count-days-without-meetings/submissions/1584633217/)  
-100% (24ms)  
-19% (91MB)
+[submission](https://leetcode.com/problems/count-days-without-meetings/submissions/1584756500/)  
+100% (21ms)  
+19% (90MB)
 
 
 
