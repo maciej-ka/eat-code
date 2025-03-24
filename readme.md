@@ -81,6 +81,17 @@ swift test
 ![img](./3169/3.png)  
 ![img](./3169/4.png)
 
+### Javascript
+Sort meetings by start date in balanced tree.  
+Process one by one, either adding or merging.  
+On the end walk the tree to count result.  
+Very laborous own implementation of treap  
+with adjusting priority by tree rotations.  
+[solution](./3169/1-js/solution.js)  
+[submission](https://leetcode.com/problems/count-days-without-meetings/submissions/1584633217/)  
+100% (24ms)  
+19% (91MB)
+
 
 
 [1976. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/description/)
