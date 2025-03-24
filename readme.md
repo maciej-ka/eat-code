@@ -1,5 +1,6 @@
 # Leet code solving
 
+3169. Count Days Without Meetings  
 [1976. Number of Ways to Arrive at Destination](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1976-number-of-ways-to-arrive-at-destination)  
 [2685. Count the Number of Complete Components](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2685-count-the-number-of-complete-components)  
 [2115. Find All Possible Recipes from Given Supplies](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2115-find-all-possible-recipes-from-given-supplies)  
@@ -69,6 +70,16 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[3169. Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/)
+=======================================
+
+![img](./3169/1.png)  
+![img](./3169/2.png)  
+![img](./3169/3.png)  
+![img](./3169/4.png)
 
 
 
