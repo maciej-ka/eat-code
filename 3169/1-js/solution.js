@@ -47,23 +47,24 @@ var countDays = function(days, meetings) {
     }
   }
 
-  // try to add new node
+  // try to place range
+  // in relation to node
   function add(range, n) {
-    const isOnTheRight = range[0] > n.range[1] + 1
-    const isOnTheLeft = range[1] < n.range[0] - 1
+    const isOnRight = range[0] > n.range[1] + 1
+    const isOnLeft = range[1] < n.range[0] - 1
 
-    if (isOnTheRight) {
+    if (isOnRight) {
       if (n.right) { return add(range, n.right) }
       n.right = { range, priority: Math.random(), parent: n }
       _balance(n.right)
-      return true
+      return
     }
 
-    if (isOnTheLeft) {
+    if (isOnLeft) {
       if (n.left) { return add(range, n.left) }
       n.left = { range, priority: Math.random(), parent: n }
       _balance(n.left)
-      return true
+      return
     }
 
     // there is an overlap
@@ -71,20 +72,74 @@ var countDays = function(days, meetings) {
     return n
   }
 
-  for (let i = 1; i < meetings.length; i++) {
-    // try to add
-    add(meetings[i], root)
+  // target range has grown
+  // check can it consume other nodes
+  function expandLeft(n, target) {
+    if (!n) { return }
+    const isDisjoint = target.range[0] > n.range[1] + 1
+    if (isDisjoint) { return expandLeft(n.right, target) }
+
+    // consume
+    target.range[0] = n.range[0]
+    // substitue
+    const newN = n.left
+    if (n === n.parent.left) { n.parent.left = newN }
+    if (n === n.parent.right) { n.parent.right = newN }
+    if (newN) {
+      newN.parent = n.parent
+      expandLeft(newN, target)
+    }
   }
 
-  function print(n) {
+  // target range has grown
+  // check can it consume other nodes
+  function expandRight(n, target) {
     if (!n) { return }
-    print(n.left)
-    console.log(n.range, 'L:', n.left?.range, 'R:', n.right?.range)
-    print(n.right)
+    const isDisjoint = target.range[1] < n.range[0] - 1
+    if (isDisjoint) { return expandLeft(n.left, target) }
+
+    // consume
+    target.range[0] = n.range[0]
+    // substitue
+    const newN = n.right
+    if (n === n.parent.left) { n.parent.left = newN }
+    if (n === n.parent.right) { n.parent.right = newN }
+    if (newN) {
+      newN.parent = n.parent
+      expandRight(newN, target)
+    }
   }
-  print(root)
+
+  // main loop
+  for (let i = 1; i < meetings.length; i++) {
+    // either add or set merge target
+    const target = add(meetings[i], root)
+    if (!target) { continue }
+
+    // expand left
+    if (meetings[i][0] < target.range[0]) {
+      target.range[0] = meetings[i][0]
+      expandLeft(target.left, target)
+    }
+
+    // expand right
+    if (meetings[i][1] > target.range[1]) {
+      target.range[1] = meetings[i][1]
+      expandRight(target.right, target)
+    }
+  }
 
   // walk the tree, perform count
+  function walk(n) {
+    if (!n) { return }
+    walk(n.left)
+    days -= n.range[1] - n.range[0] + 1
+    console.log(n.range, 'L:', n.left?.range, 'R:', n.right?.range)
+    walk(n.right)
+  }
+
+  walk(root)
+  return days
 };
 
 export default countDays
