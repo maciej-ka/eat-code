@@ -31,3 +31,7 @@ test('case 6', () => {
   expect(actual).toEqual(4);
 });
 
+test('case 7', () => {
+  const actual = solution(14, [[2,3],[3,4],[12,14],[8,10]]);
+  expect(actual).toEqual(5);
+});

@@ -96,7 +96,7 @@ var countDays = function(days, meetings) {
   function expandRight(n, target) {
     if (!n) { return }
     const isDisjoint = target.range[1] < n.range[0] - 1
-    if (isDisjoint) { return expandLeft(n.left, target) }
+    if (isDisjoint) { return expandRight(n.left, target) }
 
     // consume
     target.range[1] = Math.max(n.range[1], target.range[1])
