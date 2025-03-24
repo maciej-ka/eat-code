@@ -1,6 +1,6 @@
 # Leet code solving
 
-3169. Count Days Without Meetings  
+[3169. Count Days Without Meetings](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3169-count-days-without-meetings)  
 [1976. Number of Ways to Arrive at Destination](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1976-number-of-ways-to-arrive-at-destination)  
 [2685. Count the Number of Complete Components](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2685-count-the-number-of-complete-components)  
 [2115. Find All Possible Recipes from Given Supplies](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2115-find-all-possible-recipes-from-given-supplies)  
