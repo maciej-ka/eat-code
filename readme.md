@@ -1,5 +1,6 @@
 # Leet code solving
 
+3394. Check if Grid can be Cut into Sections
 [3169. Count Days Without Meetings](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3169-count-days-without-meetings)  
 [1976. Number of Ways to Arrive at Destination](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1976-number-of-ways-to-arrive-at-destination)  
 [2685. Count the Number of Complete Components](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2685-count-the-number-of-complete-components)  
@@ -70,6 +71,20 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[3394. Check if Grid can be Cut into Sections](https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections/description/)
+==================================================
+
+### Javascript
+Sort elements and walk them,
+merging next element with the current one
+whenever there is an overlap.
+[solution](./3394/1-js/solution.js)  
+[submission](https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections/submissions/1585458254/)  
+100% (171ms)  
+100% (93MB)
 
 
 
