@@ -5,21 +5,23 @@
  */
 
 var checkValidCuts = function (n, rectangles) {
-  function check(sIdx, eIdx) {
+  function check(start, end) {
     let slices = 0;
-    rectangles.sort((a, b) => a[sIdx] - b[sIdx]);
+    rectangles.sort((a, b) => a[start] - b[start]);
     for (let i = 0; i < rectangles.length - 1; i++) {
       // next rectangle overlaps
-      if (rectangles[i + 1][sIdx] < rectangles[i][eIdx]) {
+      if (rectangles[i + 1][start] < rectangles[i][end]) {
         // don't drop the long first element
-        rectangles[i + 1][eIdx] = Math.max(
-          rectangles[i][eIdx],
-          rectangles[i + 1][eIdx]
+        rectangles[i + 1][end] = Math.max(
+          rectangles[i][end],
+          rectangles[i + 1][end]
         );
         continue;
       }
+      // next rectangle is splitted
       if (++slices >= 2) { return true }
     }
+    // we ran out of rectangles
     return false;
   }
 
