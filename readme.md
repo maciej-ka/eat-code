@@ -1,5 +1,6 @@
 # Leet code solving
 
+2033. Minimum Operations to Make a Uni-Value Grid
 [3394. Check if Grid can be Cut into Sections](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3394-check-if-grid-can-be-cut-into-sections)  
 [3169. Count Days Without Meetings](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3169-count-days-without-meetings)  
 [1976. Number of Ways to Arrive at Destination](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1976-number-of-ways-to-arrive-at-destination)  
@@ -71,6 +72,11 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[2033. Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/)
+=======================================================
 
 
 
