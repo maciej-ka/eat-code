@@ -1,6 +1,6 @@
 # Leet code solving
 
-2033. Minimum Operations to Make a Uni-Value Grid
+2033. Minimum Operations to Make a Uni-Value Grid  
 [3394. Check if Grid can be Cut into Sections](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3394-check-if-grid-can-be-cut-into-sections)  
 [3169. Count Days Without Meetings](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3169-count-days-without-meetings)  
 [1976. Number of Ways to Arrive at Destination](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1976-number-of-ways-to-arrive-at-destination)  
@@ -77,6 +77,15 @@ swift test
 
 [2033. Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/)
 =======================================================
+
+### Javascript
+Result is a sum of distances to median.  
+Prepare and sort flat array to calculate median  
+express all numbers as multiplications of x.  
+[solution](./2033/1-js/solution.js)  
+[submission](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/submissions/1586700551/)  
+100% (45ms)  
+93% (75MB)
 
 
 
