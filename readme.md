@@ -95,6 +95,13 @@ Find dominant using count map.
 83% (20ms)  
 83% (70MB)
 
+### Javascript
+Faster way of comparing count with length.  
+[solution](./2780/3-js/solution.js)  
+[submission](https://leetcode.com/problems/minimum-index-of-a-valid-split/submissions/1587896107/)  
+83% (12ms)  
+83% (72MB)
+
 
 
 [2033. Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/)
