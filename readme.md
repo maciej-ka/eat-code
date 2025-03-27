@@ -88,6 +88,13 @@ Implement count heap.
 83% (22ms)  
 50% (77MB)
 
+### Javascript
+Find dominant using count map.  
+[solution](./2780/2-js/solution.js)  
+[submission](https://leetcode.com/problems/minimum-index-of-a-valid-split/submissions/1587886761/)  
+83% (20ms)  
+83% (70MB)
+
 
 
 [2033. Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/)
