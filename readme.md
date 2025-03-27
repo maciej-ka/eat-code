@@ -1,6 +1,6 @@
 # Leet code solving
 
-2780. Minimum Index of a Valid Split
+2780. Minimum Index of a Valid Split  
 [2033. Minimum Operations to Make a Uni-Value Grid](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2033-minimum-operations-to-make-a-uni-value-grid)  
 [3394. Check if Grid can be Cut into Sections](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3394-check-if-grid-can-be-cut-into-sections)  
 [3169. Count Days Without Meetings](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3169-count-days-without-meetings)  
@@ -78,6 +78,15 @@ swift test
 
 [2780. Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/description/)
 ==========================================
+
+### Javascript
+Find dominant using heap.  
+Then walk array adjusting counts.  
+Implement count heap.  
+[solution](./2780/1-js/solution.js)  
+[submission](https://leetcode.com/problems/minimum-index-of-a-valid-split/submissions/1587824398/)  
+83% (22ms)  
+50% (77MB)
 
 
 
