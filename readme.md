@@ -1,5 +1,6 @@
 # Leet code solving
 
+2503. Maximum Number of Points From Grid Queries
 [2780. Minimum Index of a Valid Split](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2780-minimum-index-of-a-valid-split)  
 [2033. Minimum Operations to Make a Uni-Value Grid](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2033-minimum-operations-to-make-a-uni-value-grid)  
 [3394. Check if Grid can be Cut into Sections](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3394-check-if-grid-can-be-cut-into-sections)  
@@ -73,6 +74,11 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[2503. Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/description/)
+======================================================
 
 
 
