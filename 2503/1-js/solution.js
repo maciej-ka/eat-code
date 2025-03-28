@@ -9,26 +9,21 @@
 // (don't calculate it from zero)
 
 var maxPoints = function(grid, queries) {
-  // place to store query results
-  const results = new Map()
-
   // ascending queries
-  const sorted = Array.from(new Set(queries)).sort((a,b) => a - b)
+  const sorted = Array
+    .from(new Set(queries))
+    .sort((a,b) => a - b)
 
   // fields visited
   const visited = new Set()
 
   // fields that can be visited
   // but so far had too large value
-  let border = [[0,0]]
+  let border = {"0,0": [0,0]}
 
   // stack of fields to resolve
   // into either visited or border
   let stack = []
-
-  // grid size
-  const xLast = grid.length - 1
-  const yLast = grid[0].length - 1
 
   // plan to visit
   function plan(f) {
@@ -37,17 +32,24 @@ var maxPoints = function(grid, queries) {
     }
   }
 
+  // grid size
+  const xLast = grid.length - 1
+  const yLast = grid[0].length - 1
+
+  // place to store query results
+  const results = new Map()
+
   // process queries one by one
   // try to enlarge teritory
   for (let q of sorted) {
-    stack = border
-    border = []
+    stack = Object.values(border)
+    border = {}
 
     while (stack.length) {
       const f = stack.pop()
       // too large
       if (grid[f[0]][f[1]] >= q) {
-        border.push(f);
+        border[f] = f;
         continue
       }
       // visit
