@@ -104,6 +104,14 @@ if they are visited or in border
 100% (227ms)  
 100% (83MB)
 
+### Javascript
+Rewrite MinHeap to use 3 large flat arrays,  
+instead of often constructed small nested arrays.  
+[solution](./2503/4-js/solution.js)  
+[submission](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/submissions/1589244160/)  
+100% (74ms)  
+100% (73MB)
+
 
 
 [2780. Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/description/)
