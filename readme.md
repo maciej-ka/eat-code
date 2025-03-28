@@ -97,8 +97,8 @@ by organizing border into min heap
 67% (94MB)
 
 ### Javascript
-Improve by marking fields as false value
-if they are visited or in border
+Improve by marking fields as false value  
+if they are visited or in border  
 [solution](./2503/3-js/solution.js)  
 [submission](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/submissions/1589186406/)  
 100% (227ms)  
