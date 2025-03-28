@@ -1,6 +1,6 @@
 # Leet code solving
 
-2503. Maximum Number of Points From Grid Queries
+2503. Maximum Number of Points From Grid Queries  
 [2780. Minimum Index of a Valid Split](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2780-minimum-index-of-a-valid-split)  
 [2033. Minimum Operations to Make a Uni-Value Grid](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2033-minimum-operations-to-make-a-uni-value-grid)  
 [3394. Check if Grid can be Cut into Sections](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3394-check-if-grid-can-be-cut-into-sections)  
@@ -79,6 +79,22 @@ swift test
 
 [2503. Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/description/)
 ======================================================
+
+### Javascript
+Divide fields into visited  
+and border of visited fields.  
+Process queue in ascending order,  
+expanding teritory using stack.  
+[solution](./2503/1-js/solution.js)  
+Too slow to pass
+
+### Javascript
+Check which fields to expand onto  
+by organizing border into min heap  
+[solution](./2503/2-js/solution.js)  
+[submission](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/submissions/1589120979/)  
+0% (967ms)  
+67% (94MB)
 
 
 
