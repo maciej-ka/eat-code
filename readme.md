@@ -105,6 +105,13 @@ slow `BigInt` to solve problems with overflowing.
 0% (1541ms)  
 100% (80MB)
 
+### Javascript
+Avoid BigInt by using `Fast Modulo Multiplication`  
+[solution](./2818/2-js/solution.js)  
+[submission](https://leetcode.com/problems/apply-operations-to-maximize-score/submissions/1591056486/)  
+0% (2231ms)  
+100% (80MB)
+
 
 
 [2503. Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/description/)
