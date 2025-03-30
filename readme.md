@@ -85,7 +85,7 @@ swift test
 Sort fields by value and try to expand.  
 Use sieve to prepare table of prime scores.  
 Use `Fast Modulo Exponentation` and unfortunately  
-slow BigInt to solve problems with overflowing.  
+slow `BigInt` to solve problems with overflowing.  
 [solution](./2818/1-js/solution.js)  
 [submission](https://leetcode.com/problems/apply-operations-to-maximize-score/submissions/1590594093/)  
 0% (1541ms)  
