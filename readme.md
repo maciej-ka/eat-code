@@ -98,8 +98,7 @@ Then walk ranges and either merge or partition.
 ### Javascript
 Sort fields by value and try to expand.  
 Use sieve to prepare table of prime scores.  
-Use `Fast Modulo Exponentation` and unfortunately  
-slow `BigInt` to solve problems with overflowing.  
+Use `Fast Modulo Exponentation` and `BigInt`  
 [solution](./2818/1-js/solution.js)  
 [submission](https://leetcode.com/problems/apply-operations-to-maximize-score/submissions/1590594093/)  
 0% (1541ms)  
@@ -111,6 +110,14 @@ Avoid BigInt by using `Fast Modulo Multiplication`
 [submission](https://leetcode.com/problems/apply-operations-to-maximize-score/submissions/1591056486/)  
 0% (2231ms)  
 100% (80MB)
+
+### Javascript
+Use right-to left variant  
+of fast modulo operations  
+[solution](./2818/3-js/solution.js)  
+[submission](https://leetcode.com/problems/apply-operations-to-maximize-score/submissions/1591072990/)  
+0% (1755ms)  
+100% (76MB)
 
 
 
