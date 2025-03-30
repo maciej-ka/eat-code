@@ -1,6 +1,6 @@
 # Leet code solving
 
-763. Partition Labels
+[763. Partition Labels](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#763-partition-labels)  
 [2818. Apply Operations to Maximize Score](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2818-apply-operations-to-maximize-score)  
 [2503. Maximum Number of Points From Grid Queries](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2503-maximum-number-of-points-from-grid-queries)  
 [2780. Minimum Index of a Valid Split](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2780-minimum-index-of-a-valid-split)  
@@ -83,8 +83,8 @@ swift test
 ==========================
 
 ### Javascript
-Scan string to detect every letter range
-Then walk ranges and either merge or partition.
+Scan string to detect every letter range  
+Then walk ranges and either merge or partition.  
 [solution](./763/1-js/solution.js)  
 [submission](https://leetcode.com/problems/partition-labels/submissions/1591033451/)  
 100% (0ms)  
