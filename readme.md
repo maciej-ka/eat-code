@@ -82,6 +82,14 @@ swift test
 [763. Partition Labels](https://leetcode.com/problems/partition-labels/description/)
 ==========================
 
+### Javascript
+Scan string to detect every letter range
+Then walk ranges and either merge or partition.
+[solution](./763/1-js/solution.js)  
+[submission](https://leetcode.com/problems/partition-labels/submissions/1591033451/)  
+100% (0ms)  
+26% (56MB)
+
 
 
 [2818. Apply Operations to Maximize Score](https://leetcode.com/problems/apply-operations-to-maximize-score/description/)
