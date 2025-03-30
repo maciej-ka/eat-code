@@ -1,6 +1,6 @@
 # Leet code solving
 
-2818. Apply Operations to Maximize Score
+[2818. Apply Operations to Maximize Score](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2818-apply-operations-to-maximize-score)  
 [2503. Maximum Number of Points From Grid Queries](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2503-maximum-number-of-points-from-grid-queries)  
 [2780. Minimum Index of a Valid Split](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2780-minimum-index-of-a-valid-split)  
 [2033. Minimum Operations to Make a Uni-Value Grid](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2033-minimum-operations-to-make-a-uni-value-grid)  
@@ -82,10 +82,10 @@ swift test
 ==============================================
 
 ### Javascript
-Sort fields by value and try to expand.
-Use sieve to prepare table of prime scores.
-Use `Fast Modulo Exponentation` and unfortunately
-slow BigInt to solve problems with overflowing.
+Sort fields by value and try to expand.  
+Use sieve to prepare table of prime scores.  
+Use `Fast Modulo Exponentation` and unfortunately  
+slow BigInt to solve problems with overflowing.  
 [solution](./2818/1-js/solution.js)  
 [submission](https://leetcode.com/problems/apply-operations-to-maximize-score/submissions/1590594093/)  
 0% (1541ms)  
