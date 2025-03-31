@@ -1,5 +1,6 @@
 # Leet code solving
 
+2551. Put Marbles in Bags
 [763. Partition Labels](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#763-partition-labels)  
 [2818. Apply Operations to Maximize Score](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2818-apply-operations-to-maximize-score)  
 [2503. Maximum Number of Points From Grid Queries](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2503-maximum-number-of-points-from-grid-queries)  
@@ -76,6 +77,12 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[2551. Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags/description/)
+===============================
+
 
 
 
