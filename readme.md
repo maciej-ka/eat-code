@@ -1,6 +1,6 @@
 # Leet code solving
 
-2551. Put Marbles in Bags
+2551. Put Marbles in Bags  
 [763. Partition Labels](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#763-partition-labels)  
 [2818. Apply Operations to Maximize Score](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2818-apply-operations-to-maximize-score)  
 [2503. Maximum Number of Points From Grid Queries](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2503-maximum-number-of-points-from-grid-queries)  
@@ -125,6 +125,15 @@ of fast modulo operations
 [submission](https://leetcode.com/problems/apply-operations-to-maximize-score/submissions/1591072990/)  
 5% (1755ms)  
 100% (76MB)
+
+### Javascript
+Precalculate range extensions in two scans  
+(left-to-right and right-to-left)  
+using monotonic stack  
+[solution](./2818/4-js/solution.js)  
+[submission](https://leetcode.com/problems/apply-operations-to-maximize-score/submissions/1591648230/)  
+99% (396ms)  
+100% (77MB)
 
 
 
