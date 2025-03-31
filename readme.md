@@ -83,6 +83,14 @@ swift test
 [2551. Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags/description/)
 ===============================
 
+### Javascript
+Precalculate possible division points  
+sort those divisions and as a result  
+diff k - 1 best and worse scored divs  
+[solution](./2551/1-js/solution.js)  
+[submission](https://leetcode.com/problems/put-marbles-in-bags/submissions/1591917409)  
+100% (99ms)  
+100% (70MB)
 
 
 
