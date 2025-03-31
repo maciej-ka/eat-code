@@ -119,12 +119,16 @@ Use `Fast Modulo Exponentation` and `BigInt`
 5% (1541ms)  
 100% (80MB)
 
+![img](./2818/2.png)
+
 ### Javascript
 Avoid BigInt by using `Fast Modulo Multiplication`  
 [solution](./2818/2-js/solution.js)  
 [submission](https://leetcode.com/problems/apply-operations-to-maximize-score/submissions/1591056486/)  
 5% (2231ms)  
 100% (80MB)
+
+![img](./2818/1.png)
 
 ### Javascript
 Use right-to left variant  
@@ -133,6 +137,9 @@ of fast modulo operations
 [submission](https://leetcode.com/problems/apply-operations-to-maximize-score/submissions/1591072990/)  
 5% (1755ms)  
 100% (76MB)
+
+![img](./2818/3.png)  
+![img](./2818/4.png)
 
 ### Javascript
 Precalculate range extensions in two scans  
