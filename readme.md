@@ -108,14 +108,14 @@ Use sieve to prepare table of prime scores.
 Use `Fast Modulo Exponentation` and `BigInt`  
 [solution](./2818/1-js/solution.js)  
 [submission](https://leetcode.com/problems/apply-operations-to-maximize-score/submissions/1590594093/)  
-0% (1541ms)  
+5% (1541ms)  
 100% (80MB)
 
 ### Javascript
 Avoid BigInt by using `Fast Modulo Multiplication`  
 [solution](./2818/2-js/solution.js)  
 [submission](https://leetcode.com/problems/apply-operations-to-maximize-score/submissions/1591056486/)  
-0% (2231ms)  
+5% (2231ms)  
 100% (80MB)
 
 ### Javascript
@@ -123,7 +123,7 @@ Use right-to left variant
 of fast modulo operations  
 [solution](./2818/3-js/solution.js)  
 [submission](https://leetcode.com/problems/apply-operations-to-maximize-score/submissions/1591072990/)  
-0% (1755ms)  
+5% (1755ms)  
 100% (76MB)
 
 
