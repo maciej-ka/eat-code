@@ -1,6 +1,6 @@
 # Leet code solving
 
-2140. Solving Questions With Brainpower  
+[2140. Solving Questions With Brainpower](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2140-solving-questions-with-brainpower)  
 [2551. Put Marbles in Bags](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2551-put-marbles-in-bags)  
 [763. Partition Labels](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#763-partition-labels)  
 [2818. Apply Operations to Maximize Score](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2818-apply-operations-to-maximize-score)  
