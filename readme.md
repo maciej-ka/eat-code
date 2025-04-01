@@ -1,5 +1,6 @@
 # Leet code solving
 
+2140. Solving Questions With Brainpower  
 [2551. Put Marbles in Bags](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2551-put-marbles-in-bags)  
 [763. Partition Labels](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#763-partition-labels)  
 [2818. Apply Operations to Maximize Score](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2818-apply-operations-to-maximize-score)  
@@ -77,6 +78,20 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[2140. Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/description/)
+=============================================
+
+### Javascript
+Dynamic programming. To reuse previous answers,  
+process questions from last index to first.  
+To speed up, store dp results in place of questions.  
+[solution](./2140/1-js/solution.js)  
+[submission](https://leetcode.com/problems/solving-questions-with-brainpower/submissions/1592555212/)  
+98% (6ms)  
+100% (82MB)
 
 
 
