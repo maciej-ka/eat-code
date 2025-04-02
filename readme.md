@@ -1,5 +1,6 @@
 # Leet code solving
 
+2873. Maximum Value of an Ordered Triplet I
 [2140. Solving Questions With Brainpower](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2140-solving-questions-with-brainpower)  
 [2551. Put Marbles in Bags](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2551-put-marbles-in-bags)  
 [763. Partition Labels](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#763-partition-labels)  
@@ -78,6 +79,12 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[2873. Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/description/)
+=================================================
+
 
 
 
