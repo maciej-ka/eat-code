@@ -1,6 +1,6 @@
 # Leet code solving
 
-2873. Maximum Value of an Ordered Triplet I
+[2873. Maximum Value of an Ordered Triplet I](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2873-maximum-value-of-an-ordered-triplet-i)  
 [2140. Solving Questions With Brainpower](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2140-solving-questions-with-brainpower)  
 [2551. Put Marbles in Bags](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2551-put-marbles-in-bags)  
 [763. Partition Labels](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#763-partition-labels)  
@@ -85,6 +85,13 @@ swift test
 [2873. Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/description/)
 =================================================
 
+### Javascript
+Compare solutions for every position of middle.  
+Keep track of maxPre and precalculate maxPost.  
+[solution](./2873/1-js/solution.js)  
+[submission](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/submissions/1594368123/)  
+84% (1ms)  
+8% (57MB)
 
 
 
