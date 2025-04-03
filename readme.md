@@ -92,6 +92,16 @@ Exactly same solution as below (2873)
 84% (3ms)  
 55% (68MB)
 
+### Javascript
+Instead of precalculating maxPost in one scan,  
+trace running maximum of diff nums[i] - nums[j].  
+Ensure indices are in correct order,  
+by making calculations dependent on each other,  
+and being careful about order of updating them.  
+[solution](./2874/2-js/solution.js)  
+[submission](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/submissions/1595614005/)  
+77% (5ms)  
+81% (66MB)
 
 
 [2873. Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/description/)
