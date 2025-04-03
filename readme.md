@@ -1,5 +1,6 @@
 # Leet code solving
 
+2874. Maximum Value of an Ordered Triplet II
 [2873. Maximum Value of an Ordered Triplet I](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2873-maximum-value-of-an-ordered-triplet-i)  
 [2140. Solving Questions With Brainpower](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2140-solving-questions-with-brainpower)  
 [2551. Put Marbles in Bags](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2551-put-marbles-in-bags)  
@@ -79,6 +80,17 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+[2874. Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/description/)
+==================================================
+
+### Javascript
+Exactly same solution as below (2873)
+[solution](./2874/1-js/solution.js)  
+[submission](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/submissions/1594368123/)  
+84% (3ms)  
+55% (68MB)
 
 
 
