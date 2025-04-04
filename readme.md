@@ -1,5 +1,6 @@
 # Leet code solving
 
+1123. Lowest Common Ancestor of Deepest Leaves
 [2874. Maximum Value of an Ordered Triplet II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2874-maximum-value-of-an-ordered-triplet-ii)  
 [2873. Maximum Value of an Ordered Triplet I](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2873-maximum-value-of-an-ordered-triplet-i)  
 [2140. Solving Questions With Brainpower](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2140-solving-questions-with-brainpower)  
@@ -80,6 +81,12 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[1123. Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/description/)
+====================================================
+
 
 
 [2874. Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/description/)
