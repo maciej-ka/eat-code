@@ -98,6 +98,18 @@ which is result.
 49% (3ms)  
 15% (61MB)
 
+![img](./1123/1.png)
+
+### Javascript
+Traverse nodes,  
+Globally keep track of maxDepth and a last node  
+with both childs having maxDepth subtree  
+(this node is result)  
+[solution](./1123/2-js/solution.js)  
+[submission](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/submissions/1596649396/)  
+100% (0ms)  
+69% (58MB)
+
 
 
 [2874. Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/description/)
