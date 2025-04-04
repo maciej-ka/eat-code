@@ -1,6 +1,6 @@
 # Leet code solving
 
-1123. Lowest Common Ancestor of Deepest Leaves
+[1123. Lowest Common Ancestor of Deepest Leaves](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1123-lowest-common-ancestor-of-deepest-leaves)  
 [2874. Maximum Value of an Ordered Triplet II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2874-maximum-value-of-an-ordered-triplet-ii)  
 [2873. Maximum Value of an Ordered Triplet I](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2873-maximum-value-of-an-ordered-triplet-i)  
 [2140. Solving Questions With Brainpower](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2140-solving-questions-with-brainpower)  
@@ -86,6 +86,17 @@ swift test
 
 [1123. Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/description/)
 ====================================================
+
+### Javascript
+Work in levels of tree.  
+Keep track of set of nodes,  
+First descend from top to bottom.  
+Then to ascend to single node,  
+which is result.  
+[solution](./1123/1-js/solution.js)  
+[submission](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/submissions/1596591528/)  
+49% (3ms)  
+15% (61MB)
 
 
 
