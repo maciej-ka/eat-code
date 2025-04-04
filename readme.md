@@ -102,8 +102,8 @@ which is result.
 
 ### Javascript
 Traverse nodes,  
-Globally keep track of maxDepth and a last node  
-with both childs having maxDepth subtree  
+Globally keep track of maxDepth and  
+a last node with both childs of maxDepth subtree  
 (this node is result)  
 [solution](./1123/2-js/solution.js)  
 [submission](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/submissions/1596649396/)  
