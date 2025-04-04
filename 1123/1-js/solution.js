@@ -5,6 +5,7 @@
  *     this.left = (left===undefined ? null : left)
  *     this.right = (right===undefined ? null : right)
  * }
+ */
 
 // two phases
 // descend to find deepest leaves
