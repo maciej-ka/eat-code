@@ -120,6 +120,8 @@ or skips current elements and builds rest.
 100% (0ms)  
 80% (53MB)
 
+![img](./1863/3.png)
+
 
 
 [1123. Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/description/)
