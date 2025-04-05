@@ -9,16 +9,18 @@ var subsetXORSum = function(nums) {
   // avoid duplicates
   let visited = {}
 
-  // top-bottom
+  // build n subarrays of ids
+  // by omiting each id from current array
   function visit(ids, sum) {
-    // already visited
+    // check is it duplicate
     if (visited[ids]) { return }
 
     // adjust result
     result += sum
+    // record for a later duplicate detection
     visited[ids] = true
 
-    // visit subsets
+    // visit n subarrays
     if (ids.length > 1) {
       for (let i = 0; i < ids.length; i++) {
         visit(
