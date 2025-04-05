@@ -89,10 +89,10 @@ swift test
 ========================================
 
 ### Javascript
-Recurential build function: take an array
+Recurential build function: take an array  
 and build n subarrays from it, by omiting each element.  
-Avoid duplicates, by keeping track of already visited,
-using additional hashmap.
+Avoid duplicates, by keeping track of already visited,  
+using additional hashmap.  
 [solution](./1863/1-js/solution.js)  
 [submission](https://leetcode.com/problems/sum-of-all-subset-xor-totals/submissions/1597037728/)  
 5% (193ms)  
