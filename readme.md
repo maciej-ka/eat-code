@@ -100,13 +100,24 @@ and avoiding duplicates with visited hashmap,
 ![img](./1863/1.png)
 
 ### Javascript
-Use order number to generate subsets.
-and binary of that number will tell,
-which elements belong to that subset.
+Use order number to generate subsets.  
+and binary of that number will tell,  
+which elements belong to that subset.  
 [solution](./1863/2-js/solution.js)  
 [submission](https://leetcode.com/problems/sum-of-all-subset-xor-totals/submissions/1597053143/)  
 40% (5ms)  
 40% (55MB)
+
+![img](./1863/2.png)
+
+### Javascript
+Build subsets in recurential function,  
+which either takes current elemment and build rest,  
+or skips current elements and builds rest.  
+[solution](./1863/3-js/solution.js)  
+[submission](https://leetcode.com/problems/sum-of-all-subset-xor-totals/submissions/1597433384/)  
+100% (0ms)  
+80% (53MB)
 
 
 
