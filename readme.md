@@ -10,7 +10,7 @@
 [1358. Number of Substrings Containing All Three Characters](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1358-number-of-substrings-containing-all-three-characters)  
 [1524. Number of Sub-arrays With Odd Sum](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1524-number-of-sub-arrays-with-odd-sum)  
 [1749. Maximum Absolute Sum of Any Subarray](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1749-maximum-absolute-sum-of-any-subarray)  
-1863. Sum of All Subset XOR Totals  
+[1863. Sum of All Subset XOR Totals](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1863-sum-of-all-subset-xor-totals)  
 [1780. Check if Number is a Sum of Powers of Three](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1780-check-if-number-is-a-sum-of-powers-of-three)  
 [1976. Number of Ways to Arrive at Destination](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1976-number-of-ways-to-arrive-at-destination)  
 [2033. Minimum Operations to Make a Uni-Value Grid](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2033-minimum-operations-to-make-a-uni-value-grid)  
