@@ -97,6 +97,17 @@ and avoiding duplicates with visited hashmap,
 5% (193ms)  
 6% (64MB)
 
+![img](./1863/1.png)
+
+### Javascript
+Use order number to generate subsets.
+and binary of that number will tell,
+which elements belong to that subset.
+[solution](./1863/2-js/solution.js)  
+[submission](https://leetcode.com/problems/sum-of-all-subset-xor-totals/submissions/1597053143/)  
+40% (5ms)  
+40% (55MB)
+
 
 
 [1123. Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/description/)
