@@ -3,6 +3,7 @@
 [31. Next Permutation](#31-next-permutation)  
 [213. House Robber II](#213-house-robber-ii)  
 [347. Top K Frequent Elements](#347-top-k-frequent-elements)  
+368. Largest Divisible Subset
 [763. Partition Labels](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#763-partition-labels)  
 [873. Length of Longest Fibonacci Subsequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#873-length-of-longest-fibonacci-subsequence)  
 [1092. Shortest Common Supersequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1092-shortest-common-supersequence)  
@@ -82,6 +83,11 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/)
+==================================
 
 
 
