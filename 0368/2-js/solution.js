@@ -25,7 +25,7 @@ var largestDivisibleSubset = function(nums) {
         next[i] = k
       }
     }
-    // include current and check is best
+    // include current element and check is best
     if (++lengths[i] > lengths[ibest]) { ibest = i }
   }
 
