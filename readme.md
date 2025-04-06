@@ -89,14 +89,14 @@ swift test
 [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/)
 ==================================
 
-![img](./368/1.png)
+![img](./0368/1.png)
 
 ### Javascript
 Recurential explore function,  
 returning best length for nums[i].  
 Memoize lenghts[i] and link to next,  
 so that result can be recreated.  
-[solution](./368/1-js/solution.js)  
+[solution](./0368/1-js/solution.js)  
 [submission](https://leetcode.com/problems/largest-divisible-subset/submissions/1598696791/)  
 96% (14ms)  
 76% (56MB)
@@ -239,7 +239,7 @@ diff k - 1 best and worse scored divs
 ### Javascript
 Scan string to detect every letter range  
 Then walk ranges and either merge or partition.  
-[solution](./763/1-js/solution.js)  
+[solution](./0763/1-js/solution.js)  
 [submission](https://leetcode.com/problems/partition-labels/submissions/1591033451/)  
 100% (0ms)  
 26% (56MB)
