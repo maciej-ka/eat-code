@@ -26,7 +26,6 @@ var largestDivisibleSubset = function(nums) {
   let imax;
 
   // explore subsets of nums[i]
-  // which is a part of len elements
   // return: max length from nums[i]
   function explore(i) {
     if (lengths[i]) { return lengths[i] }
@@ -36,7 +35,7 @@ var largestDivisibleSubset = function(nums) {
 
     // explore continuations
     for (let k = i + 1; k < nums.length; k++) {
-      if(nums[k] % nums[i] === 0) {
+      if (nums[k] % nums[i] === 0) {
         const kLen = explore(k);
         // best so far
         if (kLen > len) {
