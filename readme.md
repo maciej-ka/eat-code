@@ -3,7 +3,7 @@
 [31. Next Permutation](#31-next-permutation)  
 [213. House Robber II](#213-house-robber-ii)  
 [347. Top K Frequent Elements](#347-top-k-frequent-elements)  
-368. Largest Divisible Subset
+[368. Largest Divisible Subset](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#368-largest-divisible-subset)  
 [763. Partition Labels](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#763-partition-labels)  
 [873. Length of Longest Fibonacci Subsequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#873-length-of-longest-fibonacci-subsequence)  
 [1092. Shortest Common Supersequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1092-shortest-common-supersequence)  
@@ -88,6 +88,18 @@ swift test
 
 [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/)
 ==================================
+
+![img](./368/1.png)
+
+### Javascript
+Recurential explore function,  
+returning best length for nums[i].  
+Memoize lenghts[i] and link to next,  
+so that result can be recreated.  
+[solution](./368/1-js/solution.js)  
+[submission](https://leetcode.com/problems/largest-divisible-subset/submissions/1598696791/)  
+96% (14ms)  
+76% (56MB)
 
 
 
