@@ -101,6 +101,15 @@ so that result can be recreated.
 96% (14ms)  
 76% (56MB)
 
+### Javascript
+Remove recurential function  
+just call in nested arrays  
+and reuse previous results.  
+[solution](./0368/2-js/solution.js)  
+[submission](https://leetcode.com/problems/largest-divisible-subset/submissions/1598851374/)  
+96% (15ms)  
+65% (56MB)
+
 
 
 [1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/description/)
