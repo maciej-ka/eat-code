@@ -90,6 +90,12 @@ B Fill as much as possible
 (both failing for some cases)  
 [solution](./0368/1-js/solution.js)  
 
+### Javascript
+Failed attempt to do Equilibrum,  
+but with sort of soft backtracking,  
+(number alternatives to make).  
+[solution](./0368/2-js/solution.js)  
+
 
 
 [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/)
