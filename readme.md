@@ -96,6 +96,14 @@ but with sort of soft backtracking,
 (number alternatives to make).  
 [solution](./0416/2-js/solution.js)  
 
+### Javascript
+Rephrase to: is it possible to pick  
+elements that will sum to total / 2.  
+Recurential definition of canPick.  
+Trying to cut options early.  
+But failing to potential `2**n` cost   
+[solution](./0416/2-js/solution.js)  
+
 
 
 [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/)
