@@ -44,11 +44,14 @@ var canPartition = function(nums) {
 
   // return: is it possible to reach sum
   // by picking elements from nums[i..]
+  let visited = new Set()
   function canPick(i, sum) {
+    const key = (sum << 11) + i
+    if (visited.has(key)) { return false }
     if (sum < 0 || i === nums.length || sum > total[i]) { return false }
     if (sum === 0 || sum === total[i]) { return true }
-    return canPick(i + 1, sum - nums[i])
-      || canPick(i + 1, sum)
+    visited.add(key)
+    return canPick(i + 1, sum - nums[i]) || canPick(i + 1, sum)
   }
 
   // always pick first element
