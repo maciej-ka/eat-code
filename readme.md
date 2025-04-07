@@ -102,7 +102,7 @@ elements that will sum to total / 2.
 Recurential definition of canPick.  
 Test few cases to early return false.  
 Optimize with memo.  
-[solution](./0416/3://leetcode.com/problems/largest-divisible-subset/submissions/1598696791/)  
+[solution](./0416/3-js/solution.js)  
 [submission](https://leetcode.com/problems/partition-equal-subset-sum/submissions/1599795694/)  
 99% (13ms)  
 51% (63MB)
