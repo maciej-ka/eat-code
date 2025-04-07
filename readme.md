@@ -110,6 +110,14 @@ and reuse previous results.
 96% (15ms)  
 65% (56MB)
 
+### Javascript
+Improve by skipping nums greater  
+than half of max value, as these  
+cannot have any sequence continuation.  
+[solution](./0368/3-js/solution.js)  
+[submission](https://leetcode.com/problems/largest-divisible-subset/submissions/1599404275/)  
+100% (11ms)  
+75% (56MB)
 
 
 [1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/description/)
