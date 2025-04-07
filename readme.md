@@ -4,7 +4,7 @@
 [213. House Robber II](#213-house-robber-ii)  
 [347. Top K Frequent Elements](#347-top-k-frequent-elements)  
 [368. Largest Divisible Subset](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#368-largest-divisible-subset)  
-416. Partition Equal Subset Sum
+[416. Partition Equal Subset Sum](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#416-partition-equal-subset-sum)  
 [763. Partition Labels](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#763-partition-labels)  
 [873. Length of Longest Fibonacci Subsequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#873-length-of-longest-fibonacci-subsequence)  
 [1092. Shortest Common Supersequence](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1092-shortest-common-supersequence)  
@@ -89,6 +89,13 @@ swift test
 
 [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
 ====================================
+
+### Javascript
+Two ideas to solve.  
+A Equilibrum (minimize diff)  
+B Fill as much as possible  
+(both failing for some cases)  
+[solution](./0368/1-js/solution.js)  
 
 
 
