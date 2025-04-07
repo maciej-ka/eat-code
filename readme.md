@@ -87,22 +87,25 @@ swift test
 Two ideas to solve.  
 A Equilibrum (minimize diff)  
 B Fill as much as possible  
-(both failing for some cases)  
+(both not correct in all cases)  
 [solution](./0416/1-js/solution.js)  
 
 ### Javascript
 Failed attempt to do Equilibrum,  
 but with sort of soft backtracking,  
-(number alternatives to make).  
+(still not correct).  
 [solution](./0416/2-js/solution.js)  
 
 ### Javascript
 Rephrase to: is it possible to pick  
 elements that will sum to total / 2.  
 Recurential definition of canPick.  
-Trying to cut options early.  
-But failing to potential `2**n` cost   
-[solution](./0416/2-js/solution.js)  
+Test few cases to early return false.  
+Optimize with memo.  
+[solution](./0416/3://leetcode.com/problems/largest-divisible-subset/submissions/1598696791/)  
+[submission](https://leetcode.com/problems/partition-equal-subset-sum/submissions/1599795694/)  
+99% (13ms)  
+51% (63MB)
 
 
 
