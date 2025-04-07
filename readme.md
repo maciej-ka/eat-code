@@ -88,13 +88,13 @@ Two ideas to solve.
 A Equilibrum (minimize diff)  
 B Fill as much as possible  
 (both failing for some cases)  
-[solution](./0368/1-js/solution.js)  
+[solution](./0416/1-js/solution.js)  
 
 ### Javascript
 Failed attempt to do Equilibrum,  
 but with sort of soft backtracking,  
 (number alternatives to make).  
-[solution](./0368/2-js/solution.js)  
+[solution](./0416/2-js/solution.js)  
 
 
 
