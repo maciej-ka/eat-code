@@ -91,6 +91,14 @@ and a max idx to remove up to.
 100% (1ms)  
 59% (56MB)
 
+### Javascript
+Scan from right to left.
+Early return on first detection.
+[solution](./3396/2-js/solution.js)  
+[submission](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/submissions/1600308536/)  
+100% (1ms)  
+53% (57MB)
+
 
 
 [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
