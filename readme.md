@@ -81,7 +81,7 @@ swift test
 
 
 
-[3375. Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/description/)
+[3375. Minimum Ops to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/description/)
 ==============================================================
 
 ### Javascript
@@ -95,9 +95,9 @@ Early return -1 when num < k.
 ### Javascript
 Count unique num > k using Array.  
 [solution](./3375/2-js/solution.js)  
-[submission](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/submissions/1601666551/)  
-84% (50ms)  
-41% (57MB)
+[submission](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/submissions/1601684421/)  
+92% (46ms)  
+88% (56MB)
 
 
 
