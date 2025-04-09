@@ -45,6 +45,7 @@
 [3208. Alternating Groups II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3208-alternating-groups-ii)  
 [3306. Count of Substrings Containing Every Vowel and K Consonants II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii)  
 [3356. Zero Array Transformation II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3356-zero-array-transformation-ii)  
+3375. Minimum Operations to Make Array Values Equal to K  
 [3394. Check if Grid can be Cut into Sections](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3394-check-if-grid-can-be-cut-into-sections)  
 [3396. Minimum Number of Operations to Make Elements in Array Distinct](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3396-minimum-number-of-operations-to-make-elements-in-array-distinct)  
 [3399. Smallest Substring With Identical Characters II](#3399-smallest-substring-with-identical-characters-ii)  
@@ -77,6 +78,19 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[3375. Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/description/)
+==============================================================
+
+### Javascript
+Count unique num > k using Set.  
+Early return -1 when num < k.  
+[solution](./3375/1-js/solution.js)  
+[submission](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/submissions/1601666551/)  
+84% (50ms)  
+41% (57MB)
 
 
 
