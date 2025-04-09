@@ -92,6 +92,13 @@ Early return -1 when num < k.
 84% (50ms)  
 41% (57MB)
 
+### Javascript
+Count unique num > k using Array.  
+[solution](./3375/2-js/solution.js)  
+[submission](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/submissions/1601666551/)  
+84% (50ms)  
+41% (57MB)
+
 
 
 [3396. Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/description/)
