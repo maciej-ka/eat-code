@@ -36,19 +36,16 @@ function count(cap, dmax, suffix) {
   // (2)    (2)    (0...3) +
   // (2)    (0...1)(0...5) +
   // (0...1)(0...5)(0...5)
-
   const top = count(cap.substr(1), dmax, suffix)
 
   // first digit not having top value
   // (0...1)(0...5)(0...5)
   const rest = (~~cap[0]) * (dmax + 1) ** (free - 1)
-  console.log('cap:', cap, 'top', top, 'rest', rest);
   return top + rest
 }
 
 var numberOfPowerfulInt = function(start, finish, limit, s) {
-  console.log('****', count(finish.toString(), limit, s), count(start.toString(), limit, s))
-  return count(finish.toString(), limit, s) - count(start.toString(), limit, s)
+  return count(finish.toString(), limit, s) - count((start - 1).toString(), limit, s)
 };
 
 export default numberOfPowerfulInt

@@ -47,7 +47,7 @@ test("case 4", () => {
 //
 // (0)(0...5)
 // (1)(0...1) (not 0...5)
-test.only("case 5", () => {
+test("case 5", () => {
   const actual = solution(20, 1159, 5, "20");
   expect(actual).toEqual(8);
 });
