@@ -39,7 +39,7 @@
 [2873. Maximum Value of an Ordered Triplet I](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2873-maximum-value-of-an-ordered-triplet-i)  
 [2874. Maximum Value of an Ordered Triplet II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2874-maximum-value-of-an-ordered-triplet-ii)  
 [2965. Find Missing and Repeated Values](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2965-find-missing-and-repeated-values)  
-2999. Count the Number of Powerful Integers
+[2999. Count the Number of Powerful Integers](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2999-count-the-number-of-powerful-integers)  
 [3108. Minimum Cost Walk in Weighted Graph](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3108-minimum-cost-walk-in-weighted-graph)  
 [3169. Count Days Without Meetings](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3169-count-days-without-meetings)  
 [3191. Min Operations to Make Binary Arr Equal to One I](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3191-min-operations-to-make-binary-arr-equal-to-one-i)  
@@ -84,6 +84,17 @@ swift test
 
 [2999. Count the Number of Powerful Integers](https://leetcode.com/problems/count-the-number-of-powerful-integers/description/)
 =================================================
+
+### Javascript
+Count options, don't create any integers.  
+Define function to count, final result is:  
+count(finish) - count(start).  
+Make count recursive to handle case  
+where first digit is within limits.  
+[solution](./2999/1-js/solution.js)  
+[submission](https://leetcode.com/problems/count-the-number-of-powerful-integers/submissions/1602506548/)  
+100% (2ms)  
+67% (56MB)
 
 
 
