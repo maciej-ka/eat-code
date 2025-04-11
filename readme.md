@@ -36,7 +36,7 @@
 [2780. Minimum Index of a Valid Split](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2780-minimum-index-of-a-valid-split)  
 [2818. Apply Operations to Maximize Score](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2818-apply-operations-to-maximize-score)  
 [2834. Find the Minimum Possible Sum of a Beautiful Array](#2834-find-the-minimum-possible-sum-of-a-beautiful-array)  
-[2843. Count Symmetric Integers](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2843-count-symmetric-integers)
+[2843. Count Symmetric Integers](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2843-count-symmetric-integers)  
 [2873. Maximum Value of an Ordered Triplet I](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2873-maximum-value-of-an-ordered-triplet-i)  
 [2874. Maximum Value of an Ordered Triplet II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2874-maximum-value-of-an-ordered-triplet-ii)  
 [2965. Find Missing and Repeated Values](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#2965-find-missing-and-repeated-values)  
@@ -85,14 +85,24 @@ swift test
 
 [2843. Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/)
 ====================================
-Convert number to array format,
-for faster check of symmetry.
-Implement increase function.
+
 ### Javascript
+Convert number to array format,  
+for faster check of symmetry.  
+Implement increase function.  
 [solution](./2843/1-js/solution.js)  
 [submission](https://leetcode.com/problems/count-symmetric-integers/submissions/1603368591/)  
 90% (22ms)  
 50% (60MB)
+
+### Javascript
+Precalculate counts of symmetric  
+in a walking sum array and return  
+count[high] - count[low] as answer  
+[solution](./2843/2-js/solution.js)  
+[submission](https://leetcode.com/problems/count-symmetric-integers/submissions/1603406369/)  
+100% (1ms)  
+86% (57MB)
 
 
 
