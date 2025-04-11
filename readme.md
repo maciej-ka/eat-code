@@ -104,6 +104,15 @@ count[high] - count[low] as answer
 100% (1ms)  
 86% (57MB)
 
+### Javascript
+Optimizations in precalculating counts:  
+when number is uneven, jump times 10  
+when number is symmetric, jump to next 10  
+[solution](./2843/2-js/solution.js)  
+[submission](https://leetcode.com/problems/count-symmetric-integers/submissions/1603427974/)  
+100% (0ms)  
+71% (58MB)
+
 
 
 [2999. Count the Number of Powerful Integers](https://leetcode.com/problems/count-the-number-of-powerful-integers/description/)
