@@ -45,6 +45,7 @@
 [3169. Count Days Without Meetings](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3169-count-days-without-meetings)  
 [3191. Min Operations to Make Binary Arr Equal to One I](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3191-min-operations-to-make-binary-arr-equal-to-one-i)  
 [3208. Alternating Groups II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3208-alternating-groups-ii)  
+3272. Find the Count of Good Integers
 [3306. Count of Substrings Containing Every Vowel and K Consonants II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii)  
 [3356. Zero Array Transformation II](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3356-zero-array-transformation-ii)  
 [3375. Minimum Operations to Make Array Values Equal to K](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#3375-minimum-operations-to-make-array-values-equal-to-k)  
@@ -80,6 +81,11 @@ clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
 ```
+
+
+
+[3272. Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers/description/)
+===========================================
 
 
 
