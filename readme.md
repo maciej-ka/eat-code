@@ -89,9 +89,9 @@ swift test
 
 ### Javascript
 Walk over space of palindromes  
-(by looking only at first half)  
+(by looking only at the first half)  
 trace already visited good num families  
-(by using highest good num as key)  
+(by using highest good num as id of family)  
 and calculate number of good nums  
 (with table of 10 first factorials to speed up)  
 [solution](./3272/1-js/solution.js)  
