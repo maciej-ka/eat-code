@@ -90,11 +90,22 @@ swift test
 
 ### Javascript
 Fast modulo multiplication and exponentiaton.  
+Unfortunatelly something is overflowing, so  
+BigInts had to be used.  
 [solution](./1922/1-js/solution.js)  
 [submission](https://leetcode.com/problems/count-good-numbers/submissions/1605253348)  
 12% (20ms)  
 6% (61MB)
 
+### Javascript
+Speed up by collapsing series of 5 * 4 * 5 * 4  
+into 20 * 20 * ... with optional 5 at the end.  
+Detect overflow to be in exponent itself and  
+convert to BigInt only that part.  
+[solution](./1922/2-js/solution.js)  
+[submission](https://leetcode.com/problems/count-good-numbers/submissions/1605326844/)  
+100% (0ms)  
+54% (56MB)
 
 
 [3272. Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers/description/)
