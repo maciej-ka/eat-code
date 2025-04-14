@@ -11,7 +11,7 @@
 [1123. Lowest Common Ancestor of Deepest Leaves](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1123-lowest-common-ancestor-of-deepest-leaves)  
 [1358. Number of Substrings Containing All Three Characters](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1358-number-of-substrings-containing-all-three-characters)  
 [1524. Number of Sub-arrays With Odd Sum](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1524-number-of-sub-arrays-with-odd-sum)  
-1534. Count Good Triplets
+[1534. Count Good Triplets](https://leetcode.com/problems/count-good-triplets/submissions/1606300482/)  
 [1749. Maximum Absolute Sum of Any Subarray](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1749-maximum-absolute-sum-of-any-subarray)  
 [1863. Sum of All Subset XOR Totals](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1863-sum-of-all-subset-xor-totals)  
 [1780. Check if Number is a Sum of Powers of Three](https://github.com/maciej-ka/eat-code?tab=readme-ov-file#1780-check-if-number-is-a-sum-of-powers-of-three)  
@@ -88,6 +88,14 @@ swift test
 
 [1534. Count Good Triplets](https://leetcode.com/problems/count-good-triplets/description/)
 ===============================
+
+### Javascript
+O(n3) three loops.  
+Skip third loop if first condition is not met.  
+[solution](./1534/1-js/solution.js)  
+[submission](https://leetcode.com/problems/count-good-triplets/submissions/1606300482/)  
+100% (34ms)  
+32% (56MB)
 
 
 
