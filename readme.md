@@ -82,7 +82,16 @@ composer test
 clang -Wall 1.c -o /tmp/minCost && /tmp/minCost
 # swift
 swift test
+# java
+mvn test
 ```
+
+
+[2294. Partition Array Such That Maximum Difference Is K](2294. Partition Array Such That Maximum Difference Is K)
+==================================================================================================================
+
+### Java
+
 
 
 
