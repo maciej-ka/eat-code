@@ -91,6 +91,10 @@ mvn test
 ==================================================================================================================
 
 ### Java
+[solution](./2294/1-java/src/Solution.java)  
+[submission](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/submissions/1669808549/)  
+96% (30ms)  
+88% (56MB)
 
 
 
