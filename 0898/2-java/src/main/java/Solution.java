@@ -1,6 +1,8 @@
 import java.util.HashSet;
 
 // https://leetcode.com/problems/bitwise-ors-of-subarrays/submissions/1718468075/?envType=daily-question&envId=2025-07-31
+// 87.30%
+// 5.74%
 class Solution {
     public int subarrayBitwiseORs(int[] arr) {
         var sums = new HashSet<Integer>();
