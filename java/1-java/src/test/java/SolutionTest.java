@@ -13,8 +13,8 @@ class SolutionTest {
 
     @Test
     void test1() {
-        int actual = solution.myFunction(new int[] {1, 2, 3});
-        int expected = 1;
+        var actual = solution.myFunction(new int[] {1, 2, 3});
+        var expected = 1;
         assertEquals(expected, actual);
     }
 }
