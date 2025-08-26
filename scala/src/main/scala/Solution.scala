@@ -1,6 +1,6 @@
 object Solution {
-  def myfunc(numbers: List[Int]): Int = {
-    numbers.sum
-  }
+    def myfunc(numbers: List[Int]): Int = {
+        numbers.sum
+    }
 }
 
