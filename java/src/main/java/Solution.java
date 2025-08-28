@@ -1,5 +1,5 @@
 class Solution {
-    public int myFunction(int[] nums) {
-        return 1;
-    }
+  public int solve(int[] nums) {
+    return nums.length;
+  }
 }

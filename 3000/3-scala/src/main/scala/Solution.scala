@@ -6,13 +6,16 @@ object Solution {
         // square of diagonal
         var maxScore = 0
         var maxArea = 0
-        for pair <- dimensions do
-            val score = pair(0) * pair(0) + pair(1) * pair(1)
+        for
+            pair <- dimensions
+            score = pair(0) * pair(0) + pair(1) * pair(1)
+            if score >= maxScore
+        do
             val area = pair(0) * pair(1)
             if score > maxScore then
                 maxScore = score
                 maxArea = area
-            else if score == maxScore && area > maxArea then
+            else if area > maxArea then
                 maxArea = area
         maxArea
     }
