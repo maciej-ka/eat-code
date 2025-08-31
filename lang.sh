@@ -4,7 +4,7 @@ const lang = [
   'C++',
   'Java',
   'Python',
-  'Python3',
+  'Python 3',
   'C',
   'C#',
   'JavaScript',
