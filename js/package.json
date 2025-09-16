@@ -1,0 +1,19 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "solution.js",
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  },
+  "scripts": {
+    "test": "vitest run solution.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "datastructures-js": "^13.0.0",
+    "lodash": "^4.17.21"
+  }
+}

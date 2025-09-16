@@ -1,2 +1,3 @@
 #!/bin/bash
-npx vitest run solution.test.js
+[ ! -d ./node_modules ] && npm i
+npm test
