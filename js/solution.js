@@ -1,8 +1,8 @@
-import _ from 'lodash'
-import {} from 'datastructures-js'
+import _ from 'lodash';
+import {} from 'datastructures-js';
 
 var solve = function(nums) {
-  return nums.length
+  return nums.length;
 }
 
-export default solve
+export default solve;
