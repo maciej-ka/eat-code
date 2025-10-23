@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/submissions/1809350594/
+
 struct Solution;
 
 impl Solution {
