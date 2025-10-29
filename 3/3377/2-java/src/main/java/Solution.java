@@ -1,6 +1,5 @@
-// https://leetcode.com/problems/fruits-into-baskets-ii/submissions/1724307335/?envType=daily-question&envId=2025-08-05
-// 100.00%
-// 62.30%
+// https://leetcode.com/problems/fruits-into-baskets-ii/submissions/1724307335/
+
 class Solution {
     public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
         int unplaced = 0;

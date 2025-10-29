@@ -1,6 +1,5 @@
 // https://leetcode.com/problems/collecting-chocolates/submissions/1724455579/
-// 93.65%
-// 100.00%
+
 class Solution {
     public long minCost(int[] nums, int x) {
 

@@ -11,19 +11,19 @@ class SolutionTest {
         solution = new Solution();
     }
 
-    // @Test
-    // void test1() {
-    //     int actual = solution.subarrayBitwiseORs(new int[] {0});
-    //     int expected = 1;
-    //     assertEquals(expected, actual);
-    // }
-    //
-    // @Test
-    // void test2() {
-    //     int actual = solution.subarrayBitwiseORs(new int[] {1, 1, 2});
-    //     int expected = 3;
-    //     assertEquals(expected, actual);
-    // }
+    @Test
+    void test1() {
+        int actual = solution.subarrayBitwiseORs(new int[] {0});
+        int expected = 1;
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void test2() {
+        int actual = solution.subarrayBitwiseORs(new int[] {1, 1, 2});
+        int expected = 3;
+        assertEquals(expected, actual);
+    }
 
     @Test
     void test3() {

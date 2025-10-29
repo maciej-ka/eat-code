@@ -1,5 +1,4 @@
-// https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/?envType=daily-question&envId=2025-08-26
-// https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/submissions/1748875375/?envType=daily-question&envId=2025-08-26
+// https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/submissions/1748875375/
 
 class Solution {
   public int areaOfMaxDiagonal(int[][] dimensions) {

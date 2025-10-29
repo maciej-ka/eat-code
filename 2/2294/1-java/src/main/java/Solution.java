@@ -7,7 +7,6 @@ class Solution {
         }
 
         Arrays.sort(nums);
-        // System.out.println(Arrays.toString(nums));
 
         int result = 1;
         int active = nums[0];

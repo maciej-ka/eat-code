@@ -1,8 +1,7 @@
+// https://leetcode.com/problems/bitwise-ors-of-subarrays/submissions/1718783268/?envType=daily-question&envId=2025-07-31
+
 import java.util.TreeSet;
 
-// https://leetcode.com/problems/bitwise-ors-of-subarrays/submissions/1718783268/?envType=daily-question&envId=2025-07-31
-// 12.30%
-// 5.74%
 class Solution {
     public int subarrayBitwiseORs(int[] arr) {
         int len = arr.length;

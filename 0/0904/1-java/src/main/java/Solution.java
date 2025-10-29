@@ -1,6 +1,5 @@
 // https://leetcode.com/problems/fruit-into-baskets/submissions/1723091727/?envType=daily-question&envId=2025-08-04
-// 99.91%
-// 88.25%
+
 class Solution {
     public int totalFruit(int[] fruits) {
         if (fruits.length < 2) {

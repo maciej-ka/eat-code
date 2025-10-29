@@ -1,11 +1,10 @@
+// https://leetcode.com/problems/rearranging-fruits/submissions/1721844781/?envType=daily-question&envId=2025-08-02
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 
-// https://leetcode.com/problems/rearranging-fruits/submissions/1721844781/?envType=daily-question&envId=2025-08-02
-// 5.48%
-// 87.67%
 class Solution {
     public long minCost(int[] basket1, int[] basket2) {
 
