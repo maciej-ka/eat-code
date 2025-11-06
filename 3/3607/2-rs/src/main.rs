@@ -1,10 +1,16 @@
-// https://leetcode.com/problems/power-grid-maintenance/submissions/1822824117
+// https://leetcode.com/problems/power-grid-maintenance/submissions/1822833485
 
 struct Solution;
 
 use std::collections::{BTreeSet, HashMap};
 
 impl Solution {
+    fn find_id(i: usize, groups: &mut Vec<usize>) -> usize {
+        if groups[i] == i { return i }
+        groups[i] = Self::find_id(groups[i], groups);
+        groups[i]
+    }
+
     pub fn process_queries(c: i32, connections: Vec<Vec<i32>>, queries: Vec<Vec<i32>>) -> Vec<i32> {
         let c = c as usize;
 
@@ -19,10 +25,6 @@ impl Solution {
             let vid = Self::find_id(v, &mut groups);
             groups[vid] = uid;
             groups[v] = uid;
-        }
-
-        for i in 0..groups.len() {
-            groups[i] = Self::find_id(i, &mut groups);
         }
 
         // map owns sets
@@ -61,12 +63,6 @@ impl Solution {
 
         res
     }
-
-    fn find_id(i: usize, groups: &mut Vec<usize>) -> usize {
-        if groups[i] == i { return i }
-        groups[i] = Self::find_id(groups[i], groups);
-        groups[i]
-    }
 }
 
 #[test]
@@ -101,5 +97,12 @@ fn test_4() {
 fn test_5() {
     let actual = Solution::process_queries(4, vec![vec![4,3],vec![3,1],vec![4,2],vec![3,2],vec![4,1]], vec![vec![2,3],vec![1,2],vec![2,4],vec![1,1],vec![2,2],vec![1,2],vec![1,2],vec![2,2],vec![1,3],vec![2,3],vec![2,4],vec![2,3],vec![2,4],vec![1,2],vec![1,1]]);
     let expected = vec![2,1,1,1,1,1,1];
+    assert_eq!(actual, expected);
+}
+
+#[test]
+fn test_6() {
+    let actual = Solution::process_queries(4, vec![vec![3,1],vec![2,4],vec![1,2],vec![2,3]], vec![vec![2,3],vec![1,3],vec![1,1],vec![1,4],vec![1,2],vec![2,1],vec![1,1],vec![2,1],vec![1,4],vec![2,2],vec![1,4],vec![2,1],vec![2,3],vec![2,4],vec![2,4],vec![1,4],vec![1,1]]);
+    let expected = vec![1, 1, 4, 2, 2, 4, 4, -1, -1];
     assert_eq!(actual, expected);
 }
