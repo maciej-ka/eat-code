@@ -1,4 +1,4 @@
-// not giving proper group id
+// https://leetcode.com/problems/power-grid-maintenance/submissions/1822716041/
 
 struct Solution;
 
@@ -8,35 +8,45 @@ impl Solution {
     pub fn process_queries(c: i32, connections: Vec<Vec<i32>>, queries: Vec<Vec<i32>>) -> Vec<i32> {
         let c = c as usize;
 
-        let mut groups = Vec::<usize>::with_capacity(c + 1);
-        for i in 0..c + 1 { groups.push(i) }
-
-        let mut list = Vec::<(i32, i32)>::with_capacity(connections.len());
+        let mut connected = vec![HashSet::new(); c + 1];
         for c in connections {
-            if c[0] < c[1] {
-                list.push((c[0], c[1]));
-            } else {
-                list.push((c[1], c[0]));
-            }
-        }
-        list.sort();
-
-        for (u, v) in list {
-            groups[v as usize] = u as usize;
+            connected[c[0] as usize].insert(c[1] as usize);
+            connected[c[1] as usize].insert(c[0] as usize);
         }
 
         // map owns sets
         let mut sets = HashMap::<usize, BTreeSet<usize>>::new();
-        for i in 1..c + 1 {
-            let id = Self::find_id(i, &mut groups);
-            let set = sets.entry(id).or_insert(BTreeSet::new());
-            set.insert(i);
+        let mut ids = Vec::<usize>::with_capacity(c + 1);
+        for i in 0..c + 1 { ids.push(i) }
+        let mut visited = HashSet::new();
+
+        for i in 1..=c {
+            if visited.contains(&i) { continue }
+
+            let mut set = BTreeSet::new();
+            let mut stack = Vec::new();
+            stack.push(i);
+
+            while let Some(node) = stack.pop() {
+                if visited.contains(&node) { continue }
+                set.insert(node);
+                visited.insert(node);
+                for c in &connected[node] { stack.push(*c) }
+            }
+
+            let first = set.first().unwrap();
+            for node in &set {
+                ids[*node] = *first;
+
+            }
+            ids[i] = *set.first().unwrap();
+            sets.insert(i, set);
         }
 
         let mut res = Vec::new();
         for q in &queries {
             let num = q[1] as usize;
-            let id = groups[num];
+            let id = ids[num];
 
             // turn off
             if q[0] == 2 {
@@ -62,11 +72,6 @@ impl Solution {
         res
     }
 
-    fn find_id(i: usize, groups: &mut Vec<usize>) -> usize {
-        if groups[i] == i { return i }
-        groups[i] = Self::find_id(groups[i], groups);
-        groups[i]
-    }
 }
 
 #[test]
