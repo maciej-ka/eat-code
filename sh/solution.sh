@@ -1,0 +1,5 @@
+#!/bin/bash
+
+solve() {
+  echo $#
+}
