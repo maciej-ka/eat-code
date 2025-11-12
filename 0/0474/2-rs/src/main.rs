@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/ones-and-zeroes/submissions/1826937874/
+// https://leetcode.com/problems/ones-and-zeroes/submissions/1827548913/
 
 struct Solution;
 
@@ -10,33 +10,29 @@ impl Solution {
         let mut elements = Vec::with_capacity(strs.len());
         for s in strs {
             let mut zeroes = 0;
-            let mut ones = 0;
             for c in s.chars() {
-                if c == '0' {
-                    zeroes += 1;
-                } else {
-                    ones += 1;
-                }
+                if c == '0' { zeroes += 1; }
             }
+            let ones = s.len() - zeroes;
             if zeroes <= m && ones <= n {
                 elements.push((zeroes, ones))
             }
         }
+        elements.sort();
 
-        let mut dp = vec![vec![vec![0; elements.len() + 1]; n + 1]; m + 1];
-        for i in 0..= m {
-            for j in 0..= n {
-                for k in 0..elements.len() {
-                    if elements[k].0 <= i && elements[k].1 <= j {
-                        dp[i][j][k + 1] = dp[i][j][k].max(1 + dp[i - elements[k].0][j - elements[k].1][k]);
-                    } else {
-                        dp[i][j][k + 1] = dp[i][j][k];
+        let mut dp = vec![vec![0; n + 1]; m + 1];
+        for e in elements {
+            for i in (0..=m).rev() {
+                if i < e.0  { break }
+                for j in (0..=n).rev() {
+                    if j >= e.1 {
+                        dp[i][j] = dp[i][j].max(1 + dp[i - e.0][j - e.1]);
                     }
                 }
             }
         }
 
-        dp[m][n][elements.len()]
+        dp[m][n]
     }
 }
 
