@@ -12,10 +12,7 @@ impl Solution {
             let value = line[1..].parse::<i32>().unwrap();
             let old = dial;
             dial += value * sign;
-            if dial == 0 {
-                res += 1;
-                continue;
-            }
+            if dial == 0 { res += 1 }
             if old > 0 && dial < 0 { res += 1 }
             res += (dial / 100).abs();
             dial = (100 + dial % 100) % 100;
