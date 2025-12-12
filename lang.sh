@@ -1,25 +1,25 @@
 #!/usr/bin/env node
 
 const lang = [
-  'C++',
-  'Java',
-  'Python',
-  'Python 3',
   'C',
+  'C++',
   'C#',
-  'JavaScript',
-  'TypeScript',
-  'PHP',
-  'Swift',
-  'Kotlin',
   'Dart',
-  'Go',
-  'Ruby',
-  'Scala',
-  'Rust',
-  'Racket',
+  'Elixir',
   'Erlang',
-  'Elixir'
+  'Go',
+  'Java',
+  'JavaScript',
+  'Kotlin',
+  'PHP',
+  'Python 3',
+  'Python',
+  'Racket',
+  'Ruby',
+  'Rust',
+  'Scala',
+  'Swift',
+  'TypeScript',
 ]
 
 const rand = (array) => {
