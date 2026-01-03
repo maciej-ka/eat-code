@@ -1,8 +1,8 @@
 struct Solution;
 
 impl Solution {
-    fn solve(arr: Vec<i32>) -> usize {
-        arr.len()
+    fn solve(nums: Vec<i32>) -> usize {
+        nums.len()
     }
 }
 
