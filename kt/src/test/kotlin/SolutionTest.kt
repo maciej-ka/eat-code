@@ -3,10 +3,11 @@ import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Assertions.*
 
 class SolutionTest {
+    private lateinit var solution: Solution
 
     @BeforeEach
-    void setUp() {
-      solution = new Solution();
+    fun setUp() {
+        solution = Solution();
     }
 
     @Test
