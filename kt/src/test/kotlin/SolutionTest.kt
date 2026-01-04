@@ -12,7 +12,7 @@ class SolutionTest {
 
     @Test
     fun test1() {
-        val actual = solution.solve(arrayOf(1, 2, 3))
+        val actual = solution.solve(intArrayOf(1, 2, 3))
         val expected = 3
         assertEquals(expected, actual)
     }

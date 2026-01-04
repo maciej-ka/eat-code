@@ -1,5 +1,5 @@
 class Solution {
-    fun solve(nums: Array<Int>): Int {
+    fun solve(nums: IntArray): Int {
         return nums.size
     }
 }
