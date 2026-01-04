@@ -16,4 +16,5 @@ class SolutionTest {
         val expected = 3
         assertEquals(expected, actual)
     }
+
 }
