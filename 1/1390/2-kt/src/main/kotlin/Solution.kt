@@ -14,9 +14,9 @@ class Solution {
                 if (n % d != 0) continue
                 sum += d
                 count++
-                val div = n / d
-                if (d != div) {
-                    sum += div
+                val other = n / d
+                if (d != other) {
+                    sum += other
                     count++
                 }
                 if (count > 4) continue@nums
