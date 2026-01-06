@@ -8,7 +8,7 @@ public:
     }
 };
 
-TEST(SolutionTest, ReturnsCorrectLength) {
+TEST(SolutionTest, test1) {
     Solution solution;
     std::vector<int> nums = {1, 2, 3};
     EXPECT_EQ(solution.solve(nums), 3);
