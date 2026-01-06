@@ -1,17 +1,21 @@
 #include <gtest/gtest.h>
 #include <vector>
 
+using std::vector;
+
 class Solution {
 public:
-    int solve(std::vector<int>& nums) {
+    int solve(vector<int>& nums) {
         return nums.size();
     }
 };
 
 TEST(SolutionTest, test1) {
     Solution solution;
-    std::vector<int> nums = {1, 2, 3};
-    EXPECT_EQ(solution.solve(nums), 3);
+    vector<int> nums = {1, 2, 3};
+    int actual = solution.solve(nums);
+    int expected = 3;
+    EXPECT_EQ(actual, expected);
 }
 
 int main(int argc, char **argv) {
