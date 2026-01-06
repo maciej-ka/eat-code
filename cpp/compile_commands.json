@@ -1,6 +1,6 @@
 [
   {
-    "directory": "/Users/maciejka/eat-code/cpp",
+    "directory": ".",
     "command": "/usr/bin/g++ -std=c++17 -I/opt/homebrew/include -L/opt/homebrew/lib -lgtest -lgtest_main -pthread solution.cpp -o solution",
     "file": "solution.cpp"
   }
