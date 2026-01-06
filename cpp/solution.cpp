@@ -3,7 +3,7 @@
 
 class Solution {
 public:
-    int solve(std::vector<int> nums) {
+    int solve(std::vector<int>& nums) {
         return nums.size();
     }
 };
