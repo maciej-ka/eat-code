@@ -1,8 +1,1 @@
 .DS_Store
-
-.gradle/
-.kotlin/
-*.pyc
-__pycache__/
-Debug/
-bin/
