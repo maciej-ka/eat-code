@@ -7,3 +7,5 @@ build/
 .kotlin/
 *.pyc
 __pycache__/
+Debug/
+bin/
