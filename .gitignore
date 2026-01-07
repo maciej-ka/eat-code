@@ -6,3 +6,4 @@ build/
 .gradle/
 .kotlin/
 *.pyc
+__pycache__/
