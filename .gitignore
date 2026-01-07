@@ -1,6 +1,5 @@
 .DS_Store
 
-vendor/
 target/
 build/
 .gradle/
