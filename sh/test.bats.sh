@@ -4,7 +4,7 @@ setup() {
   source solution.sh
 }
 
-@test "solve returns correct length for array [1, 2, 3]" {
+@test "test 1" {
   arr=(1 2 3)
   result=$(solve "${arr[@]}")
   [ "$result" -eq 3 ]
