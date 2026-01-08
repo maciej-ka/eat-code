@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/max-dot-product-of-two-subsequences/submissions/1879209989
+// https://leetcode.com/problems/max-dot-product-of-two-subsequences/submissions/1879214613
 
 #include <gtest/gtest.h>
 #include <vector>
@@ -15,15 +15,12 @@ public:
         for (int i = 0; i < s1; i++) {
             for (int j = 0; j < s2; j++) {
                 int best = nums1[i] * nums2[j];
-                if (i > 0 && j > 0 && dp[i - 1][j - 1] > 0) {
-                    best += dp[i - 1][j - 1];
+                if (i > 0 && j > 0) {
+                    int prev = dp[i - 1][j - 1];
+                    if (prev > 0) { best += prev; }
                 }
-                if (i > 0 && dp[i - 1][j] > best) {
-                    best = dp[i - 1][j];
-                }
-                if (j > 0 && dp[i][j - 1] > best) {
-                    best = dp[i][j - 1];
-                }
+                if (i > 0) { best = max(best, dp[i - 1][j]); }
+                if (j > 0) { best = max(best, dp[i][j - 1]); }
                 dp[i][j] = best;
             }
         }
