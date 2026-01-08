@@ -110,6 +110,7 @@ const books = [
   "Hacking APIs",
   "The Ghidra Book",
   "Math for Programming",
+  "Bayesian Statistics the Fun Way",
   "Math for Security",
   "Serious Cryptography",
   "From Day Zero to Zero Day",
