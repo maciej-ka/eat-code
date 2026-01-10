@@ -1,5 +1,4 @@
 -module(solution).
--export([solve/1]).
 -include_lib("eunit/include/eunit.hrl").
 
 -spec solve(Nums :: [integer()]) -> integer().
