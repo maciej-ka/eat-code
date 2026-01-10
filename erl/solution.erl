@@ -5,5 +5,5 @@
 solve(Nums) ->
     length(Nums).
 
-solve_1_test() ->
+solution_1_test() ->
     ?assertEqual(3, solve([1, 2, 3])).
