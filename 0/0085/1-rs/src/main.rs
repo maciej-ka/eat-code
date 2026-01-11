@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/maximal-rectangle/submissions/1881805914/?envType=daily-question&envId=2026-01-11
+
 struct Solution;
 
 impl Solution {
