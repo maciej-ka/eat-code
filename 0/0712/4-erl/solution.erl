@@ -1,4 +1,4 @@
-%% https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/submissions/1881926285/?envType=daily-question&envId=2026-01-10
+%% https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/submissions/1881935842/?envType=daily-question&envId=2026-01-10
 
 -module(solution).
 -include_lib("eunit/include/eunit.hrl").
@@ -16,7 +16,8 @@ memo_solve(A, B, Memo) ->
             {Res, Memo1#{{A, B} => Res}}
     end.
 
-solve([], [], Memo) -> {0, Memo};
+solve([], [], Memo) ->
+    {0, Memo};
 solve([A | AS], [], Memo) ->
     {Res, Memo1} = memo_solve(AS, [], Memo),
     {A + Res, Memo1};
@@ -24,8 +25,7 @@ solve([], [B | BS], Memo) ->
     {Res, Memo1} = memo_solve([], BS, Memo),
     {B + Res, Memo1};
 solve([X | AS], [X | BS], Memo) ->
-    {Res, Memo1} = memo_solve(AS, BS, Memo),
-    {Res, Memo1};
+    memo_solve(AS, BS, Memo);
 solve([A | AS], [B | BS], Memo) ->
     {ResA, MemoA} = memo_solve(AS, [B | BS], Memo),
     {ResB, MemoB} = memo_solve([A | AS], BS, MemoA),
