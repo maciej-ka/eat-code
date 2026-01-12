@@ -1,5 +1,5 @@
 object Solution {
-  def solve(nums: List[Int]): Int = {
+  def solve(nums: Array[Int]): Int = {
     nums.length
   }
 }
