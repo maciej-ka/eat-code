@@ -1,4 +1,5 @@
 %% too slow, needs memo
+
 -module(solution).
 -include_lib("eunit/include/eunit.hrl").
 
