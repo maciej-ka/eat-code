@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/submissions/1887214969/?envType=daily-question&envId=2026-01-16
+
 import java.util.HashSet;
 
 class Solution {
