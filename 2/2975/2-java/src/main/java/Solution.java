@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 class Solution {
   public int maximizeSquareArea(int m, int n, int[] hFences, int[] vFences) {
-
     var xlen = vFences.length + 2;
     var xs = Arrays.copyOf(vFences, xlen);
     xs[xlen - 1] = 1;
