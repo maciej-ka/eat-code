@@ -241,6 +241,7 @@ const books = [
   "Cloud Strategy",
   "Platform Strategy",
   "Core Java: Volume I",
+  "Core Java: Volume II",
   "Debugging",
   "Sieci Petriego",
   "Rational Unified Process od strony praktycznej",
