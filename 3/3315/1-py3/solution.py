@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/submissions/1891570512/?envType=daily-question&envId=2026-01-21
+# https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/submissions/1892296879/?envType=daily-question&envId=2026-01-21
 
 from typing import List
 
