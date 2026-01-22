@@ -10,7 +10,7 @@ class Solution:
         while len(nums) > 1:
             sorted = True
             ibest = 0
-            best =  nums[0] + nums[1]
+            best = nums[0] + nums[1]
             for i in range(len(nums) - 1):
                 if nums[i] > nums[i + 1]: sorted = False
                 sum = nums[i] + nums[i + 1]
