@@ -8,16 +8,16 @@ class Solution:
     def minimumPairRemoval(self, nums: List[int]) -> int:
         ans = 0
         while len(nums) > 1:
-            sorted = True
+            is_sorted = True
             ibest = 0
             best = nums[0] + nums[1]
             for i in range(len(nums) - 1):
-                if nums[i] > nums[i + 1]: sorted = False
+                if nums[i] > nums[i + 1]: is_sorted = False
                 sum = nums[i] + nums[i + 1]
                 if sum < best:
                     best = sum
                     ibest = i
-            if sorted: break
+            if is_sorted: break
             ans += 1
             nums[ibest] += nums[ibest + 1]
             del nums[ibest + 1]
