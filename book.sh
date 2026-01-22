@@ -118,6 +118,7 @@ const books = [
   "Black Hat Bash",
   "Attacking Network Protocols",
   "Hasks, Leaks, and Revelations",
+  "Hacking: the Art of Explotation",
   "Erlang and OTP in Action",
   "Haskell in Depth",
   "Functional Programming in Scala",
