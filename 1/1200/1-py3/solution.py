@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-# https://leetcode.com/problems/minimum-absolute-difference/submissions/1898117775/?envType=daily-question&envId=2026-01-26
+# https://leetcode.com/problems/minimum-absolute-difference/submissions/1898118443/?envType=daily-question&envId=2026-01-26
 
 from typing import List
 
 
 class Solution:
     def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:
-        arr = sorted(arr)
+        arr.sort()
         min = arr[1] - arr[0]
         res = []
         for i in range(len(arr) - 1):
