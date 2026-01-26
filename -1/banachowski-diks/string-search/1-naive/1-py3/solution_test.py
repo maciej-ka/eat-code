@@ -1,5 +1,4 @@
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python3
 
 import unittest
 from solution import Solution
@@ -13,6 +12,7 @@ class TestSolution(unittest.TestCase):
         actual = self.solution.solve([1, 2, 3])
         expected = 3
         self.assertEqual(expected, actual)
+
 
 if __name__ == '__main__':
     unittest.main()
