@@ -80,6 +80,7 @@ const books = [
   "Software Architecture: The Hard Parts",
   "Building Evolutionary Architectures",
   "Learning the Bash Shell",
+  "Introducing Erlang",
   "Mikrousługi",
   "SQL Tuning",
   "Designing Data-Intensive Applications",
