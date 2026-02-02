@@ -229,6 +229,7 @@ const books = [
   "Introduction to Algorithms",
   "Programming Ruby 3.3",
   "Effective Haskell",
+  "Programming Erlang",
   "The Art of Elixir",
   "Uderstanding Distributed System",
   "Jastering Behavioral Interviews",
