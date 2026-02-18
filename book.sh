@@ -238,6 +238,7 @@ const books = [
   "Crafiting Interpreters",
   "Game Programming Patterns",
   "Silbershatz's Operating System Concepts",
+  "Expert Delphi",
   "Distributed Systems",
   "System Design Interview, volume 2",
   "Microcontroller Exploits",
