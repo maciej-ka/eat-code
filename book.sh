@@ -217,6 +217,7 @@ const books = [
   "Strategic Monoliths and Microservices",
   "Compilers",
   "The Pragmatic Programmer",
+  "Modern Operating Systems",
   "Scala for the Impatient",
   "Core Java for the Impatient",
   "Effective Java",
