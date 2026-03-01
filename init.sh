@@ -47,6 +47,6 @@ mkdir -p $destination
 count=$(find "$destination" -mindepth 1 -maxdepth 1 -type d | wc -l)
 destination="$destination/$((count + 1))-$language"
 
-cp -R $lang $destination
+cp -r $lang $destination
 cd $destination
 
