@@ -27,13 +27,12 @@ languages=(
 usage() {
   echo ". $0 language destination"
   echo "language (${languages[*]})"
-  exit 1
 }
 
-(($# != 2)) && usage
+(($# != 2)) && usage && return 1
 
 language=$1
-[[ ! ${languages[*]} =~ $language ]] && echo "unknown language $language" && usage
+[[ ! ${languages[*]} =~ $language ]] && echo "unknown language $language" && usage && return 1
 
 # transform 1077 into 1/1077
 destination=$2
