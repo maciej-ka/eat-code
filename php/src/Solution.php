@@ -2,6 +2,7 @@
 namespace App;
 
 class Solution {
+
   /**
    * @param int[] $nums
    * @return int

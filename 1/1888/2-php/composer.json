@@ -1,0 +1,21 @@
+{
+    "name": "maciejka/solution",
+    "autoload": {
+        "psr-4": {
+            "Maciejka\\Solution\\": "src/",
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "authors": [
+        {
+            "name": "maciej-ka",
+            "email": "maciej.kasprzyk.it@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    }
+}
