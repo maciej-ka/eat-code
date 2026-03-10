@@ -4,14 +4,12 @@ struct Solution;
 
 const MOD: i64 = 1_000_000_007;
 
-fn sum([a, b]: [i32; 2]) -> i32 {
-    ((a as i64 + b as i64) % MOD) as i32
+fn sum([a, b]: [i64; 2]) -> i64 {
+    a + b % MOD
 }
 
-fn sub(a: i32, b: i32) -> i32 {
-    let a = a as i64;
-    let b = b as i64;
-    (a - b).rem_euclid(MOD) as i32
+fn sub(a: i64, b: i64) -> i64 {
+    (a - b).rem_euclid(MOD)
 }
 
 impl Solution {
@@ -34,7 +32,7 @@ impl Solution {
             }
         }
 
-        sum(dp[one][zero])
+        sum(dp[one][zero]) as i32
     }
 }
 
