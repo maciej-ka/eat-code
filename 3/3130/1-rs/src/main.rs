@@ -1,11 +1,11 @@
-// https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/submissions/1944133469/?envType=daily-question&envId=2026-03-10
+// https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/submissions/1944137658/?envType=daily-question&envId=2026-03-10
 
 struct Solution;
 
 const MOD: i64 = 1_000_000_007;
 
 fn sum([a, b]: [i64; 2]) -> i64 {
-    a + b % MOD
+    (a + b) % MOD
 }
 
 fn sub(a: i64, b: i64) -> i64 {
