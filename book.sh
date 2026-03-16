@@ -230,6 +230,7 @@ const books = [
   "Compilers",
   "The Pragmatic Programmer",
   "Modern Operating Systems",
+  "Swift for the Really Impatient",
   "Core Java for the Impatient",
   "Scala for the Impatient",
   "Effective Java",
