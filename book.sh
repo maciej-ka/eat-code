@@ -261,6 +261,7 @@ const books = [
   "Core Java: Volume I",
   "Core Java: Volume II",
   "Real World OCaml",
+  "Programming in Lua",
   "Debugging",
   "Język ANSI C",
   "Język ANSI C, ćwiczenia i rozwiązania",
