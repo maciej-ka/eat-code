@@ -331,7 +331,7 @@ const books = [
   "Matematyka dyskretna",
   "Matematyka konkretna",
   "Guide to Teaching Puzzle-based Learning",
-  "Exploration sin Monte Carlo Methods",
+  "Exploration in Monte Carlo Methods",
   "Linear Algebra Done Right",
   "Understanding Analysis",
   "Beginning in Algebraic Geometry",
