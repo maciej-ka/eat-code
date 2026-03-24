@@ -120,6 +120,7 @@ const books = [
   "Attacking Network Protocols",
   "The Hardware Hacking Handbook",
   "Serious Cryptography",
+  "Penetration Testing",
   "From Day Zero to Zero Day",
   "Bug Bounty Bootcamp",
   "Ethical Hacking",
