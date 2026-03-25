@@ -119,6 +119,7 @@ const books = [
   "Practical Binary Analysis",
   "Attacking Network Protocols",
   "The Hardware Hacking Handbook",
+  "Evasive Malware",
   "Serious Cryptography",
   "Penetration Testing",
   "From Day Zero to Zero Day",
