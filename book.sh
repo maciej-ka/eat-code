@@ -115,6 +115,7 @@ const books = [
   "Math for Programming",
   "Bayesian Statistics the Fun Way",
   "Math for Security",
+  "Red Team Engineering",
   "Evasive Malware",
   "Serious Cryptography",
   "Penetration Testing",
