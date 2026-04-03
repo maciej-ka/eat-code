@@ -242,6 +242,7 @@ const books = [
   "Programming Principles and Practice Using C++",
   "A Tour of C++",
   "UNIX and Linux ystem Administration Handbook",
+  "Deep Learning",
   "Structure and Interpretation of Computer Programs",
   "Introduction to Algorithms",
   "Release It!",
