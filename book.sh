@@ -293,6 +293,7 @@ const books = [
   "Podstawy oprogramowania",
   "Perełki oprogramowania",
   "Więcej perełek oprogramowania",
+  "Podstawy programowania współbieżnego i rozproszonego",
   "Systemy rozproszone",
   "Kompilatory, Klasyka Informatyki",
   "Wprowadzenie do systemów baz danych",
