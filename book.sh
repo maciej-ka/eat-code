@@ -129,6 +129,7 @@ const books = [
   "The Hardware Hacking Handbook",
   "Attacking Network Protocols",
   "Practical Binary Analysis",
+  "Practical Social Engineering",
   "Black Hat Python",
   "Microcontroller Exploits",
   "Hasks, Leaks, and Revelations",
