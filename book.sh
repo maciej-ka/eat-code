@@ -255,6 +255,7 @@ const books = [
   "Uderstanding Distributed System",
   "Jastering Behavioral Interviews",
   "Staff Engineer",
+  "Smalltalk Best Practice Patterns",
   "Working Effectively with Legacy Code",
   "Crafiting Interpreters",
   "Game Programming Patterns",
