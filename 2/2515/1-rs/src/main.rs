@@ -1,22 +1,21 @@
-// https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/submissions/1979439425/?envType=daily-question&envId=2026-04-15
+// https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/submissions/1979563085/?envType=daily-question&envId=2026-04-15
 
 struct Solution;
 
 impl Solution {
     pub fn closest_target(words: Vec<String>, target: String, start_index: i32) -> i32 {
-        let len = words.len();
         let start_index = start_index as usize;
-        if words[start_index] == target { return 0 }
+        let n = words.len();
 
-        let mut i = 1;
-        loop {
-            let i1 = (start_index + i) % len;
-            let i2 = (len + start_index -  i) % len;
-            if words[i1] == target || words[i2] == target { return i as i32 }
-            if i1 == i2 { return -1 }
-            i += 1;
+        for i in 0 ..= 1 + (n >> 1) {
+            let i1 = (start_index + i) % n;
+            let i2 = (n + start_index - i) % n;
+            if words[i1] == target || words[i2] == target {
+                return i as i32
+            }
         }
 
+        -1
     }
 }
 
