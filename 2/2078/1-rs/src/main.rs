@@ -1,17 +1,15 @@
-// https://leetcode.com/problems/two-furthest-houses-with-different-colors/submissions/1983849691/?envType=daily-question&envId=2026-04-20
+// https://leetcode.com/problems/two-furthest-houses-with-different-colors/submissions/1983860121/?envType=daily-question&envId=2026-04-20
 struct Solution;
 
 impl Solution {
     pub fn max_distance(colors: Vec<i32>) -> i32 {
         let ilast = colors.len() - 1;
-        if colors[0] != colors[ilast] { return ilast as i32; }
-
-        let mut iright = ilast;
-        while colors[0] == colors[iright] { iright -= 1 }
-        let mut ileft = 0;
-        while colors[0] == colors[ileft] { ileft += 1 }
-
-        iright.max(ilast - ileft) as i32
+        for i in 0..ilast {
+            if colors[i] != colors[0] || colors[ilast - i] != colors[0] {
+                return (ilast - i) as i32
+            }
+        }
+        -1i32
     }
 }
 
