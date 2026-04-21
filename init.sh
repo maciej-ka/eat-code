@@ -25,7 +25,7 @@ languages=(
 )
 
 usage() {
-  echo ". $0 language destination"
+  echo "init language destination"
   echo "language (${languages[*]})"
 }
 

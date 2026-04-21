@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const langs = [
-  "Bash (sh)",
+  // "Bash (sh)",
   "C (c)",
   "C# (cs)",
   "C++ (cpp)",
@@ -9,7 +9,7 @@ const langs = [
   "Elixir (ex)",
   "Erlang (erl)",
   "Go (go)",
-  "Haskell (hs)",
+  // "Haskell (hs)",
   "Java (java)",
   "JavaScript (js)",
   "Kotlin (kt)",
