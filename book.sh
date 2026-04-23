@@ -205,6 +205,7 @@ const books = [
   "TCP/IP Illustrated, Volume 3",
   "Design Patterns",
   "UML Distilled",
+  "Using UML",
   "Real-Time Design Patterns",
   "Refactoring, First Edition",
   "Analysis Patterns",
