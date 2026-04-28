@@ -80,7 +80,7 @@ const books = [
   "Fundamentals of Software Architecture",
   "Software Architecture: The Hard Parts",
   "Building Evolutionary Architectures",
-  "Designing Data-Intensive Applications, 2rd ed",
+  "Designing Data-Intensive Applications",
   "Learning the Bash Shell",
   "Introducing Erlang",
   "Mikrousługi",
