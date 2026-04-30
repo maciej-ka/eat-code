@@ -382,6 +382,7 @@ const books = [
   "Making Comics",
   "Understanding Comics",
   "Help! for Writers",
+  "How to (Use Graphic Design)",
 ]
 
 const rand = (array) => {
