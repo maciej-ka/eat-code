@@ -379,10 +379,12 @@ const books = [
   "Człowiek i jego znaki",
   "Writing Tools",
   "The Creative Act",
+  "Kreatywność",
   "Don't Make Me Think!",
   "Making Comics",
   "Understanding Comics",
   "Help! for Writers",
+  "Zen in the Art of Archery",
   "How to (Use Graphic Design)",
 ]
 
