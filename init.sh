@@ -46,5 +46,5 @@ mkdir -p $destination
 count=$(find "$destination" -mindepth 1 -maxdepth 1 -type d | wc -l)
 destination="$destination/$((count + 1))-$language"
 
-cp -r $language $destination && cd $destination
+cp -r ~/eat-code/$language $destination && cd $destination
 

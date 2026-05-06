@@ -34,7 +34,6 @@ const books = [
   "Learn Like a Pro",
   "The Cynefin Mini-Book",
   "Inteligencja emocjonalna",
-  "The Art of Statistics",
   "Sztuka negocjacji",
   "Pułapki myślenia",
   "The Software Developer's Career Handbook",
