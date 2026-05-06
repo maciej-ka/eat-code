@@ -385,6 +385,7 @@ const books = [
   "Writing Tools",
   "The Creative Act",
   "Kreatywność",
+  "Logo Modernism",
   "Don't Make Me Think!",
   "Making Comics",
   "Understanding Comics",
