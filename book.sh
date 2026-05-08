@@ -349,10 +349,6 @@ const books = [
   "Jak kierować zespołem programistów",
   "Zarządzanie procesem tworzenia systemów informacyjnych",
   "Zarządzanie architekturocentrycznym procesem tworzenia oprogramowania",
-  "Asortymet produktów programowych",
-  "Metodyka wprowadzania oprogramowania na rynek",
-  "Podstawy techniczne inzynierii oprogramowania",
-  "Praktyczne podejście do inżynierii oprogramowania",
   "Podstawy systemów operacyjnych, tom 1",
   "Podstawy systemów operacyjnych, tom 2",
   "Algorytmy i struktury danych",
@@ -404,6 +400,10 @@ const books = [
   "Zen in the Art of Archery",
   "Steal like an Artist",
   "Show Your Work!",
+  "Asortyment produktów programowych",
+  "Metodyka wprowadzania oprogramowania na rynek",
+  "Podstawy techniczne inzynierii oprogramowania",
+  "Praktyczne podejście do inżynierii oprogramowania",
 ]
 
 const rand = (array) => {
