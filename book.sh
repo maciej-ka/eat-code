@@ -386,6 +386,7 @@ const books = [
   "Making and Breaking the Grid",
   "Sans in Use",
   "Serif in Use",
+  "A Book on Books",
   "How to (Use Graphic Design)",
   "Jak dobrze pisać",
   "Człowiek i jego znaki",
