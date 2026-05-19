@@ -120,6 +120,7 @@ const books = [
   "Hacking APIs",
   "The Ghidra Book",
   "Computer Graphics from Scratch",
+  "Learn Physics with Functional Programming",
   "Bayesian Statistics the Fun Way",
   "Math for Programming",
   "Math for Security",
