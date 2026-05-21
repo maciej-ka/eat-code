@@ -394,6 +394,7 @@ const books = [
   "A Book on Books",
   "Jak dobrze pisać",
   "Graphic Design Rules",
+  "The Designer's Dictionary of Color",
   "Człowiek i jego znaki",
   "Writing Tools",
   "The Creative Act",
