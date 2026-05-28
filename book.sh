@@ -282,6 +282,7 @@ const books = [
   "Design It!",
   "Release It!",
   "Programming Ruby 3.3",
+  "Agile Web Development with Rails 8",
   "Domain Modeling Made Functional",
   "Effective Haskell",
   "Programming Erlang",
