@@ -152,6 +152,7 @@ const books = [
   "Realm of Racket",
   "Game Boy Coding Adventure",
   "Clojure for the Brave and True",
+  "Learn You a Haskell for Great Good!",
   "The Missing Readme",
   "Erlang and OTP in Action",
   "Haskell in Depth",
