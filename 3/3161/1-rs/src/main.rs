@@ -29,16 +29,16 @@ impl Node {
             } else {
                 right.divide(at);
             }
-            self.rebalance();
+            self.recalculate();
             return
         }
 
         self.left = Some(Box::new(Node::new(self.start, at)));
         self.right = Some(Box::new(Node::new(at, self.end)));
-        self.rebalance();
+        self.recalculate();
     }
 
-    fn rebalance(&mut self) {
+    fn recalculate(&mut self) {
         if let (Some(left), Some(right)) = (&self.left, &self.right) {
             self.len = left.len.max(right.len);
         }
