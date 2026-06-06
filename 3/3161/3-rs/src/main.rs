@@ -43,33 +43,8 @@ impl Solution {
     }
 }
 
-// #[test]
-// fn test_1() {
-//     let actual = Solution::get_results(vec![
-//         vec![1,2],
-//         vec![2,3,3],
-//         vec![2,3,1],
-//         vec![2,2,2]
-//     ]);
-//     let expected = vec![false, true, true];
-//     assert_eq!(actual, expected);
-// }
-
-// #[test]
-// fn test_2() {
-//     let actual = Solution::get_results(vec![
-//         vec![1,7],
-//         vec![2,7,6],
-//         vec![1,2],
-//         vec![2,7,5],
-//         vec![2,7,6]
-//     ]);
-//     let expected = vec![true, true, false];
-//     assert_eq!(actual, expected);
-// }
-
 #[test]
-fn test_3() {
+fn test_1() {
     let actual = Solution::get_results(vec![
         vec![1,20],
         vec![1,10],
