@@ -133,6 +133,7 @@ const books = [
   "From Day Zero to Zero Day",
   "Bug Bounty Bootcamp",
   "Ethical Hacking",
+  "Dissecting the Dark Web",
   "Evading EDR",
   "Black Hat Bash",
   "Black Hat GraphQ",
