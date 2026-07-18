@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/find-greatest-common-divisor-of-array/submissions/2072221018/?envType=daily-question&envId=2026-07-18
+
 struct Solution;
 
 impl Solution {
@@ -10,9 +12,9 @@ impl Solution {
         }
 
         while min != 0 {
-            let diff = max - min;
-            max = diff.max(min);
-            min = diff.min(min);
+            let temp = min;
+            min = max % min;
+            max = temp;
         }
 
         max
