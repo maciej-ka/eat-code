@@ -373,6 +373,7 @@ const books = [
   "Geometry, Audin",
   "Guide to Teaching Puzzle-based Learning",
   "Guide to Competitive Programming",
+  "Database Design and Implementation",
   "Cryptography Made Simple",
   "Understanding Cryptography",
   "The Algorithm Design Manual",
@@ -383,7 +384,6 @@ const books = [
   "Winning Ways for Your Mathematical Plays vol. 3",
   "Winning Ways for Your Mathematical Plays vol. 4",
   "Codebreaking, a Practical Guide",
-  "The Book of Why",
   "The Art of Statistics",
   "The History of Graphic Design vol. 1",
   "The History of Graphic Design vol. 2",
@@ -453,6 +453,7 @@ const books = [
   "Metodyka wprowadzania oprogramowania na rynek",
   "Podstawy techniczne inzynierii oprogramowania",
   "Praktyczne podejście do inżynierii oprogramowania",
+  "The Book of Why",
 ]
 
 const rand = (array) => {
