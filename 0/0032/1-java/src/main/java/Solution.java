@@ -32,7 +32,6 @@ class Solution {
                 i++;
                 level++;
             }
-
         }
 
         return best;
