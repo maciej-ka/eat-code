@@ -1,3 +1,5 @@
+import java.util.*
+
 class Solution {
     fun solve(nums: IntArray): Int {
         return nums.size
