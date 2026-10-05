@@ -1,6 +1,5 @@
-import java.util.*
-
 // https://leetcode.com/problems/delete-duplicate-folders-in-system/submissions/2163330684/
+import java.util.*
 
 class Solution {
     val counts = HashMap<String, Int>()
@@ -52,6 +51,6 @@ class Solution {
 }
 
 class Node {
-    var content = "";
-    val children = TreeMap<String, Node>();
+    var content = ""
+    val children = TreeMap<String, Node>()
 }
