@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/delete-duplicate-folders-in-system/submissions/2163330684/
+// https://leetcode.com/problems/delete-duplicate-folders-in-system/submissions/2163357684/
 import java.util.*
 
 class Solution {
@@ -10,7 +10,7 @@ class Solution {
         for (path in paths) {
             var node = root
             for (folder in path)
-                node = node.children.computeIfAbsent(folder) { Node() }
+                node = node.children.getOrPut(folder) { Node() }
         }
 
         for ((_, node) in root.children)
