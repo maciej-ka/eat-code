@@ -7,7 +7,7 @@ class SolutionTest {
 
     @BeforeEach
     fun setUp() {
-        solution = Solution();
+        solution = Solution()
     }
 
     @Test

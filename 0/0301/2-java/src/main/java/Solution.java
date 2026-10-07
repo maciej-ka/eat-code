@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/remove-invalid-parentheses/submissions/2165769392/?envType=daily-question&envId=2026-10-07
+// https://leetcode.com/problems/remove-invalid-parentheses/submissions/2165778149/?envType=daily-question&envId=2026-10-07
 import java.util.*;
 
 class Solution {
@@ -54,7 +54,7 @@ class Solution {
         return result;
     }
 
-    private void solveLeft(String s, int start) {
+    private void solveLeft(String s, int cutFrom) {
         int i = 0;
         int opened = 0;
 
@@ -78,7 +78,7 @@ class Solution {
         }
 
         var last = 'a';
-        for (int k = start; k <= i; k++) {
+        for (int k = cutFrom; k <= i; k++) {
             var c = s.charAt(k);
             if (c == ')' && last != ')') {
                 var removed = s.substring(0, k) + s.substring(k + 1);
@@ -88,7 +88,7 @@ class Solution {
         }
     }
 
-    private void solveRight(String s, int start) {
+    private void solveRight(String s, int cutFrom) {
         int i = s.length() - 1;
         int opened = 0;
 
@@ -112,7 +112,7 @@ class Solution {
         }
 
         var last = 'a';
-        for (int k = start; k >= i; k--) {
+        for (int k = cutFrom; k >= i; k--) {
             var c = s.charAt(k);
             if (c == '(' && last != '(') {
                 var removed = s.substring(0, k) + s.substring(k + 1);

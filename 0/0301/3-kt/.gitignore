@@ -1,0 +1,8 @@
+.gradle/
+.kotlin/
+build/
+bin/
+.project
+.classpath
+.settings
+kls_database.db
