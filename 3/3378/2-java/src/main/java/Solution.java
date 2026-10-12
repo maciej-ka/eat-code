@@ -1,6 +1,6 @@
+// https://leetcode.com/problems/count-connected-components-in-lcm-graph/submissions/2170000732/
 import java.util.*;
 
-// https://leetcode.com/problems/count-connected-components-in-lcm-graph/submissions/2169998216/
 class Solution {
     int[] groups;
 
@@ -30,7 +30,6 @@ class Solution {
                     var another = find(groups[num]);
                     if (group != another) {
                         groups[group] = another;
-                        groups[num] = another;
                         group = another;
                         res--;
                     }

@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/count-connected-components-in-lcm-graph/submissions/2169974629/
+// https://leetcode.com/problems/count-connected-components-in-lcm-graph/submissions/2170001576/
 import java.util.*
 
 class Solution {
@@ -27,10 +27,10 @@ class Solution {
                 if (groups[num] == 0)
                     groups[num] = group
                 else {
-                    val existing = find(groups[num])
-                    if (group != existing) {
-                        groups[group] = existing
-                        group = existing
+                    val another = find(groups[num])
+                    if (group != another) {
+                        groups[group] = another
+                        group = another
                         res--
                     }
                 }
