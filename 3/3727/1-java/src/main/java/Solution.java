@@ -1,11 +1,11 @@
-// https://leetcode.com/problems/maximum-alternating-sum-of-squares/submissions/2171040776/?envType=daily-question&envId=2026-10-13
+// https://leetcode.com/problems/maximum-alternating-sum-of-squares/submissions/2171050292/?envType=daily-question&envId=2026-10-13
 import java.util.*;
 
 class Solution {
     public long maxAlternatingSum(int[] nums) {
         int len = nums.length;
         for (int i = 0; i < len; i++)
-            nums[i] = Math.abs(nums[i]) * Math.abs(nums[i]);
+            nums[i] *= nums[i];
         Arrays.sort(nums);
 
         long res = 0;
