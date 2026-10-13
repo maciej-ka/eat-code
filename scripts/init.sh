@@ -1,28 +1,12 @@
 #!/bin/bash
 
-languages=(
-  c,
-  cpp,
-  cs,
-  dart,
-  erl,
-  ex,
-  go,
-  hs,
-  java,
-  js,
-  kt,
-  php,
-  py2,
-  py3,
-  rb,
-  rkt,
-  rs,
-  scala,
-  sh,
-  swift,
-  ts
-)
+languages=(~/eat-code/scripts/*(/:t))
+
+if [[ $1 == completion ]]; then
+  _init() { (( CURRENT == 2 )) && compadd ${languages[@]} }
+  compdef _init init
+  return
+fi
 
 usage() {
   echo "init language destination"
