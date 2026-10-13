@@ -19,3 +19,7 @@ test() {
 }
 
 test 1 0 "NO"
+test 2 8 "YES"
+test 3 1 "NO"
+test 4 2 "NO"
+test 5 4 "YES"
