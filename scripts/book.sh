@@ -442,6 +442,7 @@ const books = [
   "Don't Make Me Think!",
   "Making Comics",
   "Understanding Comics",
+  "Thinking in Pictures",
   "Help! for Writers",
   "Zen in the Art of Archery",
   "Steal like an Artist",
