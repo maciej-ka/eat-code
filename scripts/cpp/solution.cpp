@@ -13,7 +13,7 @@ public:
 
 TEST_CASE("test1") {
     Solution solution;
-    vector<int> nums = {1, 2, 3};
+    vector nums = {1, 2, 3};
     int actual = solution.solve(nums);
     int expected = 3;
     CHECK_EQ(actual, expected);
