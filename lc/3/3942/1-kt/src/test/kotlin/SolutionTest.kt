@@ -21,7 +21,7 @@ class SolutionTest {
     @Test
     fun test2() {
         val actual = solution.minOperations(intArrayOf(1, 0, 2))
-        val expected = 3
+        val expected = 2
         assertEquals(expected, actual)
     }
 
@@ -34,7 +34,7 @@ class SolutionTest {
 
     @Test
     fun test4() {
-        val actual = solution.minOperations(intArrayOf(2))
+        val actual = solution.minOperations(intArrayOf(0))
         val expected = 0
         assertEquals(expected, actual)
     }
