@@ -18,11 +18,11 @@ class SolutionTest {
         assertEquals(expected, actual)
     }
 
-    // @Test
-    // fun test2() {
-    //     val actual = solution.countDaysTogether("10-01", "10-31", "11-01", "12-31")
-    //     val expected = 0
-    //     assertEquals(expected, actual)
-    // }
+    @Test
+    fun test2() {
+        val actual = solution.countDaysTogether("10-01", "10-31", "11-01", "12-31")
+        val expected = 0
+        assertEquals(expected, actual)
+    }
 
 }
